@@ -1,0 +1,29 @@
+[[main]]
+  name = "Home"
+  url = "/en/"
+  weight = 1
+
+[[main]]
+  name = "About"
+  url = "/en/about/"
+  weight = 2
+
+[[main]]
+  name = "Services"
+  url = "/en/services/"
+  weight = 3
+
+[[main]]
+  name = "Blog"
+  url = "/en/blog/"
+  weight = 4
+
+# [[main]]
+#   name = "Resources"
+#   url = "/en/resources/"
+#   weight = 5
+
+# [[main]]
+#   name = "Contact"
+#   url = "/en/contact/"
+#   weight = 6

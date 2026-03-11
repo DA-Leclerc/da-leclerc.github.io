@@ -1,0 +1,27 @@
+baseURL = "https://da-leclerc.github.io/"
+title = "Dominic-André Leclerc"
+paginate = 10
+theme = "PaperMod"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = false
+pygmentsUseClasses = true
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

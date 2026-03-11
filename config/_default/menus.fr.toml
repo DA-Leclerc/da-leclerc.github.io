@@ -1,0 +1,29 @@
+[[main]]
+  name = "Accueil"
+  url = "/fr/"
+  weight = 1
+
+[[main]]
+  name = "À propos"
+  url = "/fr/a-propos/"
+  weight = 2
+
+[[main]]
+  name = "Services"
+  url = "/fr/services/"
+  weight = 3
+
+[[main]]
+  name = "Blogue"
+  url = "/fr/blogue/"
+  weight = 4
+
+# [[main]]
+#   name = "Ressources"
+#   url = "/fr/ressources/"
+#   weight = 5
+
+# [[main]]
+#   name = "Contact"
+#   url = "/fr/contact/"
+#   weight = 6
