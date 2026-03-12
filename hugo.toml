@@ -1,5 +1,5 @@
 baseURL = "https://da-leclerc.github.io/"
-title = "Dominic-André Leclerc"
+title = "Dominic-Ahndré Leclerc"
 theme = "PaperMod"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -37,7 +37,7 @@ pygmentsUseClasses = true
   ShowShareButtons = true
   ShowPostNavLinks = true
   description = "Dominic-Andre Leclerc - AI Governance Advisor helping organizations adopt AI responsibly."
-  images = ["/images/og-default.png"]
+  images = ["/images/og-default.svg"]
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowWordCount = false
