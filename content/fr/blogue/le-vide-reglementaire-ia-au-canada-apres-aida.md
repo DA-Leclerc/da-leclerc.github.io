@@ -1,6 +1,6 @@
 ---
 title: "Le vide réglementaire IA au Canada : ce que la mort de la LIAD signifie pour votre organisation"
-date: 2026-03-11:00:00-05:00
+date: 2026-03-11T10:00:00-05:00
 summary: "Avec la LIAD morte et aucune loi fédérale sur l'IA en vue, les organisations canadiennes font face à un patchwork de règles provinciales et de normes mondiales. Voici ce que vous devez savoir — et faire — maintenant."
 description: "Une analyse du paysage réglementaire canadien en matière d'IA après l'échec de la LIAD, couvrant l'application de la Loi 25 au Québec, les nouvelles règles ontariennes sur l'IA en embauche, et ce que les organisations devraient faire."
 tags: ["Gouvernance IA", "Canada", "LIAD", "Loi 25", "Réglementation", "Conformité"]
