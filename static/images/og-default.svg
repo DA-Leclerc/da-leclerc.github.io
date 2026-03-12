@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1929"/>
+      <stop offset="50%" style="stop-color:#0f2744"/>
+      <stop offset="100%" style="stop-color:#0e3a5e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0e7490"/>
+      <stop offset="100%" style="stop-color:#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d4a03c"/>
+      <stop offset="100%" style="stop-color:#f0c760"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity="0.03">
+    <line x1="0" y1="0" x2="1200" y2="630" stroke="#22d3ee" stroke-width="1"/>
+    <line x1="200" y1="0" x2="1200" y2="500" stroke="#22d3ee" stroke-width="1"/>
+    <line x1="400" y1="0" x2="1200" y2="400" stroke="#22d3ee" stroke-width="1"/>
+    <line x1="0" y1="200" x2="1000" y2="630" stroke="#22d3ee" stroke-width="1"/>
+    <line x1="0" y1="400" x2="600" y2="630" stroke="#22d3ee" stroke-width="1"/>
+  </g>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+  <rect x="0" y="626" width="1200" height="4" fill="url(#accent)"/>
+  <rect x="80" y="80" width="72" height="72" rx="14" fill="url(#accent)" opacity="0.9"/>
+  <text x="116" y="128" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle">DL</text>
+  <text x="80" y="220" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" letter-spacing="-0.5">Dominic-Andr\u00e9 Leclerc</text>
+  <rect x="80" y="245" width="60" height="3" fill="url(#gold)"/>
+  <text x="80" y="290" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#94a3b8" letter-spacing="0.5">AI Governance Advisor</text>
+  <text x="80" y="370" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#67e8f9" opacity="0.9">Bridging Military Precision</text>
+  <text x="80" y="405" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#67e8f9" opacity="0.9">&amp; AI Governance</text>
+  <text x="80" y="470" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#64748b">Helping Quebec and Canadian organizations</text>
+  <text x="80" y="498" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#64748b">adopt AI responsibly.</text>
+  <text x="80" y="575" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#475569" letter-spacing="1">da-leclerc.github.io</text>
+  <circle cx="1050" cy="315" r="180" fill="none" stroke="#0e7490" stroke-width="1" opacity="0.15"/>
+  <circle cx="1050" cy="315" r="130" fill="none" stroke="#0e7490" stroke-width="1" opacity="0.1"/>
+  <circle cx="1050" cy="315" r="80" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.08"/>
+</svg>
