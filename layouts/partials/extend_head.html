@@ -16,3 +16,43 @@
 
 <!-- Canonical URL -->
 <link rel="canonical" href="{{ .Permalink }}" />
+
+
+<!-- SVG Favicon -->
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.svg">
+
+<!-- Reading Progress Bar -->
+{{ if .IsPage }}
+<div class="reading-progress" id="reading-progress"></div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var progressBar = document.getElementById('reading-progress');
+  if (!progressBar) return;
+  window.addEventListener('scroll', function() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    progressBar.style.width = scrolled + '%';
+  });
+});
+</script>
+{{ end }}
+
+<!-- Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dominic-Andr\u00e9 Leclerc",
+  "url": "https://da-leclerc.github.io",
+  "jobTitle": "AI Governance Advisor",
+  "description": "Bridging Military Precision and AI Governance",
+  "knowsAbout": ["AI Governance", "Responsible AI", "Military Strategy", "AIDA Act"],
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Quebec",
+    "addressCountry": "Canada"
+  }
+}
+</script>
