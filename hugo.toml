@@ -52,7 +52,7 @@ pygmentsUseClasses = true
   keywords = ["AI governance", "AI compliance", "AI readiness", "Quebec", "Canada", "Loi 25", "AIDA", "consulting"]
 
   [params.assets]
-    favicon = "/images/favicon.ico"
+    favicon = "/images/favicon.svg"
 
   [params.label]
     text = "Dominic-André Leclerc"
