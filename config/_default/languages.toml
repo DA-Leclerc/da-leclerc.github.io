@@ -3,7 +3,7 @@
   languageCode = "en"
   weight = 1
   title = "Dominic-André Leclerc — AI Advisor"
-  contentDir = "en"
+  contentDir = "content/en"
   [en.params]
     description = "AI Integration & Compliance Advisor. Bridging military precision and AI governance for Quebec and Canadian organizations."
     [en.params.homeInfoParams]
@@ -15,7 +15,7 @@
   languageCode = "fr"
   weight = 2
   title = "Dominic-André Leclerc — Conseiller IA"
-  contentDir = "fr"
+  contentDir = "content/fr"
   [fr.params]
     description = "Conseiller en intégration et conformité IA. L'expertise militaire au service de la gouvernance IA pour les organisations québécoises et canadiennes."
     [fr.params.homeInfoParams]
