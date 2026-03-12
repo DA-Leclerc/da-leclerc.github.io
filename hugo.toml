@@ -46,6 +46,8 @@ pygmentsUseClasses = true
   hidemeta = false
   hideSummary = false
   showtoc = true
+  author = "Dominic-André Leclerc"
+  keywords = ["AI governance", "AI compliance", "AI readiness", "Quebec", "Canada", "Loi 25", "AIDA", "consulting"]
 
   [params.assets]
     favicon = "/images/favicon.ico"
@@ -54,12 +56,12 @@ pygmentsUseClasses = true
     text = "Dominic-André Leclerc"
 
   [params.homeInfoParams]
-    Title = "Bridging Military Precision and AI Governance"
-    Content = "I help Quebec and Canadian organizations adopt AI responsibly — with the discipline of 21 years in the Canadian Armed Forces and the clarity of someone who's built it from the ground up.<br><br>Whether you're exploring your first AI pilot or building a governance framework, I'll help you get it right."
+    Title = "Bridging Military Precision & AI Governance"
+    Content = "I help Quebec and Canadian organizations adopt AI responsibly — with the discipline of 21 years in the Canadian Armed Forces and the clarity of someone who's built it from the ground up.<br><br>Whether you're exploring your first AI pilot or building a governance framework, I'll help you get it right.<br><br><a href='/about/' class='cta-button'>Learn More About Me</a>"
 
   [[params.socialIcons]]
     name = "linkedin"
-    url = "https://www.linkedin.com/in/dominic-andré-leclerc-4ab90a250/"
+    url = "https://www.linkedin.com/in/dominic-andr%C3%A9-leclerc-4ab90a250/"
 
   [[params.socialIcons]]
     name = "github"
@@ -96,10 +98,10 @@ pygmentsUseClasses = true
     title = "Dominic-André Leclerc — AI Advisor"
     contentDir = "content/en"
     [languages.en.params]
-      description = "AI Integration & Compliance Advisor. Bridging military precision and AI governance for Quebec and Canadian organizations."
+      description = "AI Integration & Compliance Advisor — bridging military precision and AI governance for Quebec and Canadian organizations. Former CAF Warrant Officer, AF9000+ Lead Auditor."
       [languages.en.params.homeInfoParams]
-        Title = "Bridging Military Precision and AI Governance"
-        Content = "I help Quebec and Canadian organizations adopt AI responsibly — with the discipline of 21 years in the Canadian Armed Forces and the clarity of someone who's built it from the ground up.<br><br>Whether you're exploring your first AI pilot or building a governance framework, I'll help you get it right."
+        Title = "Bridging Military Precision & AI Governance"
+        Content = "I help Quebec and Canadian organizations adopt AI responsibly — with the discipline of 21 years in the Canadian Armed Forces and the clarity of someone who's built it from the ground up.<br><br>Whether you're exploring your first AI pilot or building a governance framework, I'll help you get it right.<br><br><a href='/about/' class='cta-button'>Learn More About Me</a>"
 
   [languages.fr]
     languageName = "Français"
@@ -108,10 +110,10 @@ pygmentsUseClasses = true
     title = "Dominic-André Leclerc — Conseiller IA"
     contentDir = "content/fr"
     [languages.fr.params]
-      description = "Conseiller en intégration et conformité IA. L'expertise militaire au service de la gouvernance IA pour les organisations québécoises et canadiennes."
+      description = "Conseiller en intégration et conformité IA — l'expertise militaire au service de la gouvernance IA pour les organisations québécoises et canadiennes. Ancien adjudant des FAC, auditeur principal AF9000+."
       [languages.fr.params.homeInfoParams]
         Title = "L'expertise militaire au service de la gouvernance IA"
-        Content = "J'aide les organisations québécoises et canadiennes à adopter l'IA de manière responsable — avec la discipline de 21 ans dans les Forces armées canadiennes et la clarté de quelqu'un qui a tout construit depuis le début.<br><br>Que vous exploriez votre premier projet pilote IA ou que vous bâtissiez un cadre de gouvernance, je vous aiderai à bien faire les choses."
+        Content = "J'aide les organisations québécoises et canadiennes à adopter l'IA de manière responsable — avec la discipline de 21 ans dans les Forces armées canadiennes et la clarté de quelqu'un qui a tout construit depuis le début.<br><br>Que vous exploriez votre premier projet pilote IA ou que vous bâtissiez un cadre de gouvernance, je vous aiderai à bien faire les choses.<br><br><a href='/fr/a-propos/' class='cta-button'>En savoir plus</a>"
 
 # ── Menus ────────────────────────────────────────────────────────────────────────
 
@@ -136,6 +138,11 @@ pygmentsUseClasses = true
     name = "Blog"
     url = "/blog/"
     weight = 4
+  [[languages.en.menu.main]]
+    identifier = "contact-en"
+    name = "Contact"
+    url = "mailto:domleclerc@gmail.com"
+    weight = 5
 
 [languages.fr.menu]
   [[languages.fr.menu.main]]
@@ -158,4 +165,9 @@ pygmentsUseClasses = true
     name = "Blogue"
     url = "/fr/blogue/"
     weight = 4
+  [[languages.fr.menu.main]]
+    identifier = "contact-fr"
+    name = "Contact"
+    url = "mailto:domleclerc@gmail.com"
+    weight = 5
 
