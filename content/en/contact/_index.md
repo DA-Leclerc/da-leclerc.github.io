@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 description: "Get in touch to discuss AI governance, compliance, or readiness for your organization."
-author: "Dominic-Andre Leclerc"
+author: "Dominic-André Leclerc"
 ---
 
 ## Let's Talk
@@ -18,7 +18,7 @@ The best way to reach me is by email:
 
 You can also find me on:
 
-- **[LinkedIn](https://www.linkedin.com/in/dominic-andre-leclerc/)** -- Let's connect professionally
+- **[LinkedIn](https://www.linkedin.com/in/dominic-andr%C3%A9-leclerc-4ab90a250/)** -- Let's connect professionally
 - **[GitHub](https://github.com/DA-Leclerc)** -- See my technical work and projects
 
 ### Based in
