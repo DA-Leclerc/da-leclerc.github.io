@@ -1,79 +1,450 @@
-/* Custom styles for Dominic-André Leclerc's site */
+/* ============================================================
+   Custom styles for Dominic-André Leclerc — AI Governance Advisor
+   Professional, clean design with navy/slate color palette
+   ============================================================ */
 
-/* Refined typography */
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-}
-
-/* Accent color — professional navy blue */
+/* ── Color System ─────────────────────────────────────────── */
 :root {
-  --accent-color: #1a365d;
+  --accent-navy: #1a365d;
+  --accent-blue: #2b6cb0;
+  --accent-light: #ebf4ff;
+  --accent-gold: #d69e2e;
+  --text-primary: #1a202c;
+  --text-secondary: #4a5568;
+  --surface-card: #f7fafc;
+  --border-subtle: #e2e8f0;
+  --gradient-hero: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
 }
 
-/* Homepage hero refinement */
-.first-entry .entry-content {
+.dark {
+  --accent-navy: #90cdf4;
+  --accent-blue: #63b3ed;
+  --accent-light: rgba(144, 205, 244, 0.08);
+  --accent-gold: #ecc94b;
+  --text-primary: #f7fafc;
+  --text-secondary: #cbd5e0;
+  --surface-card: rgba(255, 255, 255, 0.04);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+}
+
+/* ── Typography ───────────────────────────────────────────── */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  letter-spacing: -0.011em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.post-content {
   font-size: 1.05rem;
-  line-height: 1.7;
+  line-height: 1.8;
+  color: var(--text-secondary);
 }
 
-/* Blog post cards */
+.post-content h2 {
+  color: var(--text-primary);
+  font-weight: 700;
+  margin-top: 2.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--border-subtle);
+}
+
+.post-content h3 {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.post-content strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.post-content a {
+  color: var(--accent-blue);
+  text-decoration: underline;
+  text-decoration-color: rgba(43, 108, 176, 0.3);
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.2s ease;
+}
+
+.post-content a:hover {
+  text-decoration-color: var(--accent-blue);
+}
+
+/* ── Header / Navigation ──────────────────────────────────── */
+.nav {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+#menu a {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: color 0.2s ease;
+}
+
+#menu .active {
+  font-weight: 700;
+}
+
+.lang-switch {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-subtle);
+  transition: all 0.2s ease;
+}
+
+.lang-switch:hover {
+  border-color: var(--accent-blue);
+  color: var(--accent-blue);
+}
+
+/* ── Homepage Hero ────────────────────────────────────────── */
+.first-entry {
+  border: none !important;
+  position: relative;
+  padding: 2rem 0;
+}
+
+.first-entry .entry-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  max-width: 640px;
+}
+
+.home-info .entry-info-unlinked h1,
+.home-info h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+  background: var(--gradient-hero);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dark .home-info .entry-info-unlinked h1,
+.dark .home-info h1 {
+  background: linear-gradient(135deg, #90cdf4 0%, #63b3ed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Social icons on homepage */
+.paginav .social-icons a {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.paginav .social-icons a:hover {
+  transform: translateY(-2px);
+  color: var(--accent-blue);
+}
+
+.social-icons svg {
+  width: 22px;
+  height: 22px;
+}
+
+/* ── Blog Post Cards ──────────────────────────────────────── */
 .post-entry {
-  border-radius: 8px;
-  transition: transform 0.2s ease;
+  border: 1px solid var(--border-subtle) !important;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background: var(--surface-card);
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.post-entry::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--gradient-hero);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.dark .post-entry::before {
+  background: linear-gradient(180deg, #90cdf4 0%, #63b3ed 100%);
 }
 
 .post-entry:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  border-color: var(--accent-blue) !important;
 }
 
-/* Language switcher styling */
-.lang-switch {
+.dark .post-entry:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.post-entry:hover::before {
+  opacity: 1;
+}
+
+.post-entry .entry-header h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+}
+
+.entry-footer {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+/* ── Page Header ──────────────────────────────────────────── */
+.post-header h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+
+.post-description {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  border-left: 3px solid var(--accent-blue);
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+.post-meta {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.01em;
+}
+
+/* ── Breadcrumbs ──────────────────────────────────────────── */
+.breadcrumbs {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   font-weight: 500;
+  color: var(--text-secondary);
 }
 
-/* Service cards on services page */
+.breadcrumbs a {
+  color: var(--accent-blue);
+}
+
+/* ── Table of Contents ────────────────────────────────────── */
+.toc {
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  background: var(--surface-card);
+}
+
+.toc details summary {
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+/* ── Service Cards ────────────────────────────────────────── */
 .service-card {
-  padding: 1.5rem;
+  padding: 1.75rem;
   margin-bottom: 1.5rem;
-  border-left: 4px solid var(--accent-color, #1a365d);
-  background: var(--code-bg);
-  border-radius: 0 8px 8px 0;
+  border-left: 4px solid var(--accent-navy);
+  background: var(--surface-card);
+  border-radius: 0 12px 12px 0;
+  border: 1px solid var(--border-subtle);
+  border-left: 4px solid var(--accent-navy);
+  transition: all 0.25s ease;
+}
+
+.service-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transform: translateX(4px);
+}
+
+.dark .service-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .service-card h3 {
   margin-top: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent-navy);
 }
 
-/* CTA button */
+/* ── CTA Button ───────────────────────────────────────────── */
 .cta-button {
-  display: inline-block;
-  padding: 0.75rem 2rem;
-  background-color: #1a365d;
-  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 2.25rem;
+  background: var(--gradient-hero);
+  color: #ffffff !important;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 8px;
   font-weight: 600;
-  transition: background-color 0.2s ease;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 8px rgba(26, 54, 93, 0.25);
 }
 
 .cta-button:hover {
-  background-color: #2a4a7f;
-  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(26, 54, 93, 0.35);
+  color: #ffffff !important;
 }
 
-/* Credentials badges */
+.dark .cta-button {
+  background: linear-gradient(135deg, #2b6cb0 0%, #3182ce 100%);
+  box-shadow: 0 2px 8px rgba(49, 130, 206, 0.3);
+}
+
+.dark .cta-button:hover {
+  box-shadow: 0 6px 20px rgba(49, 130, 206, 0.4);
+}
+
+/* ── Credential Badges ────────────────────────────────────── */
 .credentials {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 1rem 0;
+  gap: 0.6rem;
+  margin: 1.25rem 0;
 }
 
 .credential-badge {
-  display: inline-block;
-  padding: 0.25rem 0.75rem;
-  background: var(--code-bg);
-  border-radius: 20px;
-  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.9rem;
+  background: var(--accent-light);
+  color: var(--accent-navy);
+  border-radius: 24px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.credential-badge:hover {
+  border-color: var(--accent-blue);
+}
+
+/* ── Blockquotes ──────────────────────────────────────────── */
+.post-content blockquote {
+  border-left: 3px solid var(--accent-blue);
+  background: var(--surface-card);
+  padding: 1rem 1.5rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+/* ── Horizontal Rules ─────────────────────────────────────── */
+.post-content hr {
+  border: none;
+  height: 1px;
+  background: var(--border-subtle);
+  margin: 2.5rem 0;
+}
+
+/* ── Footer ───────────────────────────────────────────────── */
+.footer {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  padding: 2rem 0;
+}
+
+/* ── Scroll-to-top button ─────────────────────────────────── */
+#top-link {
+  background: var(--accent-navy);
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* ── Post navigation ──────────────────────────────────────── */
+.paginav {
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+  border-radius: 0;
+  margin-top: 2.5rem;
+  padding: 1rem 0;
+}
+
+.paginav a {
   font-weight: 500;
 }
+
+/* ── Share buttons ────────────────────────────────────────── */
+.share-buttons a {
+  transition: transform 0.2s ease;
+}
+
+.share-buttons a:hover {
+  transform: scale(1.1);
+}
+
+/* ── Code blocks ──────────────────────────────────────────── */
+.post-content code {
+  font-size: 0.9em;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+}
+
+/* ── Smooth transitions ───────────────────────────────────── */
+* {
+  scroll-behavior: smooth;
+}
+
+/* ── Reading progress feel ────────────────────────────────── */
+.post-single .post-content {
+  max-width: 700px;
+}
+
+/* ── Responsive tweaks ────────────────────────────────────── */
+@media (max-width: 768px) {
+  .post-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .home-info .entry-info-unlinked h1,
+  .home-info h1 {
+    font-size: 1.6rem;
+  }
+
+  .service-card {
+    padding: 1.25rem;
+  }
+
+  .cta-button {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* ── Print styles ─────────────────────────────────────────── */
+@media print {
+  .nav, .footer, #top-link, .share-buttons, .paginav {
+    display: none !important;
+  }
+
+  .post-content {
+    font-size: 11pt;
+    line-height: 1.6;
+  }
+}
+
