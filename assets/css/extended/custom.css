@@ -795,3 +795,215 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
 .home-info ~ div {
     animation: fadeInUp 0.8s ease-out 0.4s both;
 }
+
+/* ===============================================================================
+   TABLE OF CONTENTS - NAVY/TEAL THEME
+   =============================================================================== */
+.toc {
+    background: var(--navy-800, #0a1929);
+    border: 1px solid rgba(14, 116, 144, 0.2);
+    border-radius: 12px;
+    padding: 1.2em 1.5em;
+    margin-bottom: 2em;
+}
+
+.toc .inner {
+    margin: 0;
+}
+
+.toc details summary {
+    font-weight: 600;
+    color: var(--accent-teal, #0e7490);
+    cursor: pointer;
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    padding: 0.3em 0;
+}
+
+.toc details summary:hover {
+    color: var(--accent-gold, #d4a843);
+}
+
+.toc ul {
+    list-style: none;
+    padding-left: 1em;
+    margin: 0.5em 0 0 0;
+}
+
+.toc ul li {
+    margin: 0.3em 0;
+    line-height: 1.5;
+}
+
+.toc ul li a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s ease, padding-left 0.2s ease;
+    display: inline-block;
+    border-left: 2px solid transparent;
+    padding-left: 0;
+}
+
+.toc ul li a:hover {
+    color: var(--accent-teal, #0e7490);
+    border-left-color: var(--accent-teal, #0e7490);
+    padding-left: 8px;
+}
+
+.toc ul li a.active {
+    color: var(--accent-teal, #0e7490);
+    font-weight: 500;
+}
+
+/* TOC nested levels */
+.toc ul ul {
+    padding-left: 1.2em;
+    border-left: 1px solid rgba(14, 116, 144, 0.15);
+    margin-left: 0.5em;
+}
+
+.toc ul ul li a {
+    font-size: 0.85rem;
+    color: #64748b;
+}
+
+.toc ul ul li a:hover {
+    color: #22d3ee;
+}
+
+/* Dark mode TOC */
+[data-theme="dark"] .toc {
+    background: rgba(10, 25, 41, 0.6);
+    border-color: rgba(14, 116, 144, 0.15);
+}
+
+[data-theme="dark"] .toc details summary {
+    color: #22d3ee;
+}
+
+[data-theme="dark"] .toc ul li a {
+    color: #64748b;
+}
+
+[data-theme="dark"] .toc ul li a:hover {
+    color: #22d3ee;
+    border-left-color: #22d3ee;
+}
+
+[data-theme="dark"] .toc ul ul {
+    border-left-color: rgba(34, 211, 238, 0.1);
+}
+
+/* READING PROGRESS BAR */
+.reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent-teal, #0e7490), var(--accent-gold, #d4a843));
+    z-index: 9999;
+    transition: width 0.1s ease-out;
+}
+
+/* PRINT STYLESHEET */
+@media print {
+    /* Hide non-essential elements */
+    .back-to-top,
+    .reading-progress,
+    .toc,
+    #theme-toggle,
+    .nav,
+    header,
+    footer,
+    .post-tags,
+    .share-buttons,
+    .paginav,
+    .top-link,
+    #searchbox,
+    .menu {
+        display: none !important;
+    }
+
+    /* Reset backgrounds and colors for print */
+    body,
+    .main,
+    .post-content,
+    .post-header {
+        background: white !important;
+        color: #000 !important;
+    }
+
+    /* Ensure text is readable */
+    .post-content,
+    .post-content p,
+    .post-content li,
+    .post-content h1,
+    .post-content h2,
+    .post-content h3,
+    .post-content h4 {
+        color: #000 !important;
+    }
+
+    /* Make links visible with URLs */
+    .post-content a {
+        color: #0e7490 !important;
+        text-decoration: underline !important;
+    }
+
+    .post-content a[href]:after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        color: #666;
+    }
+
+    /* Don't show URLs for internal/anchor links */
+    .post-content a[href^="#"]:after,
+    .post-content a[href^="/"]:after {
+        content: "";
+    }
+
+    /* Code blocks */
+    .post-content pre {
+        background: #f5f5f5 !important;
+        border: 1px solid #ddd !important;
+        color: #000 !important;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        page-break-inside: avoid;
+    }
+
+    .post-content code {
+        color: #000 !important;
+    }
+
+    /* Prevent page breaks in awkward places */
+    h2, h3, h4 {
+        page-break-after: avoid;
+    }
+
+    img, pre, blockquote {
+        page-break-inside: avoid;
+    }
+
+    /* Add title and URL at top */
+    .post-title {
+        font-size: 24pt !important;
+        color: #000 !important;
+        border-bottom: 2px solid #0e7490;
+        padding-bottom: 0.5em;
+        margin-bottom: 1em;
+    }
+
+    .post-meta {
+        color: #666 !important;
+        margin-bottom: 2em;
+    }
+
+    /* Reasonable page margins */
+    @page {
+        margin: 2cm;
+    }
+}
