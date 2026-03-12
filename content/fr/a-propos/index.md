@@ -40,7 +40,7 @@ Chaque mandat commence par comprendre votre contexte — pas par imposer une sol
 
 **Proportionnée** — des contrôles adaptés à votre niveau de risque, pas du mur-à-mur.
 
-**Progressive** — conçue pour évoluer avec votre maturité IA et le paysage réglementaire.
+**Progressive** — conçue pour évoluer avec votre maturité IA et la réglementation.
 
 ---
 
