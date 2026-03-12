@@ -4,7 +4,7 @@ title = "Dominic-André Leclerc"
   pagerSize = 10
 theme = "PaperMod"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 enableRobotsTXT = true
 buildDrafts = false

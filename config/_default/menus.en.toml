@@ -1,35 +1,23 @@
 [[main]]
   identifier = "home-en"
   name = "Home"
-  url = "/en/"
+  url = "/"
   weight = 1
 
 [[main]]
   identifier = "about-en"
   name = "About"
-  url = "/en/about/"
+  url = "/about/"
   weight = 2
 
 [[main]]
   identifier = "services-en"
   name = "Services"
-  url = "/en/services/"
+  url = "/services/"
   weight = 3
 
 [[main]]
   identifier = "blog-en"
   name = "Blog"
-  url = "/en/blog/"
+  url = "/blog/"
   weight = 4
-
-# [[main]]
-#   identifier = "resources-en"
-#   name = "Resources"
-#   url = "/en/resources/"
-#   weight = 5
-
-# [[main]]
-#   identifier = "contact-en"
-#   name = "Contact"
-#   url = "/en/contact/"
-#   weight = 6
