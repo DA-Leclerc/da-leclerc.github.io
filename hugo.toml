@@ -36,6 +36,8 @@ pygmentsUseClasses = true
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
+  description = "Dominic-Andre Leclerc - AI Governance Advisor helping organizations adopt AI responsibly."
+  images = ["/images/og-default.png"]
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowWordCount = false
@@ -69,7 +71,7 @@ pygmentsUseClasses = true
 
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:domleclerc@gmail.com"
+    url = "/contact/"
 
   [params.cover]
     hidden = false
@@ -141,7 +143,7 @@ pygmentsUseClasses = true
   [[languages.en.menu.main]]
     identifier = "contact-en"
     name = "Contact"
-    url = "mailto:domleclerc@gmail.com"
+    url = "/contact/"
     weight = 5
 
 [languages.fr.menu]
@@ -168,6 +170,6 @@ pygmentsUseClasses = true
   [[languages.fr.menu.main]]
     identifier = "contact-fr"
     name = "Contact"
-    url = "mailto:domleclerc@gmail.com"
+    url = "/fr/contact/"
     weight = 5
 
