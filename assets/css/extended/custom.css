@@ -28,7 +28,7 @@
   --shadow-lg: 0 8px 24px rgba(15, 39, 68, 0.1);
 }
 
-.dark {
+[data-theme="dark"] {
   --accent-navy: #e2e8f0;
   --accent-navy-mid: #cbd5e1;
   --accent-teal: #22d3ee;
@@ -119,8 +119,8 @@ body {
   background-clip: text;
 }
 
-.dark .profile_inner h1,
-.dark .home-info .entry-hint-parent h1 {
+[data-theme="dark"] .profile_inner h1,
+[data-theme="dark"] .home-info .entry-hint-parent h1 {
   background: var(--gradient-hero);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -287,7 +287,7 @@ a.btn:hover,
   line-height: 1.7;
 }
 
-.dark .post-content blockquote {
+[data-theme="dark"] .post-content blockquote {
   background: var(--accent-gold-muted);
 }
 
@@ -310,15 +310,15 @@ a.btn:hover,
   color: #ffffff !important;
 }
 
-.dark .post-tags a,
-.dark .terms-tags a {
+[data-theme="dark"] .post-tags a,
+[data-theme="dark"] .terms-tags a {
   background: var(--accent-teal-muted) !important;
   color: var(--accent-teal) !important;
   border-color: rgba(34, 211, 238, 0.2) !important;
 }
 
-.dark .post-tags a:hover,
-.dark .terms-tags a:hover {
+[data-theme="dark"] .post-tags a:hover,
+[data-theme="dark"] .terms-tags a:hover {
   background: var(--accent-teal) !important;
   color: #0f172a !important;
 }
@@ -441,8 +441,8 @@ a.btn:hover,
   margin: 4px;
 }
 
-.dark .about-badges span,
-.dark .post-content .badge {
+[data-theme="dark"] .about-badges span,
+[data-theme="dark"] .post-content .badge {
   background: var(--accent-teal-muted);
   color: var(--accent-teal);
   border-color: rgba(34, 211, 238, 0.15);
@@ -459,8 +459,8 @@ a.btn:hover,
   box-shadow: var(--shadow-sm);
 }
 
-.dark .post-content > blockquote:has(strong:first-child),
-.dark .services-card {
+[data-theme="dark"] .post-content > blockquote:has(strong:first-child),
+[data-theme="dark"] .services-card {
   background: var(--surface-card);
 }
 
