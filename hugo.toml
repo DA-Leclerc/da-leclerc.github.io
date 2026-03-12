@@ -35,6 +35,7 @@ pygmentsUseClasses = true
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
+    ShareButtons = ["linkedin"]
   ShowPostNavLinks = true
   description = "Dominic-Andre Leclerc - AI Governance Advisor helping organizations adopt AI responsibly."
   images = ["/images/og-default.svg"]
