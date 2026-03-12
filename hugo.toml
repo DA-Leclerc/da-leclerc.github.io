@@ -28,6 +28,8 @@ pygmentsUseClasses = true
     [markup.goldmark.renderer]
       unsafe = true
 
+# ── Parameters ──────────────────────────────────────────────────────────────────
+
 [params]
   env = "production"
   defaultTheme = "auto"
@@ -53,11 +55,11 @@ pygmentsUseClasses = true
 
   [params.homeInfoParams]
     Title = "Bridging Military Precision and AI Governance"
-    Content = "I help Quebec and Canadian organizations adopt AI responsibly — with the discipline of 21 years in the Canadian Armed Forces and the clarity of someone who's built it from the ground up.\\n\\nWhether you're exploring your first AI pilot or building a governance framework, I'll help you get it right."
+    Content = "I help Quebec and Canadian organizations adopt AI responsibly — with the discipline of 21 years in the Canadian Armed Forces and the clarity of someone who's built it from the ground up.<br><br>Whether you're exploring your first AI pilot or building a governance framework, I'll help you get it right."
 
   [[params.socialIcons]]
     name = "linkedin"
-    url = "https://www.linkedin.com/in/dominic-andr%C3%A9-leclerc-4ab90a250/"
+    url = "https://www.linkedin.com/in/dominic-andré-leclerc-4ab90a250/"
 
   [[params.socialIcons]]
     name = "github"
@@ -84,6 +86,8 @@ pygmentsUseClasses = true
     minMatchCharLength = 0
     keys = ["title", "permalink", "summary", "content"]
 
+# ── Languages ───────────────────────────────────────────────────────────────────
+
 [languages]
   [languages.en]
     languageName = "English"
@@ -95,7 +99,7 @@ pygmentsUseClasses = true
       description = "AI Integration & Compliance Advisor. Bridging military precision and AI governance for Quebec and Canadian organizations."
       [languages.en.params.homeInfoParams]
         Title = "Bridging Military Precision and AI Governance"
-        Content = "I help Quebec and Canadian organizations adopt AI responsibly — with the discipline of 21 years in the Canadian Armed Forces and the clarity of someone who's built it from the ground up.\\n\\nWhether you're exploring your first AI pilot or building a governance framework, I'll help you get it right."
+        Content = "I help Quebec and Canadian organizations adopt AI responsibly — with the discipline of 21 years in the Canadian Armed Forces and the clarity of someone who's built it from the ground up.<br><br>Whether you're exploring your first AI pilot or building a governance framework, I'll help you get it right."
 
   [languages.fr]
     languageName = "Français"
@@ -107,7 +111,9 @@ pygmentsUseClasses = true
       description = "Conseiller en intégration et conformité IA. L'expertise militaire au service de la gouvernance IA pour les organisations québécoises et canadiennes."
       [languages.fr.params.homeInfoParams]
         Title = "L'expertise militaire au service de la gouvernance IA"
-        Content = "J'aide les organisations québécoises et canadiennes à adopter l'IA de manière responsable — avec la discipline de 21 ans dans les Forces armées canadiennes et la clarté de quelqu'un qui a tout construit depuis le début.\\n\\nQue vous exploriez votre premier projet pilote IA ou que vous bâtissiez un cadre de gouvernance, je vous aiderai à bien faire les choses."
+        Content = "J'aide les organisations québécoises et canadiennes à adopter l'IA de manière responsable — avec la discipline de 21 ans dans les Forces armées canadiennes et la clarté de quelqu'un qui a tout construit depuis le début.<br><br>Que vous exploriez votre premier projet pilote IA ou que vous bâtissiez un cadre de gouvernance, je vous aiderai à bien faire les choses."
+
+# ── Menus ────────────────────────────────────────────────────────────────────────
 
 [languages.en.menu]
   [[languages.en.menu.main]]
