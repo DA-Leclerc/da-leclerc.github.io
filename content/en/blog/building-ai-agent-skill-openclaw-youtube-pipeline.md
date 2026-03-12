@@ -49,7 +49,7 @@ The real power isn't in grabbing transcripts — it's in what happens next. With
 3. Pass them to an AI agent for summarization and key-point extraction
 4. Deliver formatted reports via Telegram
 
-This means I wake up every morning with a digest of yesterday's most relevant AI content, already summarized and ready to reference. For someone building expertise in AI governance consulting, this is invaluable.
+This means I wake up every morning with a digest of yesterday's most relevant AI content, already summarized and ready to reference. For someone building expertise in AI governance consulting, this is worth every minute.
 
 ## Lessons Learned
 
