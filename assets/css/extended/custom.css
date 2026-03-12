@@ -108,6 +108,7 @@ body {
 
 /* — Homepage Hero / Profile ———————————————————— */
 .profile_inner h1,
+.home-info .entry-header h1,
 .home-info .entry-hint-parent h1 {
   font-weight: 800 !important;
   letter-spacing: -0.03em;
@@ -120,6 +121,7 @@ body {
 }
 
 [data-theme="dark"] .profile_inner h1,
+[data-theme="dark"] .home-info .entry-header h1,
 [data-theme="dark"] .home-info .entry-hint-parent h1 {
   background: var(--gradient-hero);
   -webkit-background-clip: text;
@@ -175,6 +177,8 @@ ul.lang-switch a {
 }
 
 /* — CTA Button (homepage "Learn More") ————————— */
+.cta-button,
+.home-info .entry-content a,
 .home-info .entry-hint-parent a,
 a.btn,
 .btn {
@@ -190,6 +194,8 @@ a.btn,
   text-decoration: none !important;
 }
 
+.cta-button:hover,
+.home-info .entry-content a:hover,
 .home-info .entry-hint-parent a:hover,
 a.btn:hover,
 .btn:hover {
@@ -467,6 +473,7 @@ a.btn:hover,
 /* — Responsive adjustments ————————————————— */
 @media (max-width: 768px) {
   .profile_inner h1,
+  .home-info .entry-header h1,
   .home-info .entry-hint-parent h1 {
     font-size: 1.75rem !important;
   }
