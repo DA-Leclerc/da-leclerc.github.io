@@ -2,7 +2,7 @@
 title: "Canada's AI Governance Gap: What AIDA's Death Means for Your Organization"
 date: 2026-03-11T10:00:00-05:00
 summary: "With AIDA dead and no federal AI law in sight, Canadian organizations face a patchwork of provincial rules and global standards. Here's what you need to know — and do — right now."
-description: "An analysis of Canada's AI regulatory landscape after AIDA's failure, covering Quebec's Law 25 enforcement, Ontario's new AI hiring rules, and what organizations should do to prepare."
+description: "An analysis of Canada's AI regulatory situation after AIDA's failure, covering Quebec's Law 25 enforcement, Ontario's new AI hiring rules, and what organizations should do to prepare."
 tags: ["AI Governance", "Canada", "AIDA", "Law 25", "Regulation", "Compliance"]
 categories: ["AI Governance"]
 author: "Dominic-André Leclerc"
@@ -15,9 +15,9 @@ comments: false
 
 ## The Federal Vacuum
 
-Canada's Artificial Intelligence and Data Act (AIDA) is dead. After years of parliamentary debate, the bill died when Parliament was prorogued in early 2025, and there is no indication that a replacement is coming anytime soon. For Canadian organizations trying to adopt AI responsibly, this creates a significant governance vacuum at the federal level.
+Canada's Artificial Intelligence and Data Act (AIDA) is dead. After years of parliamentary debate, the bill died when Parliament was prorogued in early 2025, and there's no indication that a replacement is coming anytime soon. For Canadian organizations trying to adopt AI responsibly, this creates a significant governance vacuum at the federal level.
 
-But here's the thing: the absence of a federal AI law doesn't mean the absence of AI regulation. It means something arguably more challenging — a patchwork of provincial rules, sector-specific requirements, and international standards that organizations need to navigate without a unified federal framework to guide them.
+But here's the thing: the absence of a federal AI law doesn't mean the absence of AI regulation. It means something arguably more challenging — a patchwork of provincial rules, sector-specific requirements, and international standards that organizations need to work through without a unified federal framework to guide them.
 
 ## What's Actually Happening Right Now
 
@@ -49,7 +49,7 @@ Many Canadian organizations have been waiting for AIDA to tell them what to do. 
 
 ## What You Should Be Doing Right Now
 
-The absence of federal legislation is not an excuse to wait. If anything, it means you need to be more proactive, not less. Here's what I recommend:
+The absence of federal legislation isn't an excuse to wait. If anything, it means you need to be more proactive, not less. Here's what I recommend:
 
 **1. Map your AI systems.** You can't govern what you can't see. Create an inventory of every AI system your organization uses, builds, or procures. Include automated decision-making tools that might not be labeled as "AI."
 
@@ -63,10 +63,10 @@ The absence of federal legislation is not an excuse to wait. If anything, it mea
 
 ## The Opportunity in the Gap
 
-Here's the optimistic take: organizations that build strong AI governance now, while the regulatory landscape is still forming, will have a significant competitive advantage. They'll be ahead of compliance requirements when they arrive. They'll be more attractive to clients who care about responsible AI. And they'll avoid the costly scramble that comes when regulation drops and everyone rushes to comply at once.
+Here's the optimistic take: organizations that build strong AI governance now, while the rules are still being written, will have a significant competitive advantage. They'll be ahead of compliance requirements when they arrive. They'll be more attractive to clients who care about responsible AI. And they'll avoid the costly scramble that comes when regulation drops and everyone rushes to comply at once.
 
 The governance gap isn't a reason to wait. It's a reason to lead.
 
 ---
 
-*Need help navigating Canada's evolving AI regulatory landscape? I help Quebec and Canadian organizations build practical AI governance frameworks. [Get in touch](/about/) to start the conversation.*
+*Need help making sense of Canada's shifting AI regulations? I help Quebec and Canadian organizations build practical AI governance frameworks. [Get in touch](/about/) to start the conversation.*
