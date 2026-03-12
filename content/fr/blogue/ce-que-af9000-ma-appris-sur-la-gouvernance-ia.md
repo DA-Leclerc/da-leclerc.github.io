@@ -40,7 +40,7 @@ Le système qualité le plus sophistiqué au monde échoue si les gens qui l'uti
 Chaque tâche de maintenance ne reçoit pas le même niveau de supervision. Une inspection de routine et une révision de moteur ont des exigences de contrôle très différentes. La gouvernance IA devrait fonctionner de la même façon — un chatbot qui répond aux FAQ n'a pas besoin de la même gouvernance qu'une IA qui prend des décisions de crédit. Adaptez les contrôles au risque.
 
 **6. L'amélioration continue n'est pas optionnelle.**
-L'AF9000+ n'est pas une certification unique. C'est un système vivant avec des audits réguliers, des actions correctives et des mises à jour de processus. Votre cadre de gouvernance IA devrait évoluer avec votre utilisation de l'IA. Le paysage réglementaire change vite — Loi 25, LIAD, Loi européenne sur l'IA — et vos processus doivent suivre.
+L'AF9000+ n'est pas une certification unique. C'est un système vivant avec des audits réguliers, des actions correctives et des mises à jour de processus. Votre cadre de gouvernance IA devrait évoluer avec votre utilisation de l'IA. La réglementation change vite — Loi 25, LIAD, Loi européenne sur l'IA — et vos processus doivent suivre.
 
 ## L'essentiel
 
