@@ -47,6 +47,15 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
+      - name: Debug - Hugo config
+        run: |
+          echo "=== hugo.toml exists? ==="
+          ls -la hugo.toml || echo "NO hugo.toml!"
+          echo "=== hugo config (theme key) ==="
+          hugo config | grep -i "theme" | head -5 || echo "NO theme in config!"
+          echo "=== themes dir ==="
+          ls -la themes/PaperMod/layouts/_default/ || echo "NO _default layouts!"
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -56,6 +65,7 @@ jobs:
           hugo \
             --gc \
             --minify \
+            --verbose \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Debug - list generated files

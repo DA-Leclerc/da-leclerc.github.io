@@ -1,0 +1,160 @@
+baseURL = "https://da-leclerc.github.io/"
+title = "Dominic-André Leclerc"
+theme = "PaperMod"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = false
+pygmentsUseClasses = true
+
+[pagination]
+  pagerSize = 10
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# ── Parameters ──────────────────────────────────────────────────────────────────
+
+[params]
+  env = "production"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+
+  [params.assets]
+    favicon = "/images/favicon.ico"
+
+  [params.label]
+    text = "Dominic-André Leclerc"
+
+  [params.homeInfoParams]
+    Title = "Bridging Military Precision and AI Governance"
+    Content = "I help Quebec and Canadian organizations adopt AI responsibly — with the discipline of 21 years in the Canadian Armed Forces and the clarity of someone who's built it from the ground up.\n\nWhether you're exploring your first AI pilot or building a governance framework, I'll help you get it right."
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/dominic-andré-leclerc-4ab90a250/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/DA-Leclerc"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:domleclerc@gmail.com"
+
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = true
+
+  [params.editPost]
+    disabled = true
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+# ── Languages ───────────────────────────────────────────────────────────────────
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    weight = 1
+    title = "Dominic-André Leclerc — AI Advisor"
+    contentDir = "content/en"
+    [languages.en.params]
+      description = "AI Integration & Compliance Advisor. Bridging military precision and AI governance for Quebec and Canadian organizations."
+      [languages.en.params.homeInfoParams]
+        Title = "Bridging Military Precision and AI Governance"
+        Content = "I help Quebec and Canadian organizations adopt AI responsibly — with the discipline of 21 years in the Canadian Armed Forces and the clarity of someone who's built it from the ground up.\n\nWhether you're exploring your first AI pilot or building a governance framework, I'll help you get it right."
+
+  [languages.fr]
+    languageName = "Français"
+    languageCode = "fr"
+    weight = 2
+    title = "Dominic-André Leclerc — Conseiller IA"
+    contentDir = "content/fr"
+    [languages.fr.params]
+      description = "Conseiller en intégration et conformité IA. L'expertise militaire au service de la gouvernance IA pour les organisations québécoises et canadiennes."
+      [languages.fr.params.homeInfoParams]
+        Title = "L'expertise militaire au service de la gouvernance IA"
+        Content = "J'aide les organisations québécoises et canadiennes à adopter l'IA de manière responsable — avec la discipline de 21 ans dans les Forces armées canadiennes et la clarté de quelqu'un qui a tout construit depuis le début.\n\nQue vous exploriez votre premier projet pilote IA ou que vous bâtissiez un cadre de gouvernance, je vous aiderai à bien faire les choses."
+
+# ── Menus ────────────────────────────────────────────────────────────────────────
+
+[languages.en.menu]
+  [[languages.en.menu.main]]
+    identifier = "home-en"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[languages.en.menu.main]]
+    identifier = "about-en"
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[languages.en.menu.main]]
+    identifier = "services-en"
+    name = "Services"
+    url = "/services/"
+    weight = 3
+  [[languages.en.menu.main]]
+    identifier = "blog-en"
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+
+[languages.fr.menu]
+  [[languages.fr.menu.main]]
+    identifier = "home-fr"
+    name = "Accueil"
+    url = "/fr/"
+    weight = 1
+  [[languages.fr.menu.main]]
+    identifier = "about-fr"
+    name = "À propos"
+    url = "/fr/a-propos/"
+    weight = 2
+  [[languages.fr.menu.main]]
+    identifier = "services-fr"
+    name = "Services"
+    url = "/fr/services/"
+    weight = 3
+  [[languages.fr.menu.main]]
+    identifier = "blog-fr"
+    name = "Blogue"
+    url = "/fr/blogue/"
+    weight = 4
