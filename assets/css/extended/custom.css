@@ -1,57 +1,90 @@
-/* ============================================================
-   Custom styles for Dominic-André Leclerc — AI Governance Advisor
-   Professional, clean design with navy/slate color palette
-   ============================================================ */
+/* ================================================================
+    Custom styles for Dominic-André Leclerc — AI Governance Advisor
+    Navy + Teal + Gold theme — inspired by LinkedIn brand identity
+    ================================================================ */
 
-/* ── Color System ─────────────────────────────────────────── */
+/* — Color System ——————————————————————————————— */
 :root {
-  --accent-navy: #1a365d;
-  --accent-blue: #2b6cb0;
-  --accent-light: #ebf4ff;
-  --accent-gold: #d69e2e;
-  --text-primary: #1a202c;
-  --text-secondary: #4a5568;
-  --surface-card: #f7fafc;
+  --accent-navy: #0f2744;
+  --accent-navy-mid: #1a3a5c;
+  --accent-teal: #0e7490;
+  --accent-teal-light: #06b6d4;
+  --accent-teal-muted: #cffafe;
+  --accent-gold: #d97706;
+  --accent-gold-light: #fbbf24;
+  --accent-gold-muted: #fef3c7;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --surface-card: #ffffff;
+  --surface-bg: #f8fafc;
   --border-subtle: #e2e8f0;
-  --gradient-hero: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+  --border-accent: #0e7490;
+  --gradient-hero: linear-gradient(135deg, #0f2744 0%, #0e7490 100%);
+  --gradient-teal: linear-gradient(135deg, #0e7490 0%, #06b6d4 100%);
+  --gradient-gold: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+  --shadow-sm: 0 1px 3px rgba(15, 39, 68, 0.06);
+  --shadow-md: 0 4px 12px rgba(15, 39, 68, 0.08);
+  --shadow-lg: 0 8px 24px rgba(15, 39, 68, 0.1);
 }
 
 .dark {
-  --accent-navy: #90cdf4;
-  --accent-blue: #63b3ed;
-  --accent-light: rgba(144, 205, 244, 0.08);
-  --accent-gold: #ecc94b;
-  --text-primary: #f7fafc;
-  --text-secondary: #cbd5e0;
-  --surface-card: rgba(255, 255, 255, 0.04);
-  --border-subtle: rgba(255, 255, 255, 0.08);
+  --accent-navy: #e2e8f0;
+  --accent-navy-mid: #cbd5e1;
+  --accent-teal: #22d3ee;
+  --accent-teal-light: #67e8f9;
+  --accent-teal-muted: rgba(14, 116, 144, 0.15);
+  --accent-gold: #fbbf24;
+  --accent-gold-light: #fde68a;
+  --accent-gold-muted: rgba(217, 119, 6, 0.12);
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --surface-card: #1e293b;
+  --surface-bg: #0f172a;
+  --border-subtle: #334155;
+  --border-accent: #22d3ee;
+  --gradient-hero: linear-gradient(135deg, #22d3ee 0%, #67e8f9 100%);
+  --gradient-teal: linear-gradient(135deg, #0e7490 0%, #06b6d4 100%);
+  --gradient-gold: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.25);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
-/* ── Typography ───────────────────────────────────────────── */
+/* — Base & Body ——————————————————————————————— */
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  letter-spacing: -0.011em;
-  -webkit-font-smoothing: antialiased;
+  background: var(--surface-bg) !important;
 }
 
-.post-content {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  color: var(--text-secondary);
+/* — Typography ——————————————————————————————— */
+.post-content h1 {
+  color: var(--text-primary);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-top: 2.5rem;
 }
 
 .post-content h2 {
   color: var(--text-primary);
   font-weight: 700;
+  letter-spacing: -0.02em;
   margin-top: 2.5rem;
-  padding-bottom: 0.4rem;
+  padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--border-subtle);
 }
 
 .post-content h3 {
   color: var(--text-primary);
   font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.post-content p,
+.post-content li {
+  color: var(--text-secondary);
+  line-height: 1.75;
+  font-size: 1.0625rem;
 }
 
 .post-content strong {
@@ -59,69 +92,26 @@ body {
   font-weight: 600;
 }
 
+/* Links in post content — teal with underline */
 .post-content a {
-  color: var(--accent-blue);
+  color: var(--accent-teal);
   text-decoration: underline;
-  text-decoration-color: rgba(43, 108, 176, 0.3);
-  text-underline-offset: 2px;
-  transition: text-decoration-color 0.2s ease;
+  text-decoration-color: rgba(14, 116, 144, 0.3);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s ease, color 0.2s ease;
 }
 
 .post-content a:hover {
-  text-decoration-color: var(--accent-blue);
+  text-decoration-color: var(--accent-teal);
+  color: var(--accent-teal-light);
 }
 
-/* ── Header / Navigation ──────────────────────────────────── */
-.nav {
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-}
-
-#menu a {
-  font-weight: 500;
-  letter-spacing: 0.01em;
-  transition: color 0.2s ease;
-}
-
-#menu .active {
-  font-weight: 700;
-}
-
-.lang-switch {
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  letter-spacing: 0.05em;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-  border: 1px solid var(--border-subtle);
-  transition: all 0.2s ease;
-}
-
-.lang-switch:hover {
-  border-color: var(--accent-blue);
-  color: var(--accent-blue);
-}
-
-/* ── Homepage Hero ────────────────────────────────────────── */
-.first-entry {
-  border: none !important;
-  position: relative;
-  padding: 2rem 0;
-}
-
-.first-entry .entry-content {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  color: var(--text-secondary);
-  max-width: 640px;
-}
-
-.home-info .entry-info-unlinked h1,
-.home-info h1 {
-  font-size: 2rem;
-  font-weight: 800;
+/* — Homepage Hero / Profile ———————————————————— */
+.profile_inner h1,
+.home-info .entry-hint-parent h1 {
+  font-weight: 800 !important;
   letter-spacing: -0.03em;
+  font-size: 2.25rem !important;
   line-height: 1.2;
   background: var(--gradient-hero);
   -webkit-background-clip: text;
@@ -129,22 +119,95 @@ body {
   background-clip: text;
 }
 
-.dark .home-info .entry-info-unlinked h1,
-.dark .home-info h1 {
-  background: linear-gradient(135deg, #90cdf4 0%, #63b3ed 100%);
+.dark .profile_inner h1,
+.dark .home-info .entry-hint-parent h1 {
+  background: var(--gradient-hero);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-/* Social icons on homepage */
-.paginav .social-icons a {
+/* Page titles (Blog, About, Services headers) */
+.post-title {
+  font-weight: 800 !important;
+  letter-spacing: -0.03em !important;
+}
+
+/* Page description blockquote */
+.post-description {
+  color: var(--text-secondary) !important;
+  border-left: 3px solid var(--accent-teal);
+  padding-left: 1rem;
+}
+
+/* — Header / Navigation ——————————————————————— */
+.nav {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+#menu a {
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+#menu a:hover,
+#menu .active {
+  color: var(--accent-teal) !important;
+}
+
+/* Active nav item underline */
+#menu .active::after {
+  background: var(--accent-teal) !important;
+}
+
+/* Site title */
+.logo a {
+  font-weight: 800 !important;
+  letter-spacing: -0.02em;
+}
+
+/* Language switcher */
+ul.lang-switch a {
+  color: var(--accent-teal) !important;
+  font-weight: 600;
+}
+
+/* — CTA Button (homepage "Learn More") ————————— */
+.home-info .entry-hint-parent a,
+a.btn,
+.btn {
+  background: var(--gradient-teal) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 12px 28px !important;
+  font-weight: 600 !important;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 12px rgba(14, 116, 144, 0.25);
+  transition: all 0.25s ease !important;
+  text-decoration: none !important;
+}
+
+.home-info .entry-hint-parent a:hover,
+a.btn:hover,
+.btn:hover {
+  box-shadow: 0 6px 20px rgba(14, 116, 144, 0.35) !important;
+  transform: translateY(-1px);
+}
+
+/* — Social Icons ——————————————————————————————— */
+.paginav .social-icons a,
+.social-icons a {
+  color: var(--text-muted);
   transition: transform 0.2s ease, color 0.2s ease;
 }
 
-.paginav .social-icons a:hover {
-  transform: translateY(-2px);
-  color: var(--accent-blue);
+.paginav .social-icons a:hover,
+.social-icons a:hover {
+  transform: translateY(-3px);
+  color: var(--accent-teal);
 }
 
 .social-icons svg {
@@ -152,9 +215,9 @@ body {
   height: 22px;
 }
 
-/* ── Blog Post Cards ──────────────────────────────────────── */
+/* — Blog Post Cards ———————————————————————————— */
 .post-entry {
-  border: 1px solid var(--border-subtle) !important;
+  border: 1px solid var(--border-subtle);
   border-radius: 12px;
   padding: 1.5rem;
   margin-bottom: 1rem;
@@ -162,8 +225,10 @@ body {
   transition: all 0.25s ease;
   position: relative;
   overflow: hidden;
+  box-shadow: var(--shadow-sm);
 }
 
+/* Teal left accent border */
 .post-entry::before {
   content: '';
   position: absolute;
@@ -171,280 +236,264 @@ body {
   top: 0;
   bottom: 0;
   width: 3px;
-  background: var(--gradient-hero);
+  background: var(--gradient-teal);
   opacity: 0;
   transition: opacity 0.25s ease;
 }
 
-.dark .post-entry::before {
-  background: linear-gradient(180deg, #90cdf4 0%, #63b3ed 100%);
-}
-
 .post-entry:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-  border-color: var(--accent-blue) !important;
-}
-
-.dark .post-entry:hover {
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  border-color: var(--accent-teal);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
 }
 
 .post-entry:hover::before {
   opacity: 1;
 }
 
-.post-entry .entry-header h2 {
-  font-size: 1.25rem;
+/* Card title */
+.post-entry .entry-title {
   font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  font-size: 1.15rem;
 }
 
-.entry-footer {
+/* Card description/summary */
+.post-entry .entry-content,
+.post-entry .entry-hint {
   color: var(--text-secondary);
+  line-height: 1.65;
+}
+
+/* Card footer (date, read time, author) */
+.post-entry .post-meta {
+  color: var(--text-muted);
   font-size: 0.85rem;
 }
 
-/* ── Page Header ──────────────────────────────────────────── */
-.post-header h1 {
-  font-size: 2.2rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.15;
+/* — Blockquotes ———————————————————————————————— */
+.post-content blockquote {
+  border-left: 4px solid var(--accent-gold);
+  background: var(--accent-gold-muted);
+  padding: 1rem 1.25rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1.5rem 0;
 }
 
-.post-description {
-  font-size: 1.1rem;
+.post-content blockquote p {
   color: var(--text-secondary);
   font-style: italic;
-  border-left: 3px solid var(--accent-blue);
-  padding-left: 1rem;
-  margin: 1rem 0;
+  line-height: 1.7;
 }
 
-.post-meta {
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-  letter-spacing: 0.01em;
+.dark .post-content blockquote {
+  background: var(--accent-gold-muted);
 }
 
-/* ── Breadcrumbs ──────────────────────────────────────────── */
-.breadcrumbs {
+/* — Tags & Categories —————————————————————————— */
+.post-tags a,
+.terms-tags a {
+  background: var(--accent-teal-muted) !important;
+  color: var(--accent-teal) !important;
+  border: 1px solid rgba(14, 116, 144, 0.2) !important;
+  border-radius: 20px !important;
+  padding: 4px 14px !important;
   font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
   font-weight: 500;
-  color: var(--text-secondary);
-}
-
-.breadcrumbs a {
-  color: var(--accent-blue);
-}
-
-/* ── Table of Contents ────────────────────────────────────── */
-.toc {
-  border: 1px solid var(--border-subtle);
-  border-radius: 10px;
-  padding: 0.75rem 1rem;
-  background: var(--surface-card);
-}
-
-.toc details summary {
-  font-weight: 600;
-  font-size: 0.9rem;
-  cursor: pointer;
-}
-
-/* ── Service Cards ────────────────────────────────────────── */
-.service-card {
-  padding: 1.75rem;
-  margin-bottom: 1.5rem;
-  border-left: 4px solid var(--accent-navy);
-  background: var(--surface-card);
-  border-radius: 0 12px 12px 0;
-  border: 1px solid var(--border-subtle);
-  border-left: 4px solid var(--accent-navy);
-  transition: all 0.25s ease;
-}
-
-.service-card:hover {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
-  transform: translateX(4px);
-}
-
-.dark .service-card:hover {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-}
-
-.service-card h3 {
-  margin-top: 0;
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--accent-navy);
-}
-
-/* ── CTA Button ───────────────────────────────────────────── */
-.cta-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.85rem 2.25rem;
-  background: var(--gradient-hero);
-  color: #ffffff !important;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 1rem;
-  letter-spacing: 0.01em;
-  transition: all 0.25s ease;
-  box-shadow: 0 2px 8px rgba(26, 54, 93, 0.25);
-}
-
-.cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(26, 54, 93, 0.35);
-  color: #ffffff !important;
-}
-
-.dark .cta-button {
-  background: linear-gradient(135deg, #2b6cb0 0%, #3182ce 100%);
-  box-shadow: 0 2px 8px rgba(49, 130, 206, 0.3);
-}
-
-.dark .cta-button:hover {
-  box-shadow: 0 6px 20px rgba(49, 130, 206, 0.4);
-}
-
-/* ── Credential Badges ────────────────────────────────────── */
-.credentials {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  margin: 1.25rem 0;
-}
-
-.credential-badge {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.35rem 0.9rem;
-  background: var(--accent-light);
-  color: var(--accent-navy);
-  border-radius: 24px;
-  font-size: 0.82rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  border: 1px solid transparent;
   transition: all 0.2s ease;
 }
 
-.credential-badge:hover {
-  border-color: var(--accent-blue);
+.post-tags a:hover,
+.terms-tags a:hover {
+  background: var(--accent-teal) !important;
+  color: #ffffff !important;
 }
 
-/* ── Blockquotes ──────────────────────────────────────────── */
-.post-content blockquote {
-  border-left: 3px solid var(--accent-blue);
+.dark .post-tags a,
+.dark .terms-tags a {
+  background: var(--accent-teal-muted) !important;
+  color: var(--accent-teal) !important;
+  border-color: rgba(34, 211, 238, 0.2) !important;
+}
+
+.dark .post-tags a:hover,
+.dark .terms-tags a:hover {
+  background: var(--accent-teal) !important;
+  color: #0f172a !important;
+}
+
+/* — Table of Contents —————————————————————————— */
+.toc {
   background: var(--surface-card);
-  padding: 1rem 1.5rem;
-  border-radius: 0 8px 8px 0;
-  margin: 1.5rem 0;
-  font-style: italic;
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+}
+
+.toc summary {
+  font-weight: 600;
+  color: var(--text-primary);
+  cursor: pointer;
+}
+
+.toc a {
   color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
-/* ── Horizontal Rules ─────────────────────────────────────── */
-.post-content hr {
-  border: none;
-  height: 1px;
-  background: var(--border-subtle);
-  margin: 2.5rem 0;
+.toc a:hover {
+  color: var(--accent-teal);
 }
 
-/* ── Footer ───────────────────────────────────────────────── */
-.footer {
-  font-size: 0.8rem;
-  color: var(--text-secondary);
-  padding: 2rem 0;
-}
-
-/* ── Scroll-to-top button ─────────────────────────────────── */
-#top-link {
-  background: var(--accent-navy);
-  border-radius: 50%;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-}
-
-/* ── Post navigation ──────────────────────────────────────── */
-.paginav {
-  border-top: 1px solid var(--border-subtle);
-  border-bottom: 1px solid var(--border-subtle);
-  border-radius: 0;
-  margin-top: 2.5rem;
-  padding: 1rem 0;
-}
-
-.paginav a {
+/* — Breadcrumbs ———————————————————————————————— */
+.breadcrumbs a {
+  color: var(--accent-teal);
   font-weight: 500;
+  text-decoration: none;
 }
 
-/* ── Share buttons ────────────────────────────────────────── */
-.share-buttons a {
-  transition: transform 0.2s ease;
+.breadcrumbs a:hover {
+  text-decoration: underline;
 }
 
-.share-buttons a:hover {
-  transform: scale(1.1);
+.breadcrumbs span {
+  color: var(--text-muted);
 }
 
-/* ── Code blocks ──────────────────────────────────────────── */
+/* — Code Blocks ——————————————————————————————— */
 .post-content code {
-  font-size: 0.9em;
-  padding: 0.15rem 0.4rem;
+  background: var(--accent-teal-muted);
+  color: var(--accent-teal);
+  padding: 2px 6px;
   border-radius: 4px;
+  font-size: 0.9em;
 }
 
-/* ── Smooth transitions ───────────────────────────────────── */
-* {
-  scroll-behavior: smooth;
+.post-content pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
 }
 
-/* ── Reading progress feel ────────────────────────────────── */
-.post-single .post-content {
-  max-width: 700px;
+.highlight pre {
+  border-radius: 12px !important;
+  border: 1px solid var(--border-subtle);
 }
 
-/* ── Responsive tweaks ────────────────────────────────────── */
+/* — Footer ————————————————————————————————————— */
+.footer {
+  color: var(--text-muted);
+}
+
+.footer a {
+  color: var(--accent-teal);
+}
+
+/* — Dark Mode Toggle Button ——————————————————— */
+#theme-toggle {
+  color: var(--text-muted);
+  transition: color 0.2s ease;
+}
+
+#theme-toggle:hover {
+  color: var(--accent-gold);
+}
+
+/* — Pagination ————————————————————————————————— */
+.pagination .page-link {
+  color: var(--text-secondary);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.pagination .page-link:hover {
+  color: var(--accent-teal);
+  background: var(--accent-teal-muted);
+}
+
+/* — Scroll to top button ————————————————————— */
+.top-link {
+  background: var(--accent-teal) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: var(--shadow-md);
+}
+
+/* — Selection highlight ————————————————————— */
+::selection {
+  background: rgba(14, 116, 144, 0.2);
+  color: var(--text-primary);
+}
+
+/* — Skill Badges on About page ————————————— */
+.about-badges span,
+.post-content .badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 24px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  background: var(--accent-teal-muted);
+  color: var(--accent-teal);
+  border: 1px solid rgba(14, 116, 144, 0.15);
+  margin: 4px;
+}
+
+.dark .about-badges span,
+.dark .post-content .badge {
+  background: var(--accent-teal-muted);
+  color: var(--accent-teal);
+  border-color: rgba(34, 211, 238, 0.15);
+}
+
+/* — Service cards (blockquotes used as cards) — */
+.post-content > blockquote:has(strong:first-child),
+.services-card {
+  border-left: 4px solid var(--accent-teal);
+  background: var(--surface-card);
+  border-radius: 0 12px 12px 0;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.dark .post-content > blockquote:has(strong:first-child),
+.dark .services-card {
+  background: var(--surface-card);
+}
+
+/* — Responsive adjustments ————————————————— */
 @media (max-width: 768px) {
-  .post-header h1 {
-    font-size: 1.75rem;
+  .profile_inner h1,
+  .home-info .entry-hint-parent h1 {
+    font-size: 1.75rem !important;
   }
 
-  .home-info .entry-info-unlinked h1,
-  .home-info h1 {
-    font-size: 1.6rem;
-  }
-
-  .service-card {
+  .post-entry {
     padding: 1.25rem;
-  }
-
-  .cta-button {
-    width: 100%;
-    justify-content: center;
-    text-align: center;
+    border-radius: 10px;
   }
 }
 
-/* ── Print styles ─────────────────────────────────────────── */
+/* — Smooth transitions for theme switching —— */
+body,
+.nav,
+.post-entry,
+.toc,
+.footer,
+.highlight pre {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* — Print styles —————————————————————————————— */
 @media print {
-  .nav, .footer, #top-link, .share-buttons, .paginav {
-    display: none !important;
+  .post-entry::before {
+    display: none;
   }
-
-  .post-content {
-    font-size: 11pt;
-    line-height: 1.6;
+  .post-content a {
+    color: var(--accent-teal);
+    text-decoration: underline;
   }
 }
-
