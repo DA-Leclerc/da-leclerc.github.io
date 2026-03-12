@@ -15,7 +15,7 @@ comments: false
 
 ## Le problème : trop de vidéos, pas assez de temps
 
-Si vous travaillez en gouvernance de l'IA — ou dans tout domaine en évolution rapide — vous connaissez ce sentiment. Vos abonnements YouTube s'accumulent avec des conférences, des briefings politiques et des entrevues d'experts. Chacun pourrait contenir un aperçu crucial, mais qui a le temps de tout regarder ?
+Si vous travaillez en gouvernance de l'IA — ou dans tout domaine en évolution rapide — vous connaissez ce sentiment. Vos abonnements YouTube s'accumulent avec des conférences, des briefings politiques et des entrevues d'experts. Chacun pourrait contenir un aperçu clé, mais qui a le temps de tout regarder ?
 
 Je voulais un système capable d'extraire automatiquement les transcriptions des chaînes YouTube que je suis, de les passer à un agent IA pour analyse, et de livrer des résumés concis directement sur mon téléphone. Alors je l'ai construit.
 
