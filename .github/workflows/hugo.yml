@@ -40,21 +40,10 @@ jobs:
         run: |
           rm -rf themes/PaperMod
           git clone --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
-          echo "=== Theme check ==="
-          ls themes/PaperMod/layouts/ || echo "NO layouts dir!"
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-
-      - name: Debug - Hugo config
-        run: |
-          echo "=== hugo.toml exists? ==="
-          ls -la hugo.toml || echo "NO hugo.toml!"
-          echo "=== hugo config (theme key) ==="
-          hugo config | grep -i "theme" | head -5 || echo "NO theme in config!"
-          echo "=== themes dir ==="
-          ls -la themes/PaperMod/layouts/_default/ || echo "NO _default layouts!"
 
       - name: Build with Hugo
         env:
@@ -66,17 +55,6 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-
-      - name: Debug - list generated files
-        run: |
-          echo "=== Root files ==="
-          ls -la public/
-          echo "=== All HTML files ==="
-          find public/ -name "*.html" | head -30
-          echo "=== All XML files ==="
-          find public/ -name "*.xml" | head -10
-          echo "=== Content of public/index.html (if exists) ==="
-          head -5 public/index.html 2>/dev/null || echo "NO index.html at root!"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
