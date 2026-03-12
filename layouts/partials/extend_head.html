@@ -1,5 +1,5 @@
 <!-- Open Graph & SEO enhancements -->
-<meta property="og:site_name" content="Dominic-André Leclerc — AI Advisor" />
+<meta property="og:site_name" content="Dominic-André Leclerc -- AI Advisor" />
 <meta name="author" content="Dominic-André Leclerc" />
 
 <!-- Geo targeting -->
@@ -8,15 +8,14 @@
 
 <!-- Language alternates for bilingual SEO -->
 {{ if .IsTranslated }}
-  {{ range .Translations }}
-    <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
-  {{ end }}
-  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+{{ range .Translations }}
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+{{ end }}
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
 {{ end }}
 
 <!-- Canonical URL -->
 <link rel="canonical" href="{{ .Permalink }}" />
-
 
 <!-- SVG Favicon -->
 <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
@@ -39,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 {{ end }}
 
-<!-- Structured Data (JSON-LD) -->
+<!-- Structured Data (JSON-LD) - Person -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -56,6 +55,34 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 }
 </script>
+
+<!-- Structured Data (JSON-LD) - Article (blog posts only) -->
+{{ if and .IsPage (eq .Section "blog") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "author": {
+    "@type": "Person",
+    "name": "Dominic-Andr\u00e9 Leclerc",
+    "url": "https://da-leclerc.github.io"
+  },
+  "datePublished": "{{ .Date.Format \"2006-01-02T15:04:05Z07:00\" }}",
+  {{ if .Lastmod }}"dateModified": "{{ .Lastmod.Format \"2006-01-02T15:04:05Z07:00\" }}",{{ end }}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Dominic-Andr\u00e9 Leclerc"
+  }{{ if .Params.cover }}{{ if .Params.cover.image }},
+  "image": "{{ .Params.cover.image | absURL }}"{{ end }}{{ end }}
+}
+</script>
+{{ end }}
 
 <!-- Back to Top Button -->
 <button class="back-to-top" id="back-to-top" aria-label="Back to top">
@@ -77,61 +104,18 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
-<!-- Open Graph & SEO enhancements -->
-<meta property="og:site_name" content="Dominic-André Leclerc — AI Advisor" />
-<meta name="author" content="Dominic-André Leclerc" />
 
-<!-- Geo targeting -->
-<meta name="geo.region" content="CA-QC" />
-<meta name="geo.placename" content="Saguenay" />
-
-<!-- Language alternates for bilingual SEO -->
-{{ if .IsTranslated }}
-  {{ range .Translations }}
-    <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
-  {{ end }}
-  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
-{{ end }}
-
-<!-- Canonical URL -->
-<link rel="canonical" href="{{ .Permalink }}" />
-
-
-<!-- SVG Favicon -->
-<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
-<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.svg">
-
-<!-- Reading Progress Bar -->
-{{ if .IsPage }}
-<div class="reading-progress" id="reading-progress"></div>
+<!-- Lazy Loading for Images -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var progressBar = document.getElementById('reading-progress');
-  if (!progressBar) return;
-  window.addEventListener('scroll', function() {
-    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    var scrolled = (winScroll / height) * 100;
-    progressBar.style.width = scrolled + '%';
+  var images = document.querySelectorAll('.post-content img');
+  images.forEach(function(img) {
+    if (!img.hasAttribute('loading')) {
+      img.setAttribute('loading', 'lazy');
+    }
+    if (!img.hasAttribute('decoding')) {
+      img.setAttribute('decoding', 'async');
+    }
   });
 });
-</script>
-{{ end }}
-
-<!-- Structured Data (JSON-LD) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Dominic-Andr\u00e9 Leclerc",
-  "url": "https://da-leclerc.github.io",
-  "jobTitle": "AI Governance Advisor",
-  "description": "Bridging Military Precision and AI Governance",
-  "knowsAbout": ["AI Governance", "Responsible AI", "Military Strategy", "AIDA Act"],
-  "address": {
-    "@type": "PostalAddress",
-    "addressRegion": "Quebec",
-    "addressCountry": "Canada"
-  }
-}
 </script>
