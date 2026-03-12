@@ -1,6 +1,6 @@
 ---
 title: "Canada's AI Governance Gap: What AIDA's Death Means for Your Organization"
-date: 2026-03-12T08:00:00-05:00
+date: 2026-03-11:00:00-05:00
 summary: "With AIDA dead and no federal AI law in sight, Canadian organizations face a patchwork of provincial rules and global standards. Here's what you need to know — and do — right now."
 description: "An analysis of Canada's AI regulatory landscape after AIDA's failure, covering Quebec's Law 25 enforcement, Ontario's new AI hiring rules, and what organizations should do to prepare."
 tags: ["AI Governance", "Canada", "AIDA", "Law 25", "Regulation", "Compliance"]
