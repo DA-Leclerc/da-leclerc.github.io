@@ -1,7 +1,7 @@
 ---
 title: "Canada's AI Governance Gap: What AIDA's Death Means for Your Organization"
 date: 2026-03-11T10:00:00-05:00
-summary: "With AIDA dead and no federal AI law in sight, Canadian organizations face a patchwork of provincial rules and global standards. Here's what you need to know — and do — right now."
+summary: "With AIDA dead and no federal AI law in sight, Canadian organizations face a patchwork of provincial rules and global standards. Here's what you need to know (and do) right now."
 description: "An analysis of Canada's AI regulatory situation after AIDA's failure, covering Quebec's Law 25 enforcement, Ontario's new AI hiring rules, and what organizations should do to prepare."
 tags: ["AI Governance", "Canada", "AIDA", "Law 25", "Regulation", "Compliance"]
 categories: ["AI Governance"]
@@ -17,13 +17,13 @@ comments: false
 
 Canada's Artificial Intelligence and Data Act (AIDA) is dead. After years of parliamentary debate, the bill died when Parliament was prorogued in early 2025, and there's no indication that a replacement is coming anytime soon. For Canadian organizations trying to adopt AI responsibly, this creates a significant governance vacuum at the federal level.
 
-But here's the thing: the absence of a federal AI law doesn't mean the absence of AI regulation. It means something arguably more challenging — a patchwork of provincial rules, sector-specific requirements, and international standards that organizations need to work through without a unified federal framework to guide them.
+But here's the thing: the absence of a federal AI law doesn't mean the absence of AI regulation. It means something arguably more challenging: a patchwork of provincial rules, sector-specific requirements, and international standards that organizations need to work through without a unified federal framework to guide them.
 
 ## What's Actually Happening Right Now
 
 ### Quebec's Law 25 Is Getting Teeth
 
-While Ottawa stalls, Quebec's Commission d'accès à l'information (CAI) is actively enforcing Law 25 — and the fines are escalating. Law 25 isn't an AI-specific law, but its privacy and transparency requirements have direct implications for any organization using AI to process personal information in Quebec. If your AI system touches Quebecers' data, you're already subject to these requirements.
+While Ottawa stalls, Quebec's Commission d'accès à l'information (CAI) is actively enforcing Law 25, and the fines are escalating. Law 25 isn't an AI-specific law, but its privacy and transparency requirements have direct implications for any organization using AI to process personal information in Quebec. If your AI system touches Quebecers' data, you're already subject to these requirements.
 
 The CAI has been ramping up investigations and penalties, particularly around automated decision-making transparency. Organizations that can't explain how their AI systems use personal data are finding themselves in increasingly uncomfortable conversations with regulators.
 
@@ -55,7 +55,7 @@ The absence of federal legislation isn't an excuse to wait. If anything, it mean
 
 **2. Assess your exposure.** For each system, identify which jurisdictions' rules apply. If you operate in Quebec, Law 25 compliance is non-negotiable. If you hire in Ontario, the new disclosure rules apply. If you touch EU data, the AI Act matters.
 
-**3. Build governance now, not later.** Don't wait for a federal framework to build your internal AI governance structure. Organizations that build governance proactively will find it much easier to adapt when federal rules eventually arrive — and they will arrive.
+**3. Build governance now, not later.** Don't wait for a federal framework to build your internal AI governance structure. Organizations that build governance proactively will find it much easier to adapt when federal rules eventually arrive, and they will arrive.
 
 **4. Start with risk assessment.** Use a structured framework to assess AI readiness and risk across your organization. This doesn't need to be expensive or complicated, but it does need to be systematic.
 
