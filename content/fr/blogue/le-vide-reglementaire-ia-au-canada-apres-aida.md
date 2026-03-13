@@ -1,7 +1,7 @@
 ---
 title: "Le vide réglementaire IA au Canada : ce que la mort de la LIAD signifie pour votre organisation"
 date: 2026-03-11T10:00:00-05:00
-summary: "Avec la LIAD morte et aucune loi fédérale sur l'IA en vue, les organisations canadiennes font face à un patchwork de règles provinciales et de normes mondiales. Voici ce que vous devez savoir — et faire — maintenant."
+summary: "Avec la LIAD morte et aucune loi fédérale sur l'IA en vue, les organisations canadiennes font face à un patchwork de règles provinciales et de normes mondiales. Voici ce que vous devez savoir  et faire  maintenant."
 description: "Une analyse de la situation réglementaire canadienne en matière d'IA après l'échec de la LIAD, couvrant l'application de la Loi 25 au Québec, les nouvelles règles ontariennes sur l'IA en embauche, et ce que les organisations devraient faire."
 tags: ["Gouvernance IA", "Canada", "LIAD", "Loi 25", "Réglementation", "Conformité"]
 categories: ["Gouvernance IA"]
@@ -17,13 +17,13 @@ comments: false
 
 La Loi sur l'intelligence artificielle et les données (LIAD) du Canada est morte. Après des années de débat parlementaire, le projet de loi est tombé lorsque le Parlement a été prorogé début 2025, et rien n'indique qu'un remplaçant arrivera bientôt. Pour les organisations canadiennes qui tentent d'adopter l'IA de manière responsable, cela crée un vide de gouvernance significatif au niveau fédéral.
 
-Mais voici le point important : l'absence d'une loi fédérale sur l'IA ne signifie pas l'absence de réglementation en matière d'IA. Cela signifie quelque chose d'encore plus complexe — un patchwork de règles provinciales, d'exigences sectorielles et de normes internationales que les organisations doivent gérer sans cadre fédéral unifié pour les guider.
+Mais voici le point important : l'absence d'une loi fédérale sur l'IA ne signifie pas l'absence de réglementation en matière d'IA. Cela signifie quelque chose d'encore plus complexe  un patchwork de règles provinciales, d'exigences sectorielles et de normes internationales que les organisations doivent gérer sans cadre fédéral unifié pour les guider.
 
 ## Ce qui se passe concrètement
 
 ### La Loi 25 du Québec prend du mordant
 
-Alors qu'Ottawa hésite, la Commission d'accès à l'information (CAI) du Québec applique activement la Loi 25 — et les amendes s'alourdissent. La Loi 25 n'est pas une loi spécifique à l'IA, mais ses exigences en matière de protection de la vie privée et de transparence ont des implications directes pour toute organisation utilisant l'IA pour traiter des renseignements personnels au Québec. Si votre système d'IA touche aux données des Québécois, vous êtes déjà assujetti à ces exigences.
+Alors qu'Ottawa hésite, la Commission d'accès à l'information (CAI) du Québec applique activement la Loi 25  et les amendes s'alourdissent. La Loi 25 n'est pas une loi spécifique à l'IA, mais ses exigences en matière de protection de la vie privée et de transparence ont des implications directes pour toute organisation utilisant l'IA pour traiter des renseignements personnels au Québec. Si votre système d'IA touche aux données des Québécois, vous êtes déjà assujetti à ces exigences.
 
 La CAI a intensifié ses enquêtes et ses pénalités, particulièrement autour de la transparence des décisions automatisées. Les organisations qui ne peuvent pas expliquer comment leurs systèmes d'IA utilisent les données personnelles se retrouvent dans des conversations de plus en plus inconfortables avec les régulateurs.
 
