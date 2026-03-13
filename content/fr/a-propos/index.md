@@ -7,7 +7,7 @@ showToc: false
 
 ## De l'avionique aux algorithmes
 
-Après 21 ans comme adjudant dans les Forces armées canadiennes — spécialisé en maintenance avionique, audit qualité sous AF9000+ et supervision de la cellule d'instruction — j'ai fait un virage délibéré vers la gouvernance et le conseil en IA.
+Après 21 ans comme adjudant dans les Forces armées canadiennes (spécialisé en maintenance avionique, audit qualité sous AF9000+ et supervision de la cellule d'instruction), j'ai fait un virage délibéré vers la gouvernance et le conseil en IA.
 
 Ce n'était pas un changement de carrière aléatoire. Les mêmes compétences qui assuraient la sécurité et la conformité des systèmes aéronautiques — audit systématique, discipline des processus, gestion des risques et formation des équipes — sont exactement ce dont les organisations ont besoin pour adopter l'IA.
 
