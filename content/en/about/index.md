@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "Dominic-Andre Leclerc, Founder of Nord Paradigm AI. AI Governance & Responsible Adoption Advisor. 21 years of military discipline, now applied to AI governance."
+description: "Dominic-Andre Leclerc. AI Governance & Responsible Adoption Advisor. 21 years of military discipline, now applied to AI governance."
 summary: "21 years of military discipline. A new mission in AI governance."
 showToc: false
 ---
@@ -53,13 +53,3 @@ That hands-on experience is the difference. When I advise a client on AI governa
 ## Credentials in Progress
 
 I'm currently pursuing ISO/IEC 42001 Lead Implementer and Lead Auditor certifications through PECB, the IAPP AIGP (AI Governance Professional) credential, and completing the University of Helsinki's AI Ethics course. These build on my existing AF9000+ Lead Auditor certification from the Canadian Armed Forces.
-
----
-
-## Based in Saguenay, Working Across Quebec and Canada
-
-I'm based in Saguenay, QC, and work with organizations across Quebec and Canada. All services are available in both French and English.
-
-Whether it's a half-day workshop for your leadership team, a full AI readiness assessment, or ongoing advisory work, I'd like to hear what you're dealing with.
-
-<a href="mailto:domleclerc@gmail.com" class="cta-button">Get in Touch</a>
