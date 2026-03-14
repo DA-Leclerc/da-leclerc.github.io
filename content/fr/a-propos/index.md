@@ -1,6 +1,6 @@
 ---
 title: "À propos"
-description: "Dominic-André Leclerc, fondateur de Nord Paradigm AI. Conseiller en gouvernance et adoption responsable de l'IA. 21 ans de discipline militaire au service de la gouvernance IA."
+description: "Dominic-André Leclerc. Conseiller en gouvernance et adoption responsable de l'IA. 21 ans de discipline militaire au service de la gouvernance IA."
 summary: "21 ans de discipline militaire. Une nouvelle mission en gouvernance IA."
 showToc: false
 ---
@@ -53,13 +53,3 @@ C'est cette expérience terrain qui fait la différence. Quand je conseille un c
 ## Certifications en cours
 
 Je poursuis actuellement les certifications ISO/IEC 42001 Lead Implementer et Lead Auditor par PECB, le titre IAPP AIGP (professionnel en gouvernance IA), et je complète le cours d'éthique de l'IA de l'Université de Helsinki. Ces certifications s'ajoutent à ma certification d'auditeur chef AF9000+ obtenue dans les Forces armées canadiennes.
-
----
-
-## Basé à Saguenay, au service du Québec et du Canada
-
-Je suis basé à Saguenay, QC, et je travaille avec des organisations partout au Québec et au Canada. Tous les services sont offerts en français et en anglais.
-
-Qu'il s'agisse d'un atelier d'une demi-journée pour votre équipe de direction, d'une évaluation complète de maturité IA, ou d'un accompagnement-conseil continu, je suis là pour vous aider à bien faire les choses.
-
-<a href="mailto:domleclerc@gmail.com" class="cta-button">Me contacter</a>
