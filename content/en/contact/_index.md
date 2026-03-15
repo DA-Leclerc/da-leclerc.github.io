@@ -4,13 +4,13 @@ description: "Get in touch to discuss AI governance, compliance, or readiness fo
 author: "Dominic-André Leclerc"
 ---
 
-## Let's Talk
+## Get in touch
 
-Whether you're exploring AI adoption, need help with governance frameworks, or want to assess your organization's readiness -- I'd love to hear from you.
+Want to talk about AI governance, compliance, or readiness for your organization? Reach out.
 
 ### Email
 
-The best way to reach me is by email:
+Best way to reach me:
 
 **domleclerc (at) gmail.com**
 
@@ -18,9 +18,9 @@ The best way to reach me is by email:
 
 You can also find me on:
 
-- **[LinkedIn](https://www.linkedin.com/in/dominic-andr%C3%A9-leclerc-4ab90a250/)** -- Let's connect professionally
-- **[GitHub](https://github.com/DA-Leclerc)** -- See my technical work and projects
+- **[LinkedIn](https://www.linkedin.com/in/dominic-andr%C3%A9-leclerc-4ab90a250/)**
+- **[GitHub](https://github.com/DA-Leclerc)**
 
 ### Based in
 
-Saguenay, QC, Canada -- Available for remote engagements across Canada and internationally.
+Saguenay, QC, Canada. Available for remote engagements across Canada and internationally.
