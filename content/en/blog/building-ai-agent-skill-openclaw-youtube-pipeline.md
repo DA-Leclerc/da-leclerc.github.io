@@ -6,7 +6,7 @@ description: "A walkthrough of building an OpenClaw AI agent skill that automate
 tags: ["AI", "OpenClaw", "Automation", "Python", "Open Source"]
 categories: ["Projects"]
 author: "Dominic-André Leclerc"
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: false
