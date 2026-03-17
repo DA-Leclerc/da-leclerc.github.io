@@ -6,7 +6,7 @@ description: "An analysis of Canada's AI regulatory situation after AIDA's failu
 tags: ["AI Governance", "Canada", "AIDA", "Law 25", "Regulation", "Compliance"]
 categories: ["AI Governance"]
 author: "Dominic-André Leclerc"
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: false
