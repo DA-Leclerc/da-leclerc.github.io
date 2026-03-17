@@ -41,5 +41,4 @@ pygmentsUseClasses = true
   env = "production"
   defaultTheme = "auto"
   ShowReadingTime = true
-    ShowToc = false
   ShowToc = false
