@@ -15,58 +15,44 @@ comments: false
 
 ## The Federal Vacuum
 
-Canada's Artificial Intelligence and Data Act (AIDA) is dead. After years of parliamentary debate, the bill died when Parliament was prorogued in early 2025, and there's no indication that a replacement is coming anytime soon. For Canadian organizations trying to adopt AI responsibly, this creates a significant governance vacuum at the federal level.
+Canada's Artificial Intelligence and Data Act (AIDA) is dead. After years of parliamentary debate, the bill died when Parliament was prorogued in early 2025. No replacement is coming anytime soon.
 
-But here's the thing: the absence of a federal AI law doesn't mean the absence of AI regulation. It means something arguably more challenging: a patchwork of provincial rules, sector-specific requirements, and international standards that organizations need to work through without a unified federal framework to guide them.
+For organizations that were waiting for Ottawa to tell them what to do, that clarity isn't arriving. What's arriving instead is a patchwork of provincial rules, international obligations, and a growing expectation from the public that somebody is paying attention to how AI gets used.
 
-## What's Actually Happening Right Now
+## What's Actually Happening on the Ground
 
-### Quebec's Law 25 Is Getting Teeth
+Three things are moving at once, and most Canadian organizations are behind on all of them.
 
-While Ottawa stalls, Quebec's Commission d'accès à l'information (CAI) is actively enforcing Law 25, and the fines are escalating. Law 25 isn't an AI-specific law, but its privacy and transparency requirements have direct implications for any organization using AI to process personal information in Quebec. If your AI system touches Quebecers' data, you're already subject to these requirements.
+**Quebec's Law 25 is in full force.** If your organization handles personal information in Quebec, you already have obligations around automated decision-making. Law 25 requires transparency about how personal information is used in automated decisions, and the Commission d'acces a l'information (CAI) has enforcement power. This isn't theoretical. The CAI has been issuing orders and the penalties are real.
 
-The CAI has been ramping up investigations and penalties, particularly around automated decision-making transparency. Organizations that can't explain how their AI systems use personal data are finding themselves in increasingly uncomfortable conversations with regulators.
+**Ontario is moving on AI in hiring.** Bill 149, the Working for Workers Four Act, introduced requirements around AI use in recruitment. If you're using AI tools to screen resumes, rank candidates, or make hiring decisions in Ontario, you need to disclose it. Similar legislation is being discussed in other provinces.
 
-### Ontario's AI Hiring Disclosure Rule
-
-Ontario has introduced requirements for employers to disclose when AI is used in hiring decisions. This is a sector-specific rule, but it signals a broader trend: provinces are going to fill the gaps that Ottawa leaves behind, each in their own way.
-
-### The EU AI Act Is Reaching Into Canada
-
-Even without domestic federal legislation, Canadian organizations that do business with European clients or partners are increasingly subject to the EU AI Act's requirements. The Act's extraterritorial reach means that if your AI system's outputs affect people in the EU, you may need to comply regardless of where you're based.
+**The EU AI Act is reaching into Canada.** If your AI system's outputs affect people in the EU, you may need to comply regardless of where you're based. The Act's extraterritorial reach means Canadian organizations with European clients or partners are increasingly subject to its requirements.
 
 ## Why This Matters More Than You Think
 
-Many Canadian organizations have been waiting for AIDA to tell them what to do. That clarity isn't coming. Instead, you're facing:
+Organizations that were waiting for AIDA are facing three problems at once.
 
-**Regulatory fragmentation.** Different provinces will implement different rules at different paces. What's compliant in Ontario may not be sufficient in Quebec, and vice versa.
+Regulatory fragmentation. Different provinces are implementing different rules at different speeds. What's compliant in Ontario may not be sufficient in Quebec.
 
-**International pressure.** If you have any cross-border operations, you're likely already subject to the EU AI Act, and potentially other international frameworks.
+International pressure. Any cross-border operation is likely already subject to the EU AI Act, and potentially other international frameworks.
 
-**Reputational risk.** In the absence of clear regulation, public expectations for responsible AI are being shaped by high-profile failures elsewhere. Your customers and stakeholders expect you to get this right, with or without a law telling you to.
+Reputational risk. Without clear regulation, public expectations are being shaped by high-profile failures and media coverage. One bad incident with an AI system can do real damage, whether or not you technically broke a law.
 
-**Talent expectations.** The best AI talent increasingly wants to work for organizations that take governance seriously. A "we'll figure it out when the law passes" approach sends the wrong signal.
+## What to Do Right Now
 
-## What You Should Be Doing Right Now
+You don't need to wait for a federal framework to start building your AI governance. Here's where to focus.
 
-The absence of federal legislation isn't an excuse to wait. If anything, it means you need to be more proactive, not less. Here's what I recommend:
+**Know what AI you're already using.** Most organizations have more AI in their operations than they realize. HR screening tools, customer service chatbots, marketing analytics, predictive maintenance systems. Start with an inventory. You can't govern what you can't see.
 
-**1. Map your AI systems.** You can't govern what you can't see. Create an inventory of every AI system your organization uses, builds, or procures. Include automated decision-making tools that might not be labeled as "AI."
+**Map your regulatory exposure.** If you operate in Quebec, Law 25 applies now. If you hire in Ontario, Bill 149 matters. If you have EU-facing operations, the AI Act is your baseline. Figure out which rules apply to you today, not which ones might apply tomorrow.
 
-**2. Assess your exposure.** For each system, identify which jurisdictions' rules apply. If you operate in Quebec, Law 25 compliance is non-negotiable. If you hire in Ontario, the new disclosure rules apply. If you touch EU data, the AI Act matters.
+**Adopt a recognized framework.** ISO/IEC 42001 gives you a structured approach to AI management that works regardless of which jurisdiction's rules end up applying. Building to an international standard means you're not scrambling every time a new regulation drops.
 
-**3. Build governance now, not later.** Don't wait for a federal framework to build your internal AI governance structure. Organizations that build governance proactively will find it much easier to adapt when federal rules eventually arrive, and they will arrive.
+**Document everything.** Whatever decisions you make about AI, write them down. Transparency and accountability start with being able to show your work when a regulator, client, or stakeholder asks.
 
-**4. Start with risk assessment.** Use a structured framework to assess AI readiness and risk across your organization. This doesn't need to be expensive or complicated, but it does need to be systematic.
+## The Opportunity
 
-**5. Document everything.** Whatever governance decisions you make, document them. Transparency and accountability start with being able to show your work when a regulator, client, or stakeholder asks.
+Organizations that build strong AI governance now, while the rules are still being written, will be ahead when compliance requirements arrive. They'll be more attractive to clients who care about responsible AI. And they'll skip the costly scramble that comes when regulation drops and everyone rushes to comply at once.
 
-## The Opportunity in the Gap
-
-Here's the optimistic take: organizations that build strong AI governance now, while the rules are still being written, will have a significant competitive advantage. They'll be ahead of compliance requirements when they arrive. They'll be more attractive to clients who care about responsible AI. And they'll avoid the costly scramble that comes when regulation drops and everyone rushes to comply at once.
-
-The governance gap isn't a reason to wait. It's a reason to lead.
-
----
-
-*Need help making sense of Canada's shifting AI regulations? I help Quebec and Canadian organizations build practical AI governance frameworks. [Get in touch](/about/) to start the conversation.*
+The governance gap isn't a reason to wait. It's a reason to move.
