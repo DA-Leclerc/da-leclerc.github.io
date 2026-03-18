@@ -15,7 +15,11 @@ Every engagement starts with understanding your situation. Not pushing a templat
 
 ## AI Readiness Assessment
 
-A structured evaluation across six domains: Leadership, Data, Skills, Governance, Processes, and Innovation. You get a clear picture of where your organization stands with AI. The deliverable is a detailed report with a prioritized action plan. Not a vague slide deck.
+My signature service. A structured evaluation using the 6-Domain AI Readiness Framework I built, covering Leadership, Data, Skills, Governance, Processes, and Innovation. Each domain is scored against maturity criteria, and you get a clear picture of where your organization stands.
+
+The deliverable is a detailed report with a prioritized action plan: what to fix first, what can wait, and what you're already doing right. Not a vague slide deck.
+
+The framework is also available as an open-source tool on GitHub if you want to self-assess before we talk.
 
 **Best for:** Organizations considering AI adoption but unsure where to start.
 
@@ -23,30 +27,34 @@ A structured evaluation across six domains: Leadership, Data, Skills, Governance
 
 ## AI Governance & Compliance Advisory
 
-I help you work through Loi 25, the proposed AIDA, and alignment with the EU AI Act. The goal is governance frameworks that are practical and proportionate. Designed for your size, your sector, and your risk profile.
+I help you work through Quebec's Loi 25, federal PIPEDA requirements, and alignment with the EU AI Act and ISO/IEC 42001. The goal is governance frameworks that are practical and proportionate, designed for your size, your sector, and your risk profile.
+
+I'm pursuing ISO/IEC 42001 Lead Implementer and Lead Auditor certifications in 2026 specifically to bring formal AI management system auditing capability to this work.
 
 If your organization handles personal data, operates in a regulated sector, or is preparing for upcoming AI legislation, this is where to start.
 
 ---
 
-## Workshops & Training
+## Workshops
 
-Small group sessions (max 4 participants) built for real understanding, not just awareness. Topics range from AI fundamentals for leadership teams to hands-on governance framework building.
+Small group sessions, max 4 participants, built for real understanding. Half-day or full-day format depending on the topic.
+
+Current workshop offerings:
+
+**AI Governance for Non-Technical Leaders.** For executives, board members, and operations leaders who need to make AI decisions without an engineering background. Covers what AI can realistically do, what governance looks like, and how to evaluate risk.
+
+**AI Readiness: Where to Start.** A hands-on session using my 6-domain framework. Your team walks through each domain, identifies gaps, and leaves with a concrete action plan.
+
+**Building Your First AI Governance Framework.** For compliance officers and project managers who need to stand up governance processes. We build the framework together during the session, tailored to your organization.
 
 Designed for leadership teams, compliance officers, and project managers who need to make real AI decisions, not just pass a quiz.
 
 ---
 
-## Private Advisory Sessions
+## Free 30-Minute AI Readiness Consultation
 
-One-on-one consulting for founders, executives, or team leads who need focused guidance on a specific AI challenge. High-impact, confidential, tailored to your exact situation.
+Not sure if you need any of the above? Start here. A 30-minute conversation where I walk you through the basics of AI readiness, answer your questions, and give you an honest assessment of whether you need help or can handle it yourself.
 
-**Best for:** Executives with specific AI strategy or compliance questions.
+No commitment, no pitch. If I can help, I'll tell you how. If you don't need me, I'll tell you that too.
 
----
-
-## Let's Talk
-
-Every engagement starts with a conversation. No commitment, no sales pitch. Tell me what you're working on and I'll tell you straight whether I can help.
-
-[Book a Call](/contact/)
+[Book a call](/contact/)
