@@ -1,9 +1,9 @@
 /* ================================================================
-    Custom styles for Dominic-AndrÃ© Leclerc â AI Governance Advisor
-    Navy + Teal + Gold theme â inspired by LinkedIn brand identity
+    Custom styles for Dominic-André Leclerc — AI Governance Advisor
+    Navy + Teal + Gold theme — inspired by LinkedIn brand identity
     ================================================================ */
 
-/* â Color System âââââââââââââââââââââââââââââââ */
+/* — Color System ——————————————————————————————— */
 :root {
   --accent-navy: #0f2744;
   --accent-navy-mid: #1a3a5c;
@@ -52,12 +52,12 @@
   --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
-/* â Base & Body âââââââââââââââââââââââââââââââ */
+/* — Base & Body ——————————————————————————————— */
 body {
   background: var(--surface-bg) !important;
 }
 
-/* â Typography âââââââââââââââââââââââââââââââ */
+/* — Typography ——————————————————————————————— */
 .post-content h1 {
   color: var(--text-primary);
   font-weight: 800;
@@ -92,7 +92,7 @@ body {
   font-weight: 600;
 }
 
-/* Links in post content â teal with underline */
+/* Links in post content — teal with underline */
 .post-content a {
   color: var(--accent-teal);
   text-decoration: underline;
@@ -106,7 +106,7 @@ body {
   color: var(--accent-teal-light);
 }
 
-/* â Homepage Hero / Profile ââââââââââââââââââââ */
+/* — Homepage Hero / Profile ———————————————————— */
 .profile_inner h1,
 .home-info .entry-header h1,
 .home-info .entry-hint-parent h1 {
@@ -142,7 +142,7 @@ body {
   padding-left: 1rem;
 }
 
-/* â Header / Navigation âââââââââââââââââââââââ */
+/* — Header / Navigation ——————————————————————— */
 .nav {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -176,7 +176,7 @@ ul.lang-switch a {
   font-weight: 600;
 }
 
-/* â CTA Button (homepage "Learn More") âââââââââ */
+/* — CTA Button (homepage "Learn More") ————————— */
 .cta-button,
 .home-info .entry-content a,
 .home-info .entry-hint-parent a,
@@ -203,7 +203,7 @@ a.btn:hover,
   transform: translateY(-1px);
 }
 
-/* â Social Icons âââââââââââââââââââââââââââââââ */
+/* — Social Icons ——————————————————————————————— */
 .paginav .social-icons a,
 .social-icons a {
   color: var(--text-muted);
@@ -221,7 +221,7 @@ a.btn:hover,
   height: 22px;
 }
 
-/* â Blog Post Cards ââââââââââââââââââââââââââââ */
+/* — Blog Post Cards ———————————————————————————— */
 .post-entry {
   border: 1px solid var(--border-subtle);
   border-radius: 12px;
@@ -278,7 +278,7 @@ a.btn:hover,
   font-size: 0.85rem;
 }
 
-/* â Blockquotes ââââââââââââââââââââââââââââââââ */
+/* — Blockquotes ———————————————————————————————— */
 .post-content blockquote {
   border-left: 4px solid var(--accent-gold);
   background: var(--accent-gold-muted);
@@ -297,7 +297,7 @@ a.btn:hover,
   background: var(--accent-gold-muted);
 }
 
-/* â Tags & Categories ââââââââââââââââââââââââââ */
+/* — Tags & Categories —————————————————————————— */
 .post-tags a,
 .terms-tags a {
   background: var(--accent-teal-muted) !important;
@@ -329,7 +329,7 @@ a.btn:hover,
   color: #0f172a !important;
 }
 
-/* â Table of Contents ââââââââââââââââââââââââââ */
+/* — Table of Contents —————————————————————————— */
 .toc {
   background: var(--surface-card);
   border: 1px solid var(--border-subtle);
@@ -353,7 +353,7 @@ a.btn:hover,
   color: var(--accent-teal);
 }
 
-/* â Breadcrumbs ââââââââââââââââââââââââââââââââ */
+/* — Breadcrumbs ———————————————————————————————— */
 .breadcrumbs a {
   color: var(--accent-teal);
   font-weight: 500;
@@ -368,7 +368,7 @@ a.btn:hover,
   color: var(--text-muted);
 }
 
-/* â Code Blocks âââââââââââââââââââââââââââââââ */
+/* — Code Blocks ——————————————————————————————— */
 .post-content code {
   background: var(--accent-teal-muted);
   color: var(--accent-teal);
@@ -388,7 +388,7 @@ a.btn:hover,
   border: 1px solid var(--border-subtle);
 }
 
-/* â Footer âââââââââââââââââââââââââââââââââââââ */
+/* — Footer ————————————————————————————————————— */
 .footer {
   color: var(--text-muted);
 }
@@ -397,7 +397,7 @@ a.btn:hover,
   color: var(--accent-teal);
 }
 
-/* â Dark Mode Toggle Button âââââââââââââââââââ */
+/* — Dark Mode Toggle Button ——————————————————— */
 #theme-toggle {
   color: var(--text-muted);
   transition: color 0.2s ease;
@@ -407,7 +407,7 @@ a.btn:hover,
   color: var(--accent-gold);
 }
 
-/* â Pagination âââââââââââââââââââââââââââââââââ */
+/* — Pagination ————————————————————————————————— */
 .pagination .page-link {
   color: var(--text-secondary);
   border-radius: 8px;
@@ -419,7 +419,7 @@ a.btn:hover,
   background: var(--accent-teal-muted);
 }
 
-/* â Scroll to top button âââââââââââââââââââââ */
+/* — Scroll to top button ————————————————————— */
 .top-link {
   background: var(--accent-teal) !important;
   color: #ffffff !important;
@@ -427,13 +427,13 @@ a.btn:hover,
   box-shadow: var(--shadow-md);
 }
 
-/* â Selection highlight âââââââââââââââââââââ */
+/* — Selection highlight ————————————————————— */
 ::selection {
   background: rgba(14, 116, 144, 0.2);
   color: var(--text-primary);
 }
 
-/* â Skill Badges on About page âââââââââââââ */
+/* — Skill Badges on About page ————————————— */
 .about-badges span,
 .post-content .badge {
   display: inline-block;
@@ -454,7 +454,7 @@ a.btn:hover,
   border-color: rgba(34, 211, 238, 0.15);
 }
 
-/* â Service cards (blockquotes used as cards) â */
+/* — Service cards (blockquotes used as cards) — */
 .post-content > blockquote:has(strong:first-child),
 .services-card {
   border-left: 4px solid var(--accent-teal);
@@ -470,7 +470,7 @@ a.btn:hover,
   background: var(--surface-card);
 }
 
-/* â Responsive adjustments âââââââââââââââââ */
+/* — Responsive adjustments ————————————————— */
 @media (max-width: 768px) {
   .profile_inner h1,
   .home-info .entry-header h1,
@@ -484,7 +484,7 @@ a.btn:hover,
   }
 }
 
-/* â Smooth transitions for theme switching ââ */
+/* — Smooth transitions for theme switching —— */
 body,
 .nav,
 .post-entry,
@@ -494,7 +494,7 @@ body,
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
-/* â Print styles ââââââââââââââââââââââââââââââ */
+/* — Print styles —————————————————————————————— */
 @media print {
   .post-entry::before {
     display: none;
@@ -504,9 +504,9 @@ body,
     text-decoration: underline;
   }
 
-/* ââââââââââââââââââââââââââââââââââââââââââââââââââ
+/* ——————————————————————————————————————————————————
        SOCIAL ICON HOVER EFFECTS
-       ââââââââââââââââââââââââââââââââââââââââââââââââââ */
+       —————————————————————————————————————————————————— */
 
     .social-icons a {
             transition: all 0.3s ease;
@@ -522,13 +522,13 @@ body,
             transform: translateY(-3px);
             filter: dro
         p
-        -/s*h aââdââoââwââ(ââ0ââ ââ4ââpââxââ ââ1ââ2ââpââxââ âârââgââbââaââ(ââ1ââ4ââ,ââ ââ1
+        -/s*h a——d——o——w——(——0—— ——4——p——x—— ——1——2——p——x—— ——r——g——b——a——(——1——4——,—— ——1
                                                                            1 6 ,  S1O4C4I,A L0 .I4C)O)N; 
         H}O
     V
     E.Rs oEcFiFaElC-TiSc
-    o n s  ââaââ ââsââvââgââ ââ{ââ
-                                ââ ââ ââ ââ ââtâârââaâânââsââiââtââiââoâânââ:ââ ââa l*l/ 
+    o n s  ——a—— ——s——v——g—— ——{——
+                                —— —— —— —— ——t——r——a——n——s——i——t——i——o——n——:—— ——a l*l/ 
                                 0
                                 ..3sso ceiaasle-;i
                                 c}o
@@ -540,12 +540,12 @@ body,
                                                         l}e
              x
              ;/
-             *   â ââ ââaââlââiââgâânââ-ââiââtââeââmââsââ:ââ ââcââeâânââtââeâârââ;ââ
-             ââ ââ â
+             *   — —— ——a——l——i——g——n——-——i——t——e——m——s——:—— ——c——e——n——t——e——r——;——
+             —— —— —
                  j uRsEtAiDfIyN-Gc oPnRtOeGnRtE:S Sc eBnAtRe
              r ; 
-               â ââ ââ ââbââoâârââdââeâârââ-âârââaââdââiââuââsââ:ââ ââ5ââ0ââ%ââ;ââ
-             ââ ââ â  * /p
+               — —— —— ——b——o——r——d——e——r——-——r——a——d——i——u——s——:—— ——5——0——%——;——
+             —— —— —  * /p
              a
              d.drienagd:i n8gp-xp;r
              o}g
@@ -573,9 +573,9 @@ body,
         fill: var(--accent-teal);
 }
 
-/* ââââââââââââââââââââââââââââââââââââââââââââââââââ
+/* ——————————————————————————————————————————————————
    READING PROGRESS BAR
-   ââââââââââââââââââââââââââââââââââââââââââââââââââ */
+   —————————————————————————————————————————————————— */
 
 .reading-progress {
         position: fixed;
