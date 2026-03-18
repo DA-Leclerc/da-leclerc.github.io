@@ -6,9 +6,9 @@ summary: "Avant d'investir dans l'IA, posez ces cinq questions. Les réponses vo
 tags: ["maturité", "évaluation", "stratégie", "PME"]
 categories: ["Stratégie IA"]
 cover:
-  image: ""
-  alt: ""
-  hidden: true
+  image: "/images/is-your-organization-ai-ready-cover.jpg"
+  alt: "Des dirigeants examinant une liste de verification de maturite IA en salle de reunion"
+  hidden: false
 showToc: false
 ---
 
