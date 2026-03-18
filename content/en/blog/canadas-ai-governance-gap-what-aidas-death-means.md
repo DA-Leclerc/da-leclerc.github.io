@@ -5,7 +5,7 @@ summary: "With AIDA dead and no federal AI law in sight, Canadian organizations 
 description: "An analysis of Canada's AI regulatory situation after AIDA's failure, covering Quebec's Law 25 enforcement, Ontario's new AI hiring rules, and what organizations should do to prepare."
 tags: ["AI Governance", "Canada", "AIDA", "Law 25", "Regulation", "Compliance"]
 categories: ["AI Governance"]
-author: "Dominic-AndrÃ© Leclerc"
+author: "Dominic-André Leclerc"
 showToc: true
 TocOpen: false
 draft: false
@@ -23,7 +23,7 @@ But here's the thing: the absence of a federal AI law doesn't mean the absence o
 
 ### Quebec's Law 25 Is Getting Teeth
 
-While Ottawa stalls, Quebec's Commission d'accÃ¨s Ã  l'information (CAI) is actively enforcing Law 25, and the fines are escalating. Law 25 isn't an AI-specific law, but its privacy and transparency requirements have direct implications for any organization using AI to process personal information in Quebec. If your AI system touches Quebecers' data, you're already subject to these requirements.
+While Ottawa stalls, Quebec's Commission d'accès à l'information (CAI) is actively enforcing Law 25, and the fines are escalating. Law 25 isn't an AI-specific law, but its privacy and transparency requirements have direct implications for any organization using AI to process personal information in Quebec. If your AI system touches Quebecers' data, you're already subject to these requirements.
 
 The CAI has been ramping up investigations and penalties, particularly around automated decision-making transparency. Organizations that can't explain how their AI systems use personal data are finding themselves in increasingly uncomfortable conversations with regulators.
 
