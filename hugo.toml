@@ -1,9 +1,8 @@
 baseURL = "https://da-leclerc.github.io/"
-title = "Dominic-André Leclerc"
+title = "Dominic-AndrÃ© Leclerc"
 theme = "PaperMod"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
-
 
 enableRobotsTXT = true
 buildDrafts = false
@@ -12,19 +11,15 @@ buildExpired = false
 enableEmoji = false
 pygmentsUseClasses = true
 
-
 [pagination]
     pagerSize = 10
-
 
 [minify]
     disableXML = true
     minifyOutput = true
 
-
 [outputs]
     home = ["HTML", "RSS", "JSON"]
-
 
 [markup]
   [markup.highlight]
@@ -33,12 +28,151 @@ pygmentsUseClasses = true
     [markup.goldmark.renderer]
       unsafe = true
 
-
-# ── Parameters ──────────────────────────────────────────────────────────────────
-
+# ââ Parameters ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 
 [params]
   env = "production"
   defaultTheme = "auto"
   ShowReadingTime = true
-  ShowToc = false
+  ShowShareButtons = true
+  ShareButtons = ["linkedin"]
+  ShowPostNavLinks = true
+  description = "Dominic-Andre Leclerc - AI Governance Advisor helping organizations adopt AI responsibly."
+  images = ["/images/og-default.svg"]
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  author = "Dominic-AndrÃ© Leclerc"
+  keywords = ["AI governance", "AI compliance", "AI readiness", "Quebec", "Canada", "Loi 25", "AIDA", "consulting"]
+
+  [params.assets]
+    favicon = "/images/favicon.svg"
+
+  [params.label]
+    text = "Dominic-AndrÃ© Leclerc"
+
+  [params.homeInfoParams]
+    Title = "Military-Grade Discipline. AI Governance That Works."
+    Content = "I help Quebec and Canadian organizations adopt AI responsibly. 21 years in the Canadian Armed Forces taught me how systems work, where they break, and how to fix them. I bring that same approach to AI.<br><br>Whether you're running your first AI pilot or building a governance framework, I can help you get it right.<br><br><a href='/about/' class='cta-button'>Learn More About Me</a>"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/dominic-andr%C3%A9-leclerc-4ab90a250/"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/DA-Leclerc"
+  [[params.socialIcons]]
+    name = "email"
+    url = "/contact/"
+
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = true
+
+  [params.editPost]
+    disabled = true
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+# ââ Languages âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+
+[languages]
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    weight = 1
+    title = "Dominic-AndrÃ© Leclerc | AI Advisor"
+    contentDir = "content/en"
+
+    [languages.en.params]
+      description = "AI Governance & Adoption Advisor. Former CAF Warrant Officer, AF9000+ Lead Auditor. Helping Quebec and Canadian organizations adopt AI responsibly."
+
+    [languages.en.params.homeInfoParams]
+      Title = "Military-Grade Discipline. AI Governance That Works."
+      Content = "I help Quebec and Canadian organizations adopt AI responsibly. 21 years in the Canadian Armed Forces taught me how systems work, where they break, and how to fix them. I bring that same approach to AI.<br><br>Whether you're running your first AI pilot or building a governance framework, I can help you get it right.<br><br><a href='/about/' class='cta-button'>Learn More About Me</a>"
+
+  [languages.fr]
+    languageName = "FranÃ§ais"
+    languageCode = "fr"
+    weight = 2
+    title = "Dominic-AndrÃ© Leclerc | Conseiller IA"
+    contentDir = "content/fr"
+
+    [languages.fr.params]
+      description = "Conseiller en gouvernance et adoption responsable de l'IA. Ancien adjudant des FAC, auditeur principal AF9000+. J'aide les organisations quÃ©bÃ©coises et canadiennes Ã  adopter l'IA de faÃ§on responsable."
+
+    [languages.fr.params.homeInfoParams]
+      Title = "Discipline militaire. Gouvernance IA qui fonctionne."
+      Content = "J'aide les organisations quÃ©bÃ©coises et canadiennes Ã  adopter l'IA de faÃ§on responsable. 21 ans dans les Forces armÃ©es canadiennes m'ont appris comment les systÃ¨mes fonctionnent, oÃ¹ ils brisent, et comment les rÃ©parer. J'applique la mÃªme approche Ã  l'IA.<br><br>Que vous lanciez votre premier projet pilote IA ou que vous bÃ¢tissiez un cadre de gouvernance, je peux vous aider Ã  bien faire les choses.<br><br><a href='/fr/a-propos/' class='cta-button'>En savoir plus</a>"
+
+# ââ Menus ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+
+  [languages.en.menu]
+    [[languages.en.menu.main]]
+      identifier = "home-en"
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.en.menu.main]]
+      identifier = "about-en"
+      name = "About"
+      url = "/about/"
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "services-en"
+      name = "Services"
+      url = "/services/"
+      weight = 3
+    [[languages.en.menu.main]]
+      identifier = "blog-en"
+      name = "Blog"
+      url = "/blog/"
+      weight = 4
+    [[languages.en.menu.main]]
+      identifier = "contact-en"
+      name = "Contact"
+      url = "/contact/"
+      weight = 5
+
+  [languages.fr.menu]
+    [[languages.fr.menu.main]]
+      identifier = "home-fr"
+      name = "Accueil"
+      url = "/fr/"
+      weight = 1
+    [[languages.fr.menu.main]]
+      identifier = "about-fr"
+      name = "Ã propos"
+      url = "/fr/a-propos/"
+      weight = 2
+    [[languages.fr.menu.main]]
+      identifier = "services-fr"
+      name = "Services"
+      url = "/fr/services/"
+      weight = 3
+    [[languages.fr.menu.main]]
+      identifier = "blog-fr"
+      name = "Blogue"
+      url = "/fr/blogue/"
+      weight = 4
+    [[languages.fr.menu.main]]
+      identifier = "contact-fr"
+      name = "Contact"
+      url = "/fr/contact/"
+      weight = 5
