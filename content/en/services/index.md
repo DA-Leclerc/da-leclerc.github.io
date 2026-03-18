@@ -2,7 +2,7 @@
 title: "Services"
 description: "AI consulting services: governance, compliance, readiness assessments, and workshops"
 summary: "Practical AI consulting for organizations ready to adopt responsibly."
-showToc: true
+showToc: false
 ---
 
 ## How I Work
@@ -25,7 +25,7 @@ A structured evaluation across six domains: Leadership, Data, Skills, Governance
 
 I help you work through Loi 25, the proposed AIDA, and alignment with the EU AI Act. The goal is governance frameworks that are practical and proportionate. Designed for your size, your sector, and your risk profile.
 
-**Best for:** Organizations handling personal data, regulated industries, or those preparing for upcoming AI legislation.
+If your organization handles personal data, operates in a regulated sector, or is preparing for upcoming AI legislation, this is where to start.
 
 ---
 
@@ -33,7 +33,7 @@ I help you work through Loi 25, the proposed AIDA, and alignment with the EU AI 
 
 Small group sessions (max 4 participants) built for real understanding, not just awareness. Topics range from AI fundamentals for leadership teams to hands-on governance framework building.
 
-**Best for:** Leadership teams, compliance officers, and project managers who need to make informed AI decisions.
+Designed for leadership teams, compliance officers, and project managers who need to make real AI decisions, not just pass a quiz.
 
 ---
 
