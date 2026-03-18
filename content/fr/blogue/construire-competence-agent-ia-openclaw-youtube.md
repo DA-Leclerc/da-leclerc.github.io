@@ -6,7 +6,7 @@ description: "Un parcours de la construction d'une compétence d'agent OpenClaw 
 tags: ["IA", "OpenClaw", "Automatisation", "Python", "Open Source"]
 categories: ["Projets"]
 author: "Dominic-André Leclerc"
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: false
