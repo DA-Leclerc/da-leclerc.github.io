@@ -11,6 +11,10 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+cover:
+  image: "/images/canadas-ai-governance-gap-cover.jpg"
+  alt: "Le Parlement avec une legislation IA dechiquetee tandis que les dirigeants font face a l incertitude"
+  hidden: false
 ---
 
 ## Le vide fédéral
