@@ -11,6 +11,10 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+cover:
+  image: "/images/building-ai-agent-skill-openclaw-cover.jpg"
+  alt: "Un robot pince construit dans un atelier qui automatise la recherche YouTube"
+  hidden: false
 ---
 
 ## Le problème : trop de vidéos, pas assez de temps
