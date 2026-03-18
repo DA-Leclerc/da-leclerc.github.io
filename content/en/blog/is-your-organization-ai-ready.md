@@ -6,9 +6,9 @@ summary: "Before investing in AI, ask these five questions. The answers will tel
 tags: ["readiness", "assessment", "strategy", "SMB"]
 categories: ["AI Strategy"]
 cover:
-  image: ""
-  alt: ""
-  hidden: true
+  image: "/images/is-your-organization-ai-ready-cover.jpg"
+  alt: "Business leaders examining an AI readiness checklist in a boardroom"
+  hidden: false
 showToc: false
 ---
 
