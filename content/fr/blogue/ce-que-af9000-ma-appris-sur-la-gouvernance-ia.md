@@ -9,7 +9,7 @@ cover:
   image: ""
   alt: ""
   hidden: true
-showToc: true
+showToc: false
 ---
 
 ## Les parallèles dont personne ne parle
