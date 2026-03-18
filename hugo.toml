@@ -59,8 +59,8 @@ pygmentsUseClasses = true
     text = "Dominic-André Leclerc"
 
   [params.homeInfoParams]
-    Title = "Military-Grade Discipline. AI Governance That Works."
-    Content = "I help Quebec and Canadian organizations adopt AI responsibly. 21 years in the Canadian Armed Forces taught me how systems work, where they break, and how to fix them. I bring that same approach to AI.<br><br>Whether you're running your first AI pilot or building a governance framework, I can help you get it right.<br><br><a href='/about/' class='cta-button'>Learn More About Me</a>"
+    Title = "Paradigm Shift: Practical AI for Real Organizations"
+    Content = "AI adoption is moving fast. Governance is not keeping up. This blog is about closing that gap: practical frameworks, real-world lessons, and honest takes on what it actually takes to adopt AI responsibly.<br><br>Based in Quebec, writing for anyone bringing AI into their organization, whether you're evaluating your first use case or scaling across the company.<br><br><a href='/about/' class='cta-button'>Learn More About Me</a>"
 
   [[params.socialIcons]]
     name = "linkedin"
@@ -118,8 +118,8 @@ pygmentsUseClasses = true
       description = "Conseiller en gouvernance et adoption responsable de l'IA. Ancien adjudant des FAC, auditeur principal AF9000+. J'aide les organisations québécoises et canadiennes à adopter l'IA de façon responsable."
 
     [languages.fr.params.homeInfoParams]
-      Title = "Discipline militaire. Gouvernance IA qui fonctionne."
-      Content = "J'aide les organisations québécoises et canadiennes à adopter l'IA de façon responsable. 21 ans dans les Forces armées canadiennes m'ont appris comment les systèmes fonctionnent, où ils brisent, et comment les réparer. J'applique la même approche à l'IA.<br><br>Que vous lanciez votre premier projet pilote IA ou que vous bâtissiez un cadre de gouvernance, je peux vous aider à bien faire les choses.<br><br><a href='/fr/a-propos/' class='cta-button'>En savoir plus</a>"
+      Title = "Changement de paradigme : l'IA pratique pour les vraies organisations"
+      Content = "L'adoption de l'IA va vite. La gouvernance ne suit pas. Ce blogue vise a combler cet ecart : des cadres pratiques, des lecons terrain, et des prises de position honnetes sur ce que ca prend vraiment pour adopter l'IA de facon responsable.<br><br>Base au Quebec, j'ecris pour quiconque envisage d'integrer l'IA dans son organisation, que vous en soyez a la reflexion ou deja en pleine implantation.<br><br><a href='/fr/a-propos/' class='cta-button'>En savoir plus</a>"
 
 # ── Menus ──────────────────────────────────────────────────────────────────────
 
