@@ -6,9 +6,9 @@ summary: "Après 21 ans dans les Forces armées canadiennes, j'ai fait le virage
 tags: ["carrière", "personnel", "militaire", "transition"]
 categories: ["Personnel"]
 cover:
-  image: ""
-  alt: ""
-  hidden: true
+  image: "/images/from-avionics-to-algorithms-cover.jpg"
+  alt: "Une personne en transition entre la maintenance aeronautique militaire et le travail en IA"
+  hidden: false
 showToc: false
 ---
 
