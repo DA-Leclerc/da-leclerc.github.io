@@ -6,9 +6,9 @@ summary: "After 21 years in the Canadian Armed Forces, I pivoted to AI consultin
 tags: ["career", "personal", "military", "transition"]
 categories: ["Personal"]
 cover:
-  image: ""
-  alt: ""
-  hidden: true
+  image: "/images/from-avionics-to-algorithms-cover.jpg"
+  alt: "A person transitioning from military aircraft maintenance to AI work"
+  hidden: false
 showToc: false
 ---
 
