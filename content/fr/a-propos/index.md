@@ -1,44 +1,31 @@
 ---
 title: "À propos"
-description: "Dominic-André Leclerc. Conseiller en gouvernance et adoption responsable de l'IA. 21 ans de discipline militaire au service de la gouvernance IA."
-summary: "21 ans de discipline militaire. Une nouvelle mission en gouvernance IA."
+description: "Dominic-André Leclerc. Conseiller en gouvernance et adoption responsable de l'IA."
+summary: "Conseiller en gouvernance IA. 21 ans de discipline militaire appliquée à l'adoption responsable de l'IA."
 showToc: false
 ---
 
-## De l'avionique aux algorithmes
+## Ce que je fais
 
-J'ai passé 21 ans dans les Forces armées canadiennes. J'ai commencé comme technicien en avionique sur les CF-188 Hornet, je suis devenu technicien de guerre électronique, puis j'ai bifurqué vers la gestion de la qualité comme auditeur chef AF9000+, et j'ai terminé comme adjudant à la tête d'une cellule d'instruction de 10 personnes à l'ELRFC de Saint-Jean-sur-Richelieu.
+J'aide les organisations à adopter l'IA de façon responsable. Concrètement, ça veut dire des évaluations de maturité structurées, des cadres de gouvernance qui fonctionnent en pratique, et de l'accompagnement en conformité ancré dans la réalité de votre organisation. Pas de théorie. Pas de rapports qui ramassent la poussière sur une tablette.
 
-Ce n'était pas un changement de carrière aléatoire. Les mêmes compétences qui assuraient la sécurité et la conformité des systèmes aéronautiques (audit systématique, évaluation des risques, amélioration des processus et leadership d'équipe) sont exactement ce dont les organisations ont besoin pour adopter l'IA de façon responsable.
+Mes clients sont généralement des organisations québécoises et canadiennes (50 à 500 personnes) qui essaient de comprendre où elles en sont avec l'IA, quelles réglementations s'appliquent à elles, et comment avancer sans créer des risques qu'elles ne peuvent pas gérer.
 
 ---
 
-## Ce que j'apporte
+## D'où ça vient
 
-<div class="credentials">
-  <span class="credential-badge">Auditeur chef AF9000+</span>
-  <span class="credential-badge">Superviseur cellule d'instruction</span>
-  <span class="credential-badge">21 ans FAC</span>
-  <span class="credential-badge">Bilingue FR/EN</span>
-  <span class="credential-badge">Éthique et gouvernance IA</span>
-  <span class="credential-badge">Saguenay, QC</span>
-</div>
+Avant la gouvernance IA, j'ai passé 21 ans dans les Forces armées canadiennes. J'ai commencé comme technicien en avionique sur les CF-188 Hornet, je suis passé à la guerre électronique, puis j'ai bifurqué vers la gestion de la qualité comme auditeur chef AF9000+. J'ai terminé comme adjudant à la tête d'une cellule d'instruction de 10 personnes à l'ÉLRFC de Saint-Jean-sur-Richelieu.
 
-Mon approche est ancrée dans ce qui fonctionne. J'ai passé deux décennies dans des environnements où les systèmes qualité ne sont pas optionnels. Ils protègent des vies. J'apporte cette même rigueur à la gouvernance IA : structurée, pratique, et construite pour des organisations réelles avec des contraintes réelles.
-
-Je me spécialise à aider les organisations à comprendre où elles en sont avec l'IA (par des évaluations de maturité structurées), quels risques elles courent, et comment bâtir une gouvernance qui fonctionne vraiment en pratique.
+Le lien est direct. Audit systématique, évaluation des risques, amélioration des processus, leadership d'équipe : ce sont les mêmes compétences dont les organisations ont besoin pour bien réussir leur adoption de l'IA. Le contexte a changé; la discipline, non.
 
 ---
 
 ## Mon approche
 
-Chaque mandat commence par comprendre votre contexte, pas par imposer une solution préfabriquée. Je crois qu'une bonne gouvernance de l'IA doit être :
+Chaque mandat commence par comprendre votre contexte. Je n'impose pas de solutions préfabriquées.
 
-**Pratique :** des cadres que votre équipe peut réellement suivre, pas des documents tablettés.
-
-**Proportionnée :** des contrôles adaptés à votre niveau de risque, pas du mur-à-mur.
-
-**Progressive :** conçue pour évoluer avec votre maturité IA et la réglementation.
+Je pense qu'une bonne gouvernance de l'IA doit être pratique (des cadres que votre équipe peut réellement suivre), proportionnée (des contrôles adaptés à votre niveau de risque, pas du mur-à-mur), et conçue pour évoluer avec votre maturité IA et l'environnement réglementaire. Un cadre de gouvernance qui ne peut pas grandir avec vous est déjà dépassé.
 
 ---
 
