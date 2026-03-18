@@ -119,7 +119,7 @@ pygmentsUseClasses = true
 
     [languages.fr.params.homeInfoParams]
       Title = "Changement de paradigme : l'IA pratique pour les vraies organisations"
-      Content = "L'adoption de l'IA va vite. La gouvernance ne suit pas. Ce blogue vise a combler cet ecart : des cadres pratiques, des lecons terrain, et des prises de position honnetes sur ce que ca prend vraiment pour adopter l'IA de facon responsable.<br><br>Base au Quebec, j'ecris pour quiconque envisage d'integrer l'IA dans son organisation, que vous en soyez a la reflexion ou deja en pleine implantation.<br><br><a href='/fr/a-propos/' class='cta-button'>En savoir plus</a>"
+      Content = "L'adoption de l'IA va vite. La gouvernance ne suit pas. Ce blogue vise a combler cet écart : des cadres pratiques, des leçons terrain, et des prises de position honnêtes sur ce que ça prend vraiment pour adopter l'IA de façon responsable.<br><br>Basé au Québec, j'écris pour quiconque envisage d'intégrer l'IA dans son organisation, que vous en soyez à la réflexion ou déjà en pleine implantation.<br><br><a href='/fr/a-propos/' class='cta-button'>En savoir plus</a>"
 
 # ── Menus ──────────────────────────────────────────────────────────────────────
 
