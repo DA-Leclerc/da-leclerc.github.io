@@ -1,59 +1,61 @@
 ---
 title: "De l'avionique aux algorithmes : mon histoire de reconversion"
 date: 2026-03-09
-description: "Après 21 ans dans les Forces armées canadiennes, j'ai fait le virage vers le conseil en IA. Voici pourquoi, comment, et ce que j'ai appris en recommençant avec un objectif."
-summary: "Après 21 ans dans les Forces armées canadiennes, j'ai fait le virage vers le conseil en IA."
-tags: ["carrière", "personnel", "militaire", "transition"]
+description: "AprÃ¨s 21 ans dans les Forces armÃ©es canadiennes, j'ai fait le virage vers le conseil en IA. Voici pourquoi, comment, et ce que j'ai appris en recommenÃ§ant avec un objectif."
+summary: "AprÃ¨s 21 ans dans les Forces armÃ©es canadiennes, j'ai fait le virage vers le conseil en IA."
+tags: ["carriÃ¨re", "personnel", "militaire", "transition"]
 categories: ["Personnel"]
 cover:
   image: ""
   alt: ""
   hidden: true
-showToc: false
+showToc: true
 ---
 
-## La décision
+## La dÃ©cision
 
-J'ai pas quitté les Forces armées canadiennes parce que j'en avais assez du travail. Je suis parti parce que j'ai vu quelque chose de plus grand à quoi je pouvais contribuer.
+AprÃ¨s 21 ans comme adjudant dans les Forces armÃ©es canadiennes, je ne suis pas parti parce que j'en avais assez du travail. Je suis parti parce que j'ai vu quelque chose de plus grand Ã  quoi je pouvais contribuer.
 
-Vingt et un ans comme adjudant. J'ai commencé comme technicien en avionique sur les CF-188 Hornet, passé à la guerre électronique, puis à la gestion de la qualité comme Lead Auditor AF9000+, et terminé en supervisant une cellule d'instruction de 12 personnes au CFLRS à Saint-Jean-sur-Richelieu. Chacun de ces rôles revenait à la même idée : les systèmes complexes ont besoin d'une supervision rigoureuse et centrée sur l'humain pour fonctionner de façon sécuritaire.
+Ma carriÃ¨re militaire s'est construite autour d'une seule idÃ©e : les systÃ¨mes complexes ont besoin d'une supervision rigoureuse et centrÃ©e sur l'humain pour fonctionner de faÃ§on sÃ©curitaire. En avionique, Ã§a voulait dire que chaque fil, chaque connecteur, chaque procÃ©dure de test avait une norme documentÃ©e, une piste d'audit et une personne formÃ©e qui en Ã©tait responsable. Quand je dirigeais la cellule d'instruction, j'Ã©tais la personne qui s'assurait que tout le monde pouvait exÃ©cuter ces normes  pas juste les suivre mÃ©caniquement, mais comprendre pourquoi elles existaient.
 
-En avionique, ça voulait dire que chaque fil, chaque connecteur, chaque procédure de test avait un standard documenté, une piste d'audit et une personne formée qui en était responsable. À la cellule d'instruction, ça voulait dire construire des cadres de formation qui pouvaient transformer des recrues en techniciens compétents à travers un processus structuré et répétable.
+Cette idÃ©e  que les systÃ¨mes complexes ont besoin de gouvernance, et que la gouvernance a besoin de gens qui comprennent Ã  la fois le systÃ¨me et les humains qui l'opÃ¨rent  c'est exactement ce qui manque dans le domaine de l'IA.
 
-Puis j'ai commencé à regarder ce qui se passait avec l'IA.
+## Ce que j'ai remarquÃ©
 
-## Le parallèle
+Encore en service, j'ai commencÃ© Ã  observer comment les organisations adoptaient l'IA. Ce que j'ai vu m'inquiÃ©tait. Pas parce que la technologie Ã©tait dangereuse  mais parce que l'approche Ã©tait imprudente. Des entreprises dÃ©ployaient des outils d'IA sans cadre de gouvernance, sans Ã©valuation des risques, sans plan de gestion du changement et sans formation pour les utilisateurs.
 
-Des organisations déployaient des systèmes IA sans documentation, sans pistes d'audit, sans responsabilité claire, et sans formation pour les gens qui les utilisaient. Ça ressemblait exactement à ce qui arrive quand tu sautes la gestion de la qualité en maintenance aéronautique. Tout marche bien jusqu'à ce que ça marche plus. Et quand ça marche plus, personne peut retracer ce qui a mal été ou pourquoi.
+J'avais passÃ© deux dÃ©cennies dans un monde oÃ¹ on ne lance pas un systÃ¨me tant que les processus, la documentation et la formation ne sont pas en place. Regarder des entreprises lancer l'IA sans tout Ã§a, c'Ã©tait comme regarder quelqu'un sauter la liste de vÃ©rification prÃ©-vol.
 
-L'écart entre où la gouvernance IA était et où elle devait être ressemblait à un problème pour lequel j'étais bâti. Pas parce que je suis ingénieur logiciel. Parce que j'ai passé deux décennies à apprendre comment construire des systèmes de supervision pour de la technologie complexe, et l'IA avait besoin de cette pensée plus que de n'importe quoi d'autre.
+## Le virage
 
-## L'année entre les deux
+Je n'ai pas dÃ©missionnÃ© pour rÃ©flÃ©chir aprÃ¨s. J'ai planifiÃ© la transition encore en uniforme. Je me suis inscrit au cours d'Ã©thique de l'IA de l'UniversitÃ© d'Helsinki. J'ai Ã©tudiÃ© la Loi 25 du QuÃ©bec et le projet de loi fÃ©dÃ©ral LIAD. J'ai construit un cadre d'Ã©valuation de maturitÃ© IA basÃ© sur les six domaines qui comptent le plus : Leadership, DonnÃ©es, CompÃ©tences, Gouvernance, Processus et Innovation.
 
-Avant de lancer Nord Paradigm, ma femme Audrey, notre fils Nathaniel et moi, on a passé un an à voyager. Seize pays. C'était pas des vacances; c'était un reset. Après 21 ans de structure militaire, j'avais besoin de décompresser, réfléchir, et figurer ce que je voulais vraiment construire.
+J'ai appris par moi-mÃªme Ã  construire des agents IA  pas parce que je voulais devenir dÃ©veloppeur, mais parce que je crois qu'on ne peut pas gouverner ce qu'on ne comprend pas. J'utilise maintenant des outils comme Claude et des pipelines d'automatisation personnalisÃ©s dans mon travail quotidien. Le conseil que je fais est meilleur parce que j'ai construit des choses moi-mÃªme.
 
-Cette année-là a fait quelque chose d'important. Ça m'a donné la distance par rapport à l'institution et la clarté sur quelles compétences j'avais bâties qui avaient de la valeur en dehors. Assis dans les aéroports, à observer comment différents pays organisaient leurs systèmes (traitement de l'immigration, transport en commun, opérations hôtelières), le cerveau d'auditeur s'est jamais éteint. J'évaluais tout avec la même lentille que j'utilisais pour les programmes de maintenance.
+## Ce qui s'est transfÃ©rÃ©
 
-Quand on est revenus au Saguenay, je savais exactement ce que je voulais faire.
+Presque tout. Le militaire ne reÃ§oit pas assez de crÃ©dit pour les compÃ©tences transfÃ©rables qu'il dÃ©veloppe. Voici ce qui a suivi directement :
 
-## Ce qui s'est transféré
+**La pensÃ©e systÃ©matique.** On ne peut pas auditer un systÃ¨me complexe au feeling. Il faut des cadres, des critÃ¨res et des preuves. La gouvernance IA exige la mÃªme discipline.
 
-Presque tout. Le militaire reçoit pas assez de crédit pour les compétences transférables qu'il développe.
+**Enseigner des concepts complexes simplement.** La cellule d'instruction m'a appris Ã  prendre du matÃ©riel technique compliquÃ© et Ã  le rendre accessible Ã  des gens de diffÃ©rents horizons. C'est exactement ce dont les ateliers IA ont besoin.
 
-La pensée systématique a suivi directement. Tu peux pas auditer un système complexe au feeling. Tu as besoin de cadres, de critères et de preuves. La gouvernance IA demande la même discipline.
+**Le confort dans l'ambiguÃ¯tÃ©.** Les opÃ©rations militaires se dÃ©roulent rarement exactement comme prÃ©vu. On apprend Ã  prendre des dÃ©cisions avec de l'information incomplÃ¨te, Ã  s'adapter rapidement et Ã  maintenir les standards sous pression. L'adoption de l'IA est remplie de la mÃªme ambiguÃ¯tÃ©.
 
-Enseigner des concepts complexes simplement. La cellule d'instruction m'a appris à prendre du matériel technique compliqué et le rendre accessible à des gens avec des backgrounds différents. C'est exactement ce que les ateliers IA ont besoin.
+**La culture qualitÃ©.** Dans les environnements AF9000+, la qualitÃ© n'est pas un dÃ©partement  c'est le travail de tout le monde. Cette mentalitÃ©, c'est ce que j'essaie de construire dans les organisations avec lesquelles je travaille. Une gouvernance IA qui vit dans un document de politique que personne ne lit est inutile. Ãa doit faire partie de la faÃ§on dont les gens travaillent.
 
-Le confort avec l'ambiguïté. Les opérations militaires se passent rarement comme prévu. Tu apprends à prendre des décisions avec de l'information incomplète, à t'adapter vite, et à maintenir les standards sous pression. L'adoption de l'IA est pleine de la même incertitude.
+## Ce que j'ai dÃ» apprendre
 
-La culture de qualité. En AF9000+, la qualité c'est pas un département. C'est la job de tout le monde. Cette mentalité, c'est exactement ce que j'essaie de construire dans les organisations avec qui je travaille.
+Beaucoup de choses. La rÃ©glementation Ã©tait un territoire nouveau  la Loi 25 est spÃ©cifique au QuÃ©bec, la LIAD est fÃ©dÃ©rale, et la Loi europÃ©enne sur l'IA a des implications mondiales. J'ai dÃ» apprendre le mÃ©tier de consultant : tarification, positionnement, gestion de clientÃ¨le. J'ai dÃ» construire un rÃ©seau professionnel dans un domaine complÃ¨tement nouveau.
 
-## Ce que j'ai construit
+Et j'ai dÃ» m'habituer Ã  Ãªtre dÃ©butant Ã  nouveau. AprÃ¨s deux dÃ©cennies Ã  Ãªtre l'expert dans la salle, recommencer a Ã©tÃ© humiliant. Mais le militaire m'a enseignÃ© quelque chose d'utile lÃ -dessus aussi : la compÃ©tence se construit, elle ne naÃ®t pas. Tu te prÃ©sentes, tu fais le travail, et tu gagnes ta crÃ©dibilitÃ©.
 
-Nord Paradigm se concentre sur l'audit de gouvernance IA, la conformité ISO/IEC 42001, et les stratégies d'adoption pratiques pour les organisations québécoises et canadiennes. Je fais des évaluations de maturité, je construis des cadres de gouvernance, j'anime des ateliers de littératie IA, je fais des évaluations d'impact, et j'offre des services-conseils. Le tout ancré dans les mêmes principes qui gardaient les systèmes aéronautiques sécuritaires et conformes.
+## OÃ¹ j'en suis maintenant
 
-J'ai aussi construit OpenClaw, un écosystème autonome de six agents IA qui roule sur infrastructure locale. Construit en une semaine en partant de zéro. Pas parce qu'un client l'a demandé, mais parce que j'apprends en construisant. Le conseil que je fais est meilleur parce que j'ai bâti des choses moi-même.
+Je suis basÃ© au Saguenay, QC, et je travaille avec des organisations quÃ©bÃ©coises et canadiennes sur la maturitÃ© IA, la gouvernance et la conformitÃ©. J'anime des ateliers, je mÃ¨ne des Ã©valuations et j'offre des services-conseils  le tout ancrÃ© dans les mÃªmes principes qui gardaient les systÃ¨mes aÃ©ronautiques sÃ©curitaires et conformes.
 
-## La partie honnête
+Le virage de carriÃ¨re n'a pas Ã©tÃ© facile. Mais chaque conversation que j'ai avec un dirigeant qui comprend soudainement ce que la gouvernance IA veut vraiment dire  qui a ce moment Â« eureka Â»  confirme que c'Ã©tait le bon appel.
 
-Le virage de carrière a pas été facile. Partir après 21 ans voulait dire laisser derrière une timeline de pension, une communauté, et une identité que j'avais depuis mes 19 ans. Mais chaque conversation que j'ai avec un dirigeant qui comprend soudainement ce que la gouvernance IA veut vraiment dire confirme que c'était le bon call.
+---
+
+*Vous pensez Ã  un virage de carriÃ¨re, ou vous voulez discuter de gouvernance IA pour votre organisation ? [Ãcrivez-moi](mailto:domleclerc@gmail.com).*
