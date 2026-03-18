@@ -57,6 +57,8 @@ pygmentsUseClasses = true
 
   [params.label]
     text = "Dominic-André Leclerc"
+    icon = "/images/nav-logo.png"
+    iconHeight = 28
 
   [params.homeInfoParams]
     Title = "Military-Grade Discipline. AI Governance That Works."
