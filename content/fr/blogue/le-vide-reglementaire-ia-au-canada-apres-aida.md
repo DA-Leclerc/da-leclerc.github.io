@@ -6,7 +6,7 @@ description: "Une analyse de la situation réglementaire canadienne en matière 
 tags: ["Gouvernance IA", "Canada", "LIAD", "Loi 25", "Réglementation", "Conformité"]
 categories: ["Gouvernance IA"]
 author: "Dominic-André Leclerc"
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: false
