@@ -6,9 +6,9 @@ summary: "L'audit qualité militaire et la gouvernance IA ont plus en commun qu'
 tags: ["gouvernance", "qualité", "militaire", "AF9000+"]
 categories: ["Gouvernance IA"]
 cover:
-  image: ""
-  alt: ""
-  hidden: true
+  image: "/images/what-af9000-taught-me-cover.jpg"
+  alt: "Un inspecteur militaire appliquant une approche d audit systematique aux systemes d IA"
+  hidden: false
 showToc: false
 ---
 
