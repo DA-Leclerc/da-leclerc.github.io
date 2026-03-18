@@ -17,71 +17,48 @@ cover:
   hidden: false
 ---
 
-## The Problem: Too Much Video, Not Enough Time
+## The Problem
 
-If you work in AI governance (or any fast-moving field), you know the feeling. Your YouTube subscriptions pile up with conference talks, policy briefings, and expert interviews. Each one could contain a critical insight, but who has time to watch them all?
+If you work in AI governance, you know the feeling. Your YouTube subscriptions are full of relevant content: conference talks, expert interviews, policy discussions. But who has time to watch 47 minutes of a panel discussion to extract the three points that actually matter?
 
-I wanted a system that could automatically pull transcripts from YouTube channels I follow, run them through an AI agent for analysis, and deliver concise summaries straight to my phone. So I built one.
+I built a solution using OpenClaw, the multi-agent AI system I run locally. The YouTube transcript pipeline is now one of its agent skills, and it runs every night while I sleep.
 
-## Enter OpenClaw
+## What OpenClaw Is
 
-[OpenClaw](https://github.com/punkpeye/openclaw) is an open-source AI agent platform that lets you build modular "skills": self-contained capabilities that agents can use to accomplish tasks. Think of it as a plugin system for AI assistants, where each skill has its own logic, configuration, and can be triggered on a schedule.
+OpenClaw is a six-agent AI ecosystem I built on local infrastructure, where each agent has specific skills and responsibilities. The agents communicate through a shared task queue and can call on each other's skills. The YouTube pipeline became a natural addition: a skill that any agent can use when video intelligence is needed.
 
-What drew me to OpenClaw was its practical architecture: skills are just Python scripts with a YAML config, workspaces keep your data organized, and the built-in cron system means you can automate workflows without spinning up separate infrastructure.
+Running it on my own hardware matters for data privacy and cost control.
 
-## What I Built
+## How the Pipeline Works
 
-My [openclaw-youtube-skill](https://github.com/DA-Leclerc/openclaw-youtube-skill) is a hybrid transcript pipeline that works in two stages:
+The transcript extraction pipeline has two paths.
 
-**Stage 1: Try the easy way first.** The skill uses yt-dlp to check if YouTube already has captions available for a video (either auto-generated or manually uploaded). If they exist, we grab them directly. This is fast, free, and works for the vast majority of content.
+**Path 1: Caption-based extraction.** Most YouTube videos have auto-generated or manually uploaded captions. The pipeline uses yt-dlp to check for available captions and downloads them directly. This is fast, free, and accurate for videos that have good captions.
 
-**Stage 2: Fall back to Whisper.** When captions aren't available (which happens more often than you'd expect with niche content, live recordings, or non-English videos), the skill downloads the audio and runs it through OpenAI's Whisper model for local speech-to-text transcription. Whisper handles multiple languages well, which matters when you're tracking both English and French content.
+**Path 2: Whisper fallback.** When captions aren't available or are poor quality, the pipeline downloads the audio and runs it through OpenAI's Whisper model locally. This is slower but handles podcasts, interviews, and videos in multiple languages.
 
-The pipeline includes:
+The pipeline automatically detects which path to use, processes the content, and outputs clean, formatted text ready for AI analysis.
 
-- **grab_transcript.sh:** Handles a single video: checks for captions, falls back to Whisper, outputs clean text
-- **run_batch.sh:** Processes entire channels or playlists on a schedule
-- **skill/youtube.py:** The OpenClaw skill interface that agents use to request and process transcripts
-- **skill/youtube.yaml:** Configuration defining when and how the skill runs
+## The Stack
+
+The technical setup is straightforward: yt-dlp downloads videos and extracts captions, Whisper runs locally on my hardware with no API costs and no data leaving my network, Python scripts handle the pipeline logic that checks for captions and falls back to Whisper, run_batch.sh processes entire channels or playlists on a schedule, skill/youtube.py provides the OpenClaw skill interface that agents use to request and process transcripts, and skill/youtube.yaml configures when and how the skill runs.
 
 ## The Automation Layer
 
-The real power isn't in grabbing transcripts. It's in what happens next. With OpenClaw's cron system, I have nightly jobs that:
+The real power isn't in grabbing transcripts. It's in what happens next. With OpenClaw's cron system, nightly jobs pull new videos from a curated list of channels focused on AI policy, governance, and technology law, extract transcripts using the hybrid pipeline, pass them to an AI agent for summarization and key-point extraction, and deliver formatted reports via Telegram.
 
-1. Pull new videos from a curated list of channels (AI policy, governance, technology law)
-2. Extract transcripts using the hybrid pipeline
-3. Pass them to an AI agent for summarization and key-point extraction
-4. Deliver formatted reports via Telegram
-
-This means I wake up every morning with a digest of yesterday's most relevant AI content, already summarized and ready to reference. For someone building expertise in AI governance consulting, this is worth every minute.
+I wake up every morning with a digest of yesterday's most relevant AI content, already summarized and ready to reference. For someone building expertise in AI governance consulting, this is worth every minute I spent building it.
 
 ## Lessons Learned
 
-**Start with the shell, then wrap it.** I built the core pipeline as bash scripts first, tested them thoroughly, then wrapped them in the Python skill interface. This made debugging much easier and kept the components independently useful.
+Start with the shell and then wrap. I built the core pipeline as bash and Python scripts first, then wrapped it as an OpenClaw skill. This made debugging much easier and let me test each component independently.
 
-**Whisper is impressive but resource-hungry.** Running Whisper locally gives you privacy and avoids API costs, but you need decent hardware. For the nightly batch jobs, I schedule them during off-hours so the processing doesn't compete with other work.
+Whisper is surprisingly good locally. Running it on a decent GPU gives results comparable to the API with zero cost per transcription, and for batch processing the speed is acceptable.
 
-**The 80/20 of transcripts.** About 85% of videos have captions available through YouTube. The Whisper fallback handles the remaining 15%, but it's that 15% that often contains the most valuable niche content, the conference talks and panel discussions that don't get professional captioning.
+Curation matters more than volume. I started by indexing every AI-related channel I could find, but the signal-to-noise ratio was terrible. Now I maintain a curated list of about 20 channels that consistently produce content worth reading. Less input, better output.
 
-**Multilingual matters in Canada.** Operating in both English and French isn't optional for AI governance work in Quebec and Canada. Whisper's multilingual support made this feasible without maintaining separate pipelines for each language.
+The skill abstraction pays off. By building this as an OpenClaw skill rather than a standalone script, any agent in the system can request YouTube intelligence. The research agent uses it to prepare briefings, the content agent uses it to find reference material, and the same pipeline serves multiple purposes.
 
-## Why This Matters for AI Governance
+## What's Next
 
-This project isn't just a technical exercise. It's a practical example of responsible AI automation. The skill:
-
-- **Respects platform terms** by using official caption APIs before falling back to audio processing
-- **Keeps data local** with on-device Whisper transcription rather than sending audio to third-party APIs
-- **Is transparent and open-source**, so anyone can audit what it does and how
-- **Solves a real workflow problem** rather than being AI for AI's sake
-
-These are exactly the principles I advocate for when helping organizations adopt AI: start with a genuine need, choose the least invasive technical approach, be transparent about what the system does, and keep humans in the loop for decisions that matter.
-
-## Try It Yourself
-
-The project is open source and available on GitHub: [DA-Leclerc/openclaw-youtube-skill](https://github.com/DA-Leclerc/openclaw-youtube-skill)
-
-Whether you're interested in AI agent platforms, YouTube automation, or just want a better way to keep up with video content in your field, feel free to fork it and make it your own.
-
----
-
-*Have questions about building AI agent skills or automating research workflows? [Get in touch](/about/), I'm always happy to talk about practical AI automation.*
+I'm working on adding speaker identification to the pipeline so I can track which experts are saying what across different videos, and building a searchable archive of processed transcripts. The goal is a personal AI governance knowledge base that grows automatically.
