@@ -1,5 +1,5 @@
 baseURL = "https://da-leclerc.github.io/"
-title = "Dominic-AndrÃ© Leclerc"
+title = "Dominic-André Leclerc"
 theme = "PaperMod"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -28,7 +28,7 @@ pygmentsUseClasses = true
     [markup.goldmark.renderer]
       unsafe = true
 
-# ââ Parameters ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# ── Parameters ──────────────────────────────────────────────────────────────────
 
 [params]
   env = "production"
@@ -49,14 +49,14 @@ pygmentsUseClasses = true
   hidemeta = false
   hideSummary = false
   showtoc = true
-  author = "Dominic-AndrÃ© Leclerc"
+  author = "Dominic-André Leclerc"
   keywords = ["AI governance", "AI compliance", "AI readiness", "Quebec", "Canada", "Loi 25", "AIDA", "consulting"]
 
   [params.assets]
     favicon = "/images/favicon.svg"
 
   [params.label]
-    text = "Dominic-AndrÃ© Leclerc"
+    text = "Dominic-André Leclerc"
 
   [params.homeInfoParams]
     Title = "Military-Grade Discipline. AI Governance That Works."
@@ -89,7 +89,7 @@ pygmentsUseClasses = true
     minMatchCharLength = 0
     keys = ["title", "permalink", "summary", "content"]
 
-# ââ Languages âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# ── Languages ─────────────────────────────────────────────────────────────────
 
 [languages]
 
@@ -97,7 +97,7 @@ pygmentsUseClasses = true
     languageName = "English"
     languageCode = "en"
     weight = 1
-    title = "Dominic-AndrÃ© Leclerc | AI Advisor"
+    title = "Dominic-André Leclerc | AI Advisor"
     contentDir = "content/en"
 
     [languages.en.params]
@@ -108,20 +108,20 @@ pygmentsUseClasses = true
       Content = "I help Quebec and Canadian organizations adopt AI responsibly. 21 years in the Canadian Armed Forces taught me how systems work, where they break, and how to fix them. I bring that same approach to AI.<br><br>Whether you're running your first AI pilot or building a governance framework, I can help you get it right.<br><br><a href='/about/' class='cta-button'>Learn More About Me</a>"
 
   [languages.fr]
-    languageName = "FranÃ§ais"
+    languageName = "Français"
     languageCode = "fr"
     weight = 2
-    title = "Dominic-AndrÃ© Leclerc | Conseiller IA"
+    title = "Dominic-André Leclerc | Conseiller IA"
     contentDir = "content/fr"
 
     [languages.fr.params]
-      description = "Conseiller en gouvernance et adoption responsable de l'IA. Ancien adjudant des FAC, auditeur principal AF9000+. J'aide les organisations quÃ©bÃ©coises et canadiennes Ã  adopter l'IA de faÃ§on responsable."
+      description = "Conseiller en gouvernance et adoption responsable de l'IA. Ancien adjudant des FAC, auditeur principal AF9000+. J'aide les organisations québécoises et canadiennes à adopter l'IA de façon responsable."
 
     [languages.fr.params.homeInfoParams]
       Title = "Discipline militaire. Gouvernance IA qui fonctionne."
-      Content = "J'aide les organisations quÃ©bÃ©coises et canadiennes Ã  adopter l'IA de faÃ§on responsable. 21 ans dans les Forces armÃ©es canadiennes m'ont appris comment les systÃ¨mes fonctionnent, oÃ¹ ils brisent, et comment les rÃ©parer. J'applique la mÃªme approche Ã  l'IA.<br><br>Que vous lanciez votre premier projet pilote IA ou que vous bÃ¢tissiez un cadre de gouvernance, je peux vous aider Ã  bien faire les choses.<br><br><a href='/fr/a-propos/' class='cta-button'>En savoir plus</a>"
+      Content = "J'aide les organisations québécoises et canadiennes à adopter l'IA de façon responsable. 21 ans dans les Forces armées canadiennes m'ont appris comment les systèmes fonctionnent, où ils brisent, et comment les réparer. J'applique la même approche à l'IA.<br><br>Que vous lanciez votre premier projet pilote IA ou que vous bâtissiez un cadre de gouvernance, je peux vous aider à bien faire les choses.<br><br><a href='/fr/a-propos/' class='cta-button'>En savoir plus</a>"
 
-# ââ Menus ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# ── Menus ──────────────────────────────────────────────────────────────────────
 
   [languages.en.menu]
     [[languages.en.menu.main]]
@@ -158,7 +158,7 @@ pygmentsUseClasses = true
       weight = 1
     [[languages.fr.menu.main]]
       identifier = "about-fr"
-      name = "Ã propos"
+      name = "À propos"
       url = "/fr/a-propos/"
       weight = 2
     [[languages.fr.menu.main]]
