@@ -5,7 +5,7 @@ summary: "How I built a hybrid YouTube transcript pipeline as an OpenClaw agent 
 description: "A walkthrough of building an OpenClaw AI agent skill that automates YouTube transcript extraction using yt-dlp and Whisper, with nightly batch processing and Telegram delivery."
 tags: ["AI", "OpenClaw", "Automation", "Python", "Open Source"]
 categories: ["Projects"]
-author: "Dominic-AndrÃ© Leclerc"
+author: "Dominic-André Leclerc"
 showToc: true
 TocOpen: false
 draft: false
