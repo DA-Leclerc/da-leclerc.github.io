@@ -2,7 +2,7 @@
 title: "Services"
 description: "Services de consultation en IA  gouvernance, conformité, évaluations de maturité et ateliers"
 summary: "Du conseil pratique en IA pour les organisations prêtes à adopter de manière responsable."
-showToc: true
+showToc: false
 ---
 
 ## Mon approche
@@ -27,7 +27,7 @@ Une évaluation structurée à travers six domaines  Leadership, Données, Comp�
 
 Comprendre la Loi 25, le projet de loi LIAD et l'alignement avec la Loi européenne sur l'IA. Je vous aide à construire des cadres de gouvernance pratiques et proportionnés  conçus pour votre taille, votre secteur et votre profil de risque.
 
-**Idéal pour :** Les organisations qui traitent des données personnelles, les industries réglementées, ou celles qui se préparent à la législation IA à venir.
+Si votre organisation traite des données personnelles, opère dans un secteur réglementé, ou se prépare à la législation IA à venir, c'est par ici que ça commence.
 
 </div>
 
