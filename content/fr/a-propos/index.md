@@ -1,29 +1,29 @@
 ---
 title: "À propos"
 description: "Dominic-André Leclerc. Conseiller en gouvernance et adoption responsable de l'IA."
-summary: "Conseiller en gouvernance IA. 21 ans de discipline militaire appliquée à l'adoption responsable de l'IA."
+summary: "Conseiller et bâtisseur en gouvernance IA. 21 ans de discipline militaire appliquée à l'adoption responsable de l'IA."
 showToc: false
 ---
 
-> Ma mission est d'accompagner l'adoption responsable de l'IA afin que les gens et les organisations deviennent plus efficaces, capables et prospères.
+> Ma mission est d'accompagner les individus, les organisations et les gouvernements dans l'adoption responsable de l'IA pour qu'ils réalisent pleinement l'efficacité, la transparence et la puissance que cette technologie rend possible.
 
 ## La version courte
 
 J'ai passé 21 ans dans les Forces armées canadiennes où je suis devenu auditeur chef pour les systèmes qualité en aviation. J'ai découvert que l'audit, comprendre comment les systèmes complexes fonctionnent, où ils peuvent faillir, et comment les rendre plus sécuritaires, c'est ce que je fais de mieux. Maintenant j'applique cette même discipline à la gouvernance IA, parce que pendant que les organisations se précipitent pour adopter l'IA, très peu pensent sérieusement au risque, à la conformité, et au déploiement responsable.
 
-Je fais pas juste conseiller sur la gouvernance IA en théorie. Je bâtis et je gère des systèmes d'IA moi-même. Je comprends autant le potentiel que les modes de défaillance de première main. Combiné avec ma certification d'audit et ma capacité bilingue, j'apporte une perspective qui fait le pont entre le côté technique et le côté gouvernance.
+Je fais pas juste conseiller sur la gouvernance IA en théorie. Je bâtis et je gère des systèmes d'IA moi-même. Je comprends autant le potentiel que les modes de défaillance de première main. Combiné avec mon parcours d'auditeur et ma capacité bilingue, j'apporte une perspective qui fait le pont entre le côté technique et le côté gouvernance.
 
-## Ce que je fais concrètement
+## Ce que je fais
 
-J'aide les organisations québécoises et canadiennes (typiquement 50 à 500 personnes) à comprendre où elles en sont avec l'IA, quelles réglementations s'appliquent à elles, et comment avancer sans créer des risques qu'elles ne peuvent pas gérer. Ça veut dire des évaluations de maturité structurées avec un cadre à 6 domaines que j'ai bâti, des cadres de gouvernance qui fonctionnent en pratique, et de l'accompagnement en conformité ancré dans la réalité de votre organisation.
+J'aide les organisations à adopter l'IA de façon responsable et à se préparer pour un futur où l'intelligence est un service public. Le travail couvre deux horizons : aider les organisations à traverser la transition maintenant (évaluations, conformité, cadres de gouvernance), et bâtir les outils et plateformes qui compteront quand l'IA deviendra infrastructure, pas initiative.
 
-Je travaille aussi avec des ministères du secteur public qui explorent la gouvernance IA et des firmes de consultation qui développent leurs pratiques de conseil en IA.
+Je travaille principalement avec des organisations québécoises et canadiennes, des PME qui explorent leur premier cas d'usage IA aux ministères du secteur public qui bâtissent des programmes de gouvernance. J'aide aussi les organisations à accéder au financement gouvernemental via la navigation de subventions ESSOR, un service où je les accompagne à travers le processus de demande puis je livre le travail de diagnostic et d'implantation.
 
 ## Bâtisseur, pas juste conseiller
 
-J'ai mis sur pied un écosystème de six agents IA autonomes (OpenClaw) sur infrastructure locale en une semaine, en partant de zéro. J'utilise Claude, Grok, Gemini et d'autres plateformes au quotidien pour le travail stratégique, la recherche, la création de contenu et la programmation. J'ai construit un pipeline d'extraction de transcriptions YouTube avec inférence locale et une architecture qui préserve la vie privée.
+Je gère un pipeline de codage IA auto-améliorant utilisant Claude, Codex, et des gates de qualité déterministes qui écrit, teste, révise et livre du code de production. J'ai bâti un écosystème de six agents IA autonomes (OpenClaw) sur infrastructure locale, incluant des agents pour la recherche, la collecte de renseignements et l'orchestration. J'utilise Claude, Grok, Gemini et d'autres plateformes au quotidien.
 
-Quand je conseille sur la gouvernance IA, je m'appuie sur une expérience opérationnelle quotidienne réelle avec ces outils. Je sais comment ils brisent, où ils produisent des résultats peu fiables, et à quoi ressemble la supervision en pratique.
+C'est à la fois de l'infrastructure interne et la démonstration de consultation la plus crédible que je peux offrir. "C'est comme ça que je travaille avec des agents IA tous les jours" est un pitch plus fort que n'importe quel jeu de diapositives dans un marché inondé de conseillers qui font juste parler d'IA.
 
 ## Penseur systémique
 
