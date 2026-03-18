@@ -9,7 +9,7 @@ cover:
   image: "/images/lia-ne-vous-remplacera-pas-cover.png"
   alt: "Un cartoon montrant une personne dans une excavatrice marquée IA vs 12 travailleurs avec des pelles"
   hidden: false
-showToc: true
+showToc: false
 ---
 
 Regarde l'image. Un gars dans une excavatrice, sourire en coin. Une douzaine de gars avec des pelles, en sueur. Même job. Même terre. Siècle complètement différent.
