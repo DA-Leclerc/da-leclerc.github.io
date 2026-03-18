@@ -9,7 +9,7 @@ cover:
   image: "/images/ai-wont-replace-you-cover.png"
   alt: "An excavator operator vs workers with shovels - AI adoption metaphor"
   hidden: false
-showToc: true
+showToc: false
 ---
 
 Look at that image. One guy in an excavator, smiling. A dozen guys with shovels, sweating. Same job. Same dirt. Completely different century.
