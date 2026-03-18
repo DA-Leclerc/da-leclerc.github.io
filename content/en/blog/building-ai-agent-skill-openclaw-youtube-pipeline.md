@@ -11,6 +11,10 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+cover:
+  image: "/images/building-ai-agent-skill-openclaw-cover.jpg"
+  alt: "A person building a robot claw in a workshop that automates YouTube research"
+  hidden: false
 ---
 
 ## The Problem: Too Much Video, Not Enough Time
