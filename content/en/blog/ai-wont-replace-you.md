@@ -6,9 +6,9 @@ summary: "It's not about the tool. It's about who picks it up. The excavator vs.
 tags: ["AI", "productivity", "consulting"]
 categories: ["AI"]
 cover:
-  image: ""
-  alt: ""
-  hidden: true
+  image: "/images/ai-wont-replace-you-cover.png"
+  alt: "An excavator operator vs workers with shovels - AI adoption metaphor"
+  hidden: false
 showToc: true
 ---
 
