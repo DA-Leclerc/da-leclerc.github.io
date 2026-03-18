@@ -11,6 +11,10 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+cover:
+  image: "/images/canadas-ai-governance-gap-cover.jpg"
+  alt: "Parliament building with shredded AI legislation while business leaders face uncertainty"
+  hidden: false
 ---
 
 ## The Federal Vacuum
