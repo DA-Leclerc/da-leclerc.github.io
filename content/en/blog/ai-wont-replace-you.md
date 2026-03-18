@@ -12,15 +12,15 @@ cover:
 showToc: false
 ---
 
-Look at that image: One guy in an excavator, smiling. A dozen guys with shovels, sweating. Same job, Same dirt, completely different experience.
+Look at the image: One guy in an excavator, smiling. A dozen guys with shovels, sweating. Same job, same dirt, completely different experience.
 
-That's the AI conversation right now, and most people are still grabbing shovels.
+That's what the AI conversation looks like right now, and most people are still grabbing shovels.
 
 ## AI Adoption isn't optional.
 
-When the excavator showed up on construction sites, it didn't fire anyone on the spot. But over time, the crew that knew how to run one got the contracts. The crew that didn't adopt the new technology got replaced by those who did.
+When the excavator showed up on construction sites, it didn't fire anyone on the spot. Eventually, The crew that didn't adopt the new technology got replaced by those who did.
 
-AI works the same way, it's not coming for your job directly. But the person who figures out how to use it? That's the person you should be worrying about.
+AI works the same way, it's not coming for your job directly. But the person who figures out how to use it is the one you should be worrying about.
 
 ## Here's what this actually looks like
 
@@ -32,11 +32,11 @@ That's not replacing the person; it's the same person, but with an excavator.
 
 ## The gap is already opening
 
-There are two types of people right now. The ones experimenting with AI tools every week, figuring out what works, what doesn't. And then you have the one waiting on the sidelines.
+There are two types of people right now. The ones experimenting with AI tools every week, figuring out what works, what doesn't. And then you have the people waiting on the sidelines.
 
 The first group is already pulling ahead. Not because they're smarter but because they picked up the tool.
 
-I'm not a developer, but I built a multi-agent AI system in my living room because I decided to figure it out. The tools didn't care about my credentials, they cared about whether I showed up and used them.
+I'm not a developer, but I built a multi-agent AI system in my living room using Claude because I decided to figure it out. The tools didn't care about my credentials, they cared about whether I showed up and used them.
 
 ## This isn't about the future. It's about right now.
 
