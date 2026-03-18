@@ -6,9 +6,9 @@ summary: "Military quality auditing and AI governance have more in common than y
 tags: ["governance", "quality", "military", "AF9000+"]
 categories: ["AI Governance"]
 cover:
-  image: ""
-  alt: ""
-  hidden: true
+  image: "/images/what-af9000-taught-me-cover.jpg"
+  alt: "Military quality inspector applying systematic audit approach to AI systems"
+  hidden: false
 showToc: false
 ---
 
