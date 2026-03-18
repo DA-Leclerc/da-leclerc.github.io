@@ -1,29 +1,29 @@
 ---
 title: "About"
 description: "Dominic-André Leclerc. AI Governance & Responsible Adoption Advisor."
-summary: "AI governance advisor. 21 years of military systems discipline applied to responsible AI adoption."
+summary: "AI governance advisor and builder. 21 years of military systems discipline applied to responsible AI adoption."
 showToc: false
 ---
 
-> My mission is to guide the responsible adoption of AI so that people and organizations can become more efficient, capable, and abundant.
+> My mission is to guide individuals, organizations, and governments through the responsible adoption of AI so that they can unlock the efficiency, transparency, and power this technology makes possible.
 
 ## The Short Version
 
 I spent 21 years in the Canadian Armed Forces where I became a lead auditor for aviation quality systems. I discovered that auditing, understanding how complex systems work, where they can fail, and how to make them safer, is what I do best. Now I'm applying that same discipline to AI governance, because as organizations race to adopt AI, very few are thinking carefully about risk, compliance, and responsible deployment.
 
-I don't just advise on AI governance in theory. I build and manage AI systems myself. I understand both the potential and the failure modes firsthand. Combined with my auditing certification and bilingual capability, I bring a perspective that bridges the technical and governance sides.
+I don't just advise on AI governance in theory. I build and manage AI systems myself. I understand both the potential and the failure modes firsthand. Combined with my auditing background and bilingual capability, I bring a perspective that bridges the technical and governance sides.
 
-## What I Actually Do
+## What I Do
 
-I help Quebec and Canadian organizations (typically 50 to 500 people) figure out where they stand with AI, what regulations apply to them, and how to move forward without creating risk they can't manage. That means structured maturity assessments using a 6-domain framework I built, governance frameworks that work in practice, and compliance guidance grounded in how your organization actually operates.
+I help organizations adopt AI responsibly and prepare for a future where intelligence is a utility. The work spans two horizons: helping organizations navigate the transition right now (assessments, compliance, governance frameworks), and building the tools and platforms that will matter when AI becomes infrastructure, not initiative.
 
-I also work with public sector departments exploring AI governance and consulting firms building out their AI advisory practices.
+I work primarily with Quebec and Canadian organizations, from SMBs figuring out their first AI use case to public sector departments building governance programs. I also help organizations access government funding through ESSOR grant navigation, a service where I guide them through the application process and then deliver the diagnostic and implementation work.
 
 ## Builder, Not Just Advisor
 
-I put together a six-agent autonomous AI ecosystem (OpenClaw) on local infrastructure in one week, starting from zero. I use Claude, Grok, Gemini, and other platforms daily for strategic work, research, content creation, and programming. I built a custom YouTube transcript extraction pipeline using local inference and privacy-preserving architecture.
+I run a self-improving AI coding pipeline using Claude, Codex, and deterministic quality gates that writes, tests, reviews, and ships production code. I built a six-agent autonomous AI ecosystem (OpenClaw) on local infrastructure, including agents for research, intelligence gathering, and orchestration. I use Claude, Grok, Gemini, and other platforms daily.
 
-When I advise on AI governance, I'm drawing on real daily operational experience with these tools. I know how they break, where they produce unreliable outputs, and what oversight actually looks like in practice.
+This is both internal infrastructure and the most credible consulting demonstration I can offer. "This is how I work with AI agents every day" is a stronger pitch than any slide deck in a market flooded with advisors who only talk about AI.
 
 ## Systems Thinker
 
