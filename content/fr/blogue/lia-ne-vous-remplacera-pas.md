@@ -1,8 +1,8 @@
 ---
 title: "L'IA ne vous remplacera pas. C'est plutôt celui qui s'en sert qui prendra votre place."
 date: 2026-03-16
-description: "La question c'est pas "est-ce que l'IA va changer les choses?" parce que c'est déjà fait."
-summary: "La question c'est pas "est-ce que l'IA va changer les choses?" parce que c'est déjà fait."
+description: "La question c'est pas: est-ce que l'IA va changer les choses? Parce que c'est déjà fait."
+summary: "La question c'est pas: est-ce que l'IA va changer les choses? Parce que c'est déjà fait."
 tags: ["IA", "productivité", "consultation"]
 categories: ["IA"]
 cover:
