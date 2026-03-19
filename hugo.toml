@@ -50,6 +50,11 @@ pygmentsUseClasses = true
   [params.assets]
     favicon = "/images/favicon.ico"
 
+  # Default OG/social sharing image
+  [params.images]
+    # Used when no page-specific image is set
+  images = ["/images/brand-banner.png"]
+
   [params.label]
     text = "Dominic-André Leclerc"
 

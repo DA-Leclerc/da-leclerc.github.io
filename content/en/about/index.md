@@ -31,3 +31,23 @@ I'm based in Saguenay, QC, and work with organizations across Quebec and Canada.
 Whether it's a half-day workshop for your leadership team, a full AI readiness assessment, or ongoing advisory work — I'm here to help you get AI right.
 
 <a href="mailto:domleclerc@gmail.com" class="cta-button">Get in Touch</a>
+
+---
+
+## Ask Me Anything — Powered by AI
+
+Curious about my background, experience, or how I could help your organization? Chat with an AI version of me, or paste a job description to get an honest fit assessment.
+
+<div style="width:100%; max-width:1200px; margin:2rem auto; border-radius:12px; overflow:hidden; box-shadow:0 4px 24px rgba(0,0,0,0.15);">
+  <iframe
+    src="https://dominic-about-me.vercel.app"
+    style="width:100%; height:800px; border:none;"
+    loading="lazy"
+    title="Dominic-André Leclerc — Interactive About Me"
+    allow="clipboard-write"
+  ></iframe>
+</div>
+
+<p style="text-align:center; font-size:0.85rem; color:#888; margin-top:0.5rem;">
+  Built with Next.js and Claude · <a href="https://dominic-about-me.vercel.app" target="_blank" rel="noopener">Open full screen ↗</a>
+</p>
