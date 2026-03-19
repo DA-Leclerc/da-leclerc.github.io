@@ -1,53 +1,54 @@
 ---
 title: "What AF9000+ Taught Me About AI Governance"
-date: 2026-03-11
-description: "Military quality auditing and AI governance have more in common than you'd think. Here's what 21 years in the Canadian Armed Forces taught me about building systems you can trust."
+date: 2026-03-11T08:00:00-05:00
 summary: "Military quality auditing and AI governance have more in common than you'd think."
-tags: ["governance", "quality", "military", "AF9000+"]
+description: "How the AF9000+ military quality management system principles apply directly to AI governance and responsible adoption."
+tags: ["AI Governance", "Military", "AF9000+", "Quality"]
 categories: ["AI Governance"]
+author: "Dominic-André Leclerc"
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
 cover:
-  image: ""
-  alt: ""
-  hidden: true
-showToc: true
+  image: "/images/what-af9000-taught-me-cover.jpg"
+  alt: "Military quality inspector applying systematic audit approach to AI systems"
+  hidden: false
 ---
 
-## The Parallels Nobody Talks About
+When people hear I spent 21 years in the Canadian Armed Forces doing avionics maintenance and quality auditing, and that I now work in AI governance consulting, there's usually a pause. The connection isn't obvious. But it's direct.
 
-When people hear I spent 21 years in the Canadian Armed Forces doing avionics maintenance and quality auditing, and that I now consult on AI governance, the first question is usually some version of: "How did you end up here?"
+The AF9000+ quality management system that governed my work in the military is one of the most rigorous operational frameworks you'll find anywhere. What it taught me about governance applies to AI adoption almost line for line.
 
-The honest answer? I didn't change what I do — I changed what I apply it to.
+## What AF9000+ Actually Is
 
-AF9000+ is the Canadian military's quality management standard. Think of it as ISO 9001's stricter cousin, designed for environments where a process failure isn't a customer complaint — it's a safety incident. For years, my job was to audit complex technical systems against that standard, find gaps, and build processes to close them.
+AF9000+ is the Canadian Armed Forces' quality management system, the military's version of ISO 9001 adapted for defense operations. It covers everything from component inspection to documentation standards to audit procedures.
 
-AI governance is the same work wearing different clothes.
+Every piece of equipment I worked on, from CF-188 Hornet avionics to electronic warfare systems, was maintained under AF9000+ protocols. Nothing got signed off without evidence. No process ran without documentation. No deviation went unrecorded.
 
-## Six Principles That Transfer Directly
+## Where the Parallels Start
 
-**1. Document everything, assume nothing.**
-In avionics, every maintenance action gets recorded. Not because we love paperwork — because when something goes wrong at 30,000 feet, you need a trail. AI systems need the same discipline. If you can't explain how a model was trained, what data went in, and who approved its deployment, you have a governance gap.
+AI governance needs the same things AF9000+ provides for military operations.
 
-**2. Build processes before you need them.**
-We didn't write emergency procedures after an emergency. The framework existed first, and people trained on it regularly. Organizations adopting AI should build their governance framework before they deploy their first model — not after something goes wrong and a regulator comes knocking.
+**Documented processes.** In AF9000+, every maintenance task has a technical order. In AI governance, every model deployment should have documented procedures: what data it uses, what it does, who approved it, and how it's monitored.
 
-**3. Audit with curiosity, not suspicion.**
-The best audits I ever conducted weren't gotcha exercises. They were conversations: "Walk me through how this works. Where does it get tricky? What would you change?" AI governance reviews should feel the same way. You're looking for risk, not blame.
+**Audit trails.** Military quality systems track everything. AI systems need the same traceability: who made changes to a model, when, and why.
 
-**4. Train the people, not just the system.**
-The most sophisticated quality system in the world fails if the people using it don't understand it. I ran the instruction cell for years — the unit responsible for making sure everyone could actually execute the processes we built. AI literacy isn't optional. Your team needs to understand what the AI is doing well enough to catch when it's not.
+**Risk classification.** Not every component in an aircraft gets the same level of scrutiny. Critical systems get more oversight. AI applications should be classified the same way: a chatbot answering FAQ questions doesn't need the same governance as an AI making hiring recommendations.
 
-**5. Proportionate controls based on risk.**
-Not every maintenance task gets the same level of oversight. A routine inspection and an engine overhaul have very different control requirements. AI governance should work the same way — a chatbot answering FAQs doesn't need the same governance as an AI making credit decisions. Match the controls to the risk.
+**Regular audits.** AF9000+ requires scheduled audits, not just when something goes wrong. AI governance should work the same way: regular reviews of model performance, data quality, and compliance status.
 
-**6. Continuous improvement is not optional.**
-AF9000+ isn't a one-time certification. It's a living system with regular audits, corrective actions, and process updates. Your AI governance framework should evolve with your AI use. The regulatory landscape is changing fast — Loi 25, AIDA, the EU AI Act — and your processes need to keep up.
+**Training and competency.** You can't touch an aircraft system without documented training. Organizations deploying AI need to ensure the people using and overseeing these tools are properly trained.
+
+## What Most Organizations Get Wrong
+
+They treat AI governance like a one-time project: write a policy, check the box, move on. That's not how it works in any serious quality system, and it's not how it works with AI.
+
+AF9000+ taught me that governance is ongoing. It's built into daily operations, not layered on top as an afterthought. The organizations that get AI governance right are the ones that make it part of how they work, not a document they produced once and filed away.
 
 ## The Bottom Line
 
-AI governance isn't a new discipline. It's risk management, quality assurance, and process engineering applied to a new domain. If your organization already has quality systems, compliance frameworks, or safety protocols, you're closer to good AI governance than you think.
+If you can govern a fleet of fighter jets, you can govern an AI deployment. The principles are the same: document your processes, train your people, classify your risks, audit regularly, and never treat compliance as a one-time checkbox.
 
-The gap isn't usually knowledge — it's the bridge between what you already know and how to apply it to AI. That's exactly where I work.
-
----
-
-*If your organization is exploring AI adoption and wants to build governance right from the start, [let's talk](mailto:domleclerc@gmail.com).*
+The tools are different. The discipline isn't.

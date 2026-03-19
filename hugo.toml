@@ -12,14 +12,14 @@ enableEmoji = false
 pygmentsUseClasses = true
 
 [pagination]
-  pagerSize = 10
+    pagerSize = 10
 
 [minify]
-  disableXML = true
-  minifyOutput = true
+    disableXML = true
+    minifyOutput = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+    home = ["HTML", "RSS", "JSON"]
 
 [markup]
   [markup.highlight]
@@ -35,7 +35,10 @@ pygmentsUseClasses = true
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
+  ShareButtons = ["linkedin"]
   ShowPostNavLinks = true
+  description = "Dominic-Andre Leclerc - AI Governance Advisor helping organizations adopt AI responsibly."
+  images = ["/images/og-default.svg"]
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowWordCount = false
@@ -46,38 +49,33 @@ pygmentsUseClasses = true
   hidemeta = false
   hideSummary = false
   showtoc = true
+  author = "Dominic-André Leclerc"
+  keywords = ["AI governance", "AI compliance", "AI readiness", "Quebec", "Canada", "Loi 25", "AIDA", "consulting"]
 
   [params.assets]
-    favicon = "/images/favicon.ico"
-
-  # Default OG/social sharing image
-  [params.images]
-    # Used when no page-specific image is set
-  images = ["/images/brand-banner.png"]
+    favicon = "/images/favicon.svg"
 
   [params.label]
     text = "Dominic-André Leclerc"
 
   [params.homeInfoParams]
-    Title = "Bridging Military Precision and AI Governance"
-    Content = "I help Quebec and Canadian organizations adopt AI responsibly — with the discipline of 21 years in the Canadian Armed Forces and the clarity of someone who's built it from the ground up.\n\nWhether you're exploring your first AI pilot or building a governance framework, I'll help you get it right."
+    Title = "Paradigm Shift: Practical AI for Real Organizations"
+    Content = "AI adoption is moving fast. Governance is not keeping up. This blog is about closing that gap: practical frameworks, real-world lessons, and honest takes on what it actually takes to adopt AI responsibly.<br><br>Based in Quebec, writing for anyone bringing AI into their organization, whether you're evaluating your first use case or scaling across the company.<br><br><a href='/about/' class='cta-button'>Learn More About Me</a>"
 
   [[params.socialIcons]]
     name = "linkedin"
-    url = "https://www.linkedin.com/in/dominic-andré-leclerc-4ab90a250/"
-
+    url = "https://www.linkedin.com/in/dominic-andr%C3%A9-leclerc-4ab90a250/"
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/DA-Leclerc"
-
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:domleclerc@gmail.com"
+    url = "/contact/"
 
   [params.cover]
     hidden = false
     hiddenInList = false
-    hiddenInSingle = true
+    hiddenInSingle = false
 
   [params.editPost]
     disabled = true
@@ -91,75 +89,90 @@ pygmentsUseClasses = true
     minMatchCharLength = 0
     keys = ["title", "permalink", "summary", "content"]
 
-# ── Languages ───────────────────────────────────────────────────────────────────
+# ── Languages ─────────────────────────────────────────────────────────────────
 
 [languages]
+
   [languages.en]
     languageName = "English"
     languageCode = "en"
     weight = 1
-    title = "Dominic-André Leclerc — AI Advisor"
+    title = "Dominic-André Leclerc | AI Advisor"
     contentDir = "content/en"
+
     [languages.en.params]
-      description = "AI Integration & Compliance Advisor. Bridging military precision and AI governance for Quebec and Canadian organizations."
-      [languages.en.params.homeInfoParams]
-        Title = "Bridging Military Precision and AI Governance"
-        Content = "I help Quebec and Canadian organizations adopt AI responsibly — with the discipline of 21 years in the Canadian Armed Forces and the clarity of someone who's built it from the ground up.\n\nWhether you're exploring your first AI pilot or building a governance framework, I'll help you get it right."
+      description = "AI Governance & Adoption Advisor. Former CAF Warrant Officer, AF9000+ Lead Auditor. Helping Quebec and Canadian organizations adopt AI responsibly."
+
+    [languages.en.params.homeInfoParams]
+      Title = "Paradigm Shift: Practical AI for Real Organizations"
+      Content = "AI adoption is moving fast. Governance is not keeping up. This blog is about closing that gap: practical frameworks, real-world lessons, and honest takes on what it actually takes to adopt AI responsibly.<br><br>Based in Quebec, writing for anyone bringing AI into their organization, whether you're evaluating your first use case or scaling across the company.<br><br><a href='/about/' class='cta-button'>Learn More About Me</a>"
 
   [languages.fr]
     languageName = "Français"
     languageCode = "fr"
     weight = 2
-    title = "Dominic-André Leclerc — Conseiller IA"
+    title = "Dominic-André Leclerc | Conseiller IA"
     contentDir = "content/fr"
+
     [languages.fr.params]
-      description = "Conseiller en intégration et conformité IA. L'expertise militaire au service de la gouvernance IA pour les organisations québécoises et canadiennes."
-      [languages.fr.params.homeInfoParams]
-        Title = "L'expertise militaire au service de la gouvernance IA"
-        Content = "J'aide les organisations québécoises et canadiennes à adopter l'IA de manière responsable — avec la discipline de 21 ans dans les Forces armées canadiennes et la clarté de quelqu'un qui a tout construit depuis le début.\n\nQue vous exploriez votre premier projet pilote IA ou que vous bâtissiez un cadre de gouvernance, je vous aiderai à bien faire les choses."
+      description = "Conseiller en gouvernance et adoption responsable de l'IA. Ancien adjudant des FAC, auditeur principal AF9000+. J'aide les organisations québécoises et canadiennes à adopter l'IA de façon responsable."
 
-# ── Menus ────────────────────────────────────────────────────────────────────────
+    [languages.fr.params.homeInfoParams]
+      Title = "Changement de paradigme : l'IA pratique pour les vraies organisations"
+      Content = "L'adoption de l'IA va vite. La gouvernance ne suit pas. Ce blogue vise a combler cet écart : des cadres pratiques, des leçons terrain, et des prises de position honnêtes sur ce que ça prend vraiment pour adopter l'IA de façon responsable.<br><br>Basé au Québec, j'écris pour quiconque envisage d'intégrer l'IA dans son organisation, que vous en soyez à la réflexion ou déjà en pleine implantation.<br><br><a href='/fr/a-propos/' class='cta-button'>En savoir plus</a>"
 
-[languages.en.menu]
-  [[languages.en.menu.main]]
-    identifier = "home-en"
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[languages.en.menu.main]]
-    identifier = "about-en"
-    name = "About"
-    url = "/about/"
-    weight = 2
-  [[languages.en.menu.main]]
-    identifier = "services-en"
-    name = "Services"
-    url = "/services/"
-    weight = 3
-  [[languages.en.menu.main]]
-    identifier = "blog-en"
-    name = "Blog"
-    url = "/blog/"
-    weight = 4
+# ── Menus ──────────────────────────────────────────────────────────────────────
 
-[languages.fr.menu]
-  [[languages.fr.menu.main]]
-    identifier = "home-fr"
-    name = "Accueil"
-    url = "/fr/"
-    weight = 1
-  [[languages.fr.menu.main]]
-    identifier = "about-fr"
-    name = "À propos"
-    url = "/fr/a-propos/"
-    weight = 2
-  [[languages.fr.menu.main]]
-    identifier = "services-fr"
-    name = "Services"
-    url = "/fr/services/"
-    weight = 3
-  [[languages.fr.menu.main]]
-    identifier = "blog-fr"
-    name = "Blogue"
-    url = "/fr/blogue/"
-    weight = 4
+  [languages.en.menu]
+    [[languages.en.menu.main]]
+      identifier = "home-en"
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.en.menu.main]]
+      identifier = "about-en"
+      name = "About"
+      url = "/about/"
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "services-en"
+      name = "Services"
+      url = "/services/"
+      weight = 3
+    [[languages.en.menu.main]]
+      identifier = "blog-en"
+      name = "Blog"
+      url = "/blog/"
+      weight = 4
+    [[languages.en.menu.main]]
+      identifier = "contact-en"
+      name = "Contact"
+      url = "/contact/"
+      weight = 5
+
+  [languages.fr.menu]
+    [[languages.fr.menu.main]]
+      identifier = "home-fr"
+      name = "Accueil"
+      url = "/fr/"
+      weight = 1
+    [[languages.fr.menu.main]]
+      identifier = "about-fr"
+      name = "À propos"
+      url = "/fr/a-propos/"
+      weight = 2
+    [[languages.fr.menu.main]]
+      identifier = "services-fr"
+      name = "Services"
+      url = "/fr/services/"
+      weight = 3
+    [[languages.fr.menu.main]]
+      identifier = "blog-fr"
+      name = "Blogue"
+      url = "/fr/blogue/"
+      weight = 4
+    [[languages.fr.menu.main]]
+      identifier = "contact-fr"
+      name = "Contact"
+      url = "/fr/contact/"
+      weight = 5

@@ -1,67 +1,64 @@
 ---
 title: "Is Your Organization AI-Ready? 5 Questions to Ask Before You Start"
-date: 2026-03-10
-description: "Before investing in AI tools or hiring consultants, ask your organization these five questions. The answers will tell you more than any vendor pitch."
+date: 2026-03-10T10:00:00-05:00
 summary: "Before investing in AI, ask these five questions. The answers will tell you more than any vendor pitch."
-tags: ["readiness", "assessment", "strategy", "SMB"]
-categories: ["AI Strategy"]
+description: "Five practical questions to assess your organization's AI readiness before investing in tools, consultants, or pilots."
+tags: ["AI", "readiness", "assessment", "governance"]
+categories: ["AI Governance"]
+author: "Dominic-André Leclerc"
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
 cover:
-  image: ""
-  alt: ""
-  hidden: true
-showToc: true
+  image: "/images/is-your-organization-ai-ready-cover.jpg"
+  alt: "Business leaders examining an AI readiness checklist in a boardroom"
+  hidden: false
 ---
 
-## The Question Nobody Asks First
+Every week I talk to business leaders who are convinced they need AI but have no idea whether their organization can actually support it. They've seen the demos, heard the pitches, maybe even approved a budget. But nobody's asked the hard questions about whether the foundation is there.
 
-Every week I talk to business leaders who want to "do something with AI." They've seen the headlines, they've heard competitors are using it, and they feel the pressure to move. But when I ask what problem they're trying to solve, the room often goes quiet.
+Here are five questions that will tell you more about your AI readiness than any vendor presentation.
 
-That's not a criticism — it's the most common starting point. And it's exactly why a readiness assessment matters before you spend a dollar on AI tools or consulting.
+## 1. Do you have a clear problem AI should solve?
 
-Here are five questions I use to gauge where an organization actually stands. You can answer them right now, no consultants required.
+"We need AI" isn't a strategy. It's a reaction. Before spending a dollar on AI tools or consultants, you need specific, measurable problems that AI could address better than your current approach.
 
-## 1. Can You Describe Your Current Processes in Writing?
+Most organizations skip this. They start with the technology and look for problems to match it to, instead of starting with the problem and evaluating whether AI is actually the right solution.
 
-This sounds basic, but it's the most telling question. AI automates, augments, or transforms existing processes. If those processes aren't documented — if they live in people's heads or vary by team — you don't have an AI problem. You have a process problem.
+The best AI projects start with a sentence like: "We spend 400 hours per month manually classifying customer complaints, and the accuracy rate is 70%." That's a clear problem with measurable outcomes.
 
-**What to look for:** Can someone who's never worked in your organization read a document and understand how a core business process works? If not, document your processes first. AI can't improve what isn't defined.
+## 2. Is your data actually ready?
 
-## 2. How Clean Is Your Data?
+AI runs on data. If your data is scattered across disconnected systems, inconsistently formatted, full of gaps, or poorly documented, no AI tool will save you. Garbage in, garbage out is not just a cliché in AI. It's the main reason pilots fail.
 
-AI runs on data. Not just any data — structured, accessible, reasonably clean data. Many organizations I work with discover their data is scattered across spreadsheets, siloed in departmental tools, or riddled with inconsistencies.
+Where does your data live and is it accessible? Is it labeled and structured consistently? Do you have enough of it for the use case you're targeting? Who owns it, and what are the privacy implications?
 
-**What to look for:** Pick one business-critical dataset. Can you pull it into a single view in under an hour? Are there obvious gaps, duplicates, or formatting issues? Your answer tells you a lot about your data readiness.
+If you can't answer these clearly, you're not ready for AI. You're ready for a data cleanup project.
 
-## 3. Who Owns AI Decisions in Your Organization?
+## 3. Does leadership actually understand what they're approving?
 
-AI governance needs a home. Not necessarily a full department — especially for SMBs — but someone needs to be accountable for decisions about what AI tools are adopted, how they're used, and who monitors them.
+AI adoption without executive understanding is a recipe for misaligned expectations. If your CEO thinks AI is magic and your IT team knows it's statistics, you have a communication problem that will kill the project.
 
-**What to look for:** If you asked "who's responsible for AI in our organization?" and the answer is "nobody" or "IT, I guess" — that's a gap. It doesn't need to be a dedicated role. It can be part of an existing mandate. But someone needs to own it.
+Leadership doesn't need to understand transformer architectures. They need to understand what AI can realistically do, what it costs to maintain (not just to buy), what the risks are, and what governance looks like. If they can't explain the project's purpose and limitations in plain language, the project doesn't have real executive sponsorship.
 
-## 4. Does Your Team Understand What AI Can (and Can't) Do?
+## 4. Who is responsible when the AI gets it wrong?
 
-The biggest risk in AI adoption isn't the technology — it's misaligned expectations. Teams that think AI will "solve everything" are as dangerous as teams that think it's all hype. You need a baseline level of AI literacy across your leadership and key staff.
+This is the question nobody wants to ask. AI systems make mistakes. They produce biased outputs, they hallucinate, they break in ways nobody predicted. When that happens, who owns it?
 
-**What to look for:** Ask your leadership team two questions: "What's one thing AI could help us with?" and "What's one thing AI shouldn't do in our context?" If the answers are vague or identical, you have a literacy gap.
+If the answer is "nobody" or "the vendor," you have a governance gap. Somebody inside your organization needs to own the AI system's behavior, which means defined roles, escalation procedures, and monitoring processes.
 
-## 5. Are You Prepared to Change How People Work?
+The organizations that answer this question clearly before deployment are the ones that avoid the costly surprises.
 
-AI adoption is change management. Even the best AI tool fails if people don't trust it, understand it, or integrate it into their daily work. The organizations that succeed with AI treat it as a people project with a technology component — not the other way around.
+## 5. Are your people ready for the change?
 
-**What to look for:** Think about the last significant process change your organization went through. How did it go? Was there resistance? How was it managed? Your organization's change management track record is a strong predictor of AI adoption success.
+AI changes workflows and how people do their jobs. If you deploy AI without preparing your team for the impact, adoption will fail regardless of how good the technology is.
 
-## Scoring Yourself
+This means training, obviously, but also change management: communicating why the change is happening, involving people in the process, addressing fears honestly, and creating feedback loops so employees can flag issues early.
 
-If you answered these five questions honestly, you already know more about your AI readiness than most. Here's a rough guide:
+The best AI deployments I've seen are the ones where the team felt involved, not threatened.
 
-**Answered 4-5 confidently?** You're in a strong position. You likely need help with strategy and implementation, not fundamentals.
+## The Real Test
 
-**Answered 2-3 confidently?** You have a solid foundation with some gaps. A structured readiness assessment would help you prioritize.
-
-**Answered 0-1 confidently?** Don't panic — but don't rush into AI either. Focus on process documentation, data hygiene, and building basic AI literacy first. These investments pay off whether or not you adopt AI immediately.
-
-## Want the Full Assessment?
-
-These five questions are a simplified version of my six-domain AI Readiness Assessment framework, which covers Leadership, Data, Skills, Governance, Processes, and Innovation in much more depth. If you want the full picture, I offer it as a structured engagement — typically a half-day session followed by a detailed report with a prioritized action plan.
-
-<a href="mailto:domleclerc@gmail.com" class="cta-button">Request an Assessment</a>
+If you can answer all five questions clearly and honestly, you're probably ready for a serious AI initiative. If two or more of them made you uncomfortable, start there. The readiness gap is the project.

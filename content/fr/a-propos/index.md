@@ -1,36 +1,54 @@
 ---
 title: "À propos"
-description: "Dominic-André Leclerc — Conseiller en intégration et conformité IA"
-summary: "21 ans de discipline militaire. Une nouvelle mission en gouvernance IA."
+description: "Dominic-André Leclerc. Conseiller en gouvernance et adoption responsable de l'IA."
+summary: "Conseiller et bâtisseur en gouvernance IA. 21 ans de discipline militaire appliquée à l'adoption responsable de l'IA."
 showToc: false
 ---
 
-## De l'avionique aux algorithmes
+> Ma mission est d'accompagner les individus, les organisations et les gouvernements dans l'adoption responsable de l'IA pour qu'ils réalisent pleinement l'efficacité, la transparence et la puissance que cette technologie rend possible.
 
-Après 21 ans comme adjudant dans les Forces armées canadiennes — spécialisé en maintenance avionique, audit qualité sous AF9000+ et supervision de la cellule d'instruction — j'ai fait un virage délibéré vers la gouvernance et le conseil en IA.
+## La version courte
 
-Ce n'était pas un changement de carrière aléatoire. Les mêmes compétences qui assuraient la sécurité et la conformité des systèmes aéronautiques — audit systématique, discipline de processus, gestion des risques et formation des équipes — sont exactement ce dont les organisations ont besoin pour adopter l'IA.
+J'ai passé 21 ans dans les Forces armées canadiennes où je suis devenu auditeur chef pour les systèmes qualité en aviation. J'ai découvert que l'audit, comprendre comment les systèmes complexes fonctionnent, où ils peuvent faillir, et comment les rendre plus sécuritaires, c'est ce que je fais de mieux. Maintenant j'applique cette même discipline à la gouvernance IA, parce que pendant que les organisations se précipitent pour adopter l'IA, très peu pensent sérieusement au risque, à la conformité, et au déploiement responsable.
 
-## Ce que j'apporte
+Je fais pas juste conseiller sur la gouvernance IA en théorie. Je bâtis et je gère des systèmes d'IA moi-même. Je comprends autant le potentiel que les modes de défaillance de première main. Combiné avec mon parcours d'auditeur et ma capacité bilingue, j'apporte une perspective qui fait le pont entre le côté technique et le côté gouvernance.
 
-<div class="credentials">
-  <span class="credential-badge">Auditeur qualité principal AF9000+</span>
-  <span class="credential-badge">Superviseur cellule d'instruction</span>
-  <span class="credential-badge">21 ans FAC</span>
-  <span class="credential-badge">Bilingue FR/EN</span>
-</div>
+## Ce que je fais
 
-Mon approche est ancrée dans ce qui fonctionne. J'ai passé deux décennies dans des environnements où les systèmes qualité ne sont pas optionnels — ils protègent des vies. J'apporte cette même rigueur à l'adoption, la gouvernance et la conformité en IA.
+J'aide les organisations à adopter l'IA de façon responsable et à se préparer pour un futur où l'intelligence est un service public. Le travail couvre deux horizons : aider les organisations à traverser la transition maintenant (évaluations, conformité, cadres de gouvernance), et bâtir les outils et plateformes qui compteront quand l'IA deviendra infrastructure, pas initiative.
 
-Je me spécialise dans l'accompagnement des organisations pour comprendre où elles en sont avec l'IA (par des évaluations structurées de maturité), quelles réglementations s'appliquent à elles (Loi 25, LIAD, Loi européenne sur l'IA), et comment bâtir des processus internes qui rendent l'adoption de l'IA durable — pas juste un projet pilote qui ne passe jamais à l'échelle.
+Je travaille principalement avec des organisations québécoises et canadiennes, des PME qui explorent leur premier cas d'usage IA aux ministères du secteur public qui bâtissent des programmes de gouvernance. J'aide aussi les organisations à accéder au financement gouvernemental via la navigation de subventions ESSOR, un service où je les accompagne à travers le processus de demande puis je livre le travail de diagnostic et d'implantation.
 
-## Basé au Saguenay, actif partout au Québec et au Canada
+## Bâtisseur, pas juste conseiller
 
-Je suis basé au Saguenay, QC, et je travaille avec des organisations partout au Québec et au Canada. Tous les services sont offerts en français et en anglais.
+Je gère un pipeline de codage IA auto-améliorant utilisant Claude, Codex, et des gates de qualité déterministes qui écrit, teste, révise et livre du code de production. J'ai bâti un écosystème de six agents IA autonomes (OpenClaw) sur infrastructure locale, incluant des agents pour la recherche, la collecte de renseignements et l'orchestration. J'utilise Claude, Grok, Gemini et d'autres plateformes au quotidien.
 
-Que ce soit un atelier d'une demi-journée pour votre équipe de direction, une évaluation complète de maturité IA ou un accompagnement-conseil continu — je suis là pour vous aider à bien faire les choses.
+C'est à la fois de l'infrastructure interne et la démonstration de consultation la plus crédible que je peux offrir. "C'est comme ça que je travaille avec des agents IA tous les jours" est un pitch plus fort que n'importe quel jeu de diapositives dans un marché inondé de conseillers qui font juste parler d'IA.
 
-<a href="mailto:domleclerc@gmail.com" class="cta-button">Me contacter</a>
+## Penseur systémique
+
+Je m'intéresse profondément à comment les systèmes complexes fonctionnent : systèmes financiers, structures géopolitiques, mécanismes d'incitatifs, et comment la confiance peut faillir à grande échelle. Des centaines d'heures de recherche sur le risque systémique, la politique monétaire, et comment les grands systèmes se comportent sous pression. Cette mentalité est au coeur d'une gouvernance IA efficace, parce que l'IA ne faillit pas en isolation. Elle faillit à l'intérieur des systèmes que les organisations ont déjà construits.
+
+## Le parcours militaire
+
+Avant la gouvernance IA, j'ai passé 21 ans dans les Forces armées canadiennes. J'ai commencé comme technicien en avionique sur les CF-188 Hornet, je suis passé à la guerre électronique, puis j'ai bifurqué vers la gestion de la qualité comme auditeur chef AF9000+ où je menais des audits formels des opérations de maintenance aéronautique. J'ai terminé comme adjudant à la tête d'une cellule d'instruction de 10 personnes à l'ÉLRFC de Saint-Jean-sur-Richelieu.
+
+Le lien est direct. Audit systématique, évaluation des risques, amélioration des processus, leadership d'équipe : les mêmes compétences dont les organisations ont besoin pour réussir l'adoption de l'IA. Le contexte a changé; la discipline, non.
+
+## L'avantage bilingue
+
+Parfaitement bilingue français-anglais, basé à Saguenay, QC. Ça compte parce que l'environnement réglementaire du Québec (Loi 25, politique provinciale sur l'IA) demande quelqu'un qui opère nativement dans les deux langues. La plupart des professionnels en gouvernance IA au Canada travaillent en anglais seulement. Je travaille dans les deux, ce qui veut dire que je peux servir les organisations québécoises dans leur langue tout en les gardant alignées avec les normes fédérales et internationales.
+
+## Certifications
+
+**Actuelles :**
+- Auditeur chef qualité AF9000+ (Forces armées canadiennes)
+- Programme de leadership ILP (Collège militaire royal de Saint-Jean)
+- Éthique de l'IA (Université de Helsinki, en cours 2026)
+
+**En cours (2026) :**
+- ISO/IEC 42001 Lead Implementer + Lead Auditor (PECB)
+- IAPP AIGP (Professionnel en gouvernance de l'intelligence artificielle)
 
 ---
 
