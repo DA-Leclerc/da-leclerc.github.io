@@ -40,7 +40,7 @@ Curieux à propos de mon parcours, mon expérience ou comment je pourrais aider 
 
 <div style="width:100%; max-width:1200px; margin:2rem auto; border-radius:12px; overflow:hidden; box-shadow:0 4px 24px rgba(0,0,0,0.15);">
   <iframe
-    src="https://dominic-about-me.vercel.app"
+    src="https://dominic-about-me.vercel.app?lang=fr"
     style="width:100%; height:800px; border:none;"
     loading="lazy"
     title="Dominic-André Leclerc — Profil interactif"
@@ -49,5 +49,5 @@ Curieux à propos de mon parcours, mon expérience ou comment je pourrais aider 
 </div>
 
 <p style="text-align:center; font-size:0.85rem; color:#888; margin-top:0.5rem;">
-  Construit avec Next.js et Claude · <a href="https://dominic-about-me.vercel.app" target="_blank" rel="noopener">Ouvrir en plein écran ↗</a>
+  Construit avec Next.js et Claude · <a href="https://dominic-about-me.vercel.app?lang=fr" target="_blank" rel="noopener">Ouvrir en plein écran ↗</a>
 </p>
