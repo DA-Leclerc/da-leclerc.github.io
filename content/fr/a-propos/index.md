@@ -56,16 +56,4 @@ Parfaitement bilingue français-anglais, basé à Saguenay, QC. Ça compte parce
 
 Curieux à propos de mon parcours, mon expérience ou comment je pourrais aider votre organisation? Discutez avec une version IA de moi-même, ou collez une description de poste pour obtenir une évaluation honnête de compatibilité.
 
-<div style="width:100%; max-width:1200px; margin:2rem auto; border-radius:12px; overflow:hidden; box-shadow:0 4px 24px rgba(0,0,0,0.15);">
-  <iframe
-    src="https://dominic-about-me.vercel.app?lang=fr"
-    style="width:100%; height:800px; border:none;"
-    loading="lazy"
-    title="Dominic-André Leclerc — Profil interactif"
-    allow="clipboard-write"
-  ></iframe>
-</div>
-
-<p style="text-align:center; font-size:0.85rem; color:#888; margin-top:0.5rem;">
-  Construit avec Next.js et Claude · <a href="https://dominic-about-me.vercel.app?lang=fr" target="_blank" rel="noopener">Ouvrir en plein écran ↗</a>
-</p>
+{{< about-me-app lang="fr" title="Dominic-André Leclerc — Profil interactif" footer="Construit avec Next.js et Claude" linktext="Ouvrir en plein écran ↗" >}}
