@@ -1,59 +1,59 @@
 ---
-title: "Construire une compétence d'agent IA : Automatiser la recherche YouTube avec OpenClaw"
+title: "Je gère une équipe d'agents IA depuis un mini-PC dans mon salon"
 date: 2026-03-10
-description: "Comment j'ai construit un pipeline hybride de transcription YouTube comme compétence d'agent OpenClaw, combinant yt-dlp, Whisper et l'automatisation cron."
-summary: "Comment j'ai construit un pipeline hybride de transcription YouTube comme compétence d'agent OpenClaw, combinant yt-dlp, Whisper et l'automatisation cron pour transformer le contenu vidéo en intelligence actionnable."
-tags: ["IA", "OpenClaw", "Automatisation", "Python", "Open Source"]
+description: "Cinq agents IA autonomes, un mini-PC, zéro employé. Comment un technicien militaire retraité a bâti une opération IA complète avec OpenClaw, des scripts shell et 21 ans de pensée systémique."
+summary: "Cinq agents IA autonomes, un mini-PC, zéro employé. Comment un technicien militaire retraité a bâti une opération IA complète avec OpenClaw, des scripts shell et 21 ans de pensée systémique."
+tags: ["IA", "OpenClaw", "Automatisation", "Agents", "Open Source"]
 categories: ["Projets"]
 cover:
   image: "/images/building-ai-agent-skill-openclaw-cover.jpg"
-  alt: "Un robot pince construit dans un atelier qui automatise la recherche YouTube"
+  alt: "Un mini-PC qui fait rouler une opération d'agents IA autonomes"
   hidden: false
 showToc: false
 ---
 
-## Le problème
+Il y a une petite boîte sur mon bureau. Un EliteMini avec un Ryzen 9, 32 Go de RAM, qui roule Ubuntu. Cette machine-là fait rouler toute mon opération IA, 24 heures sur 24, 7 jours sur 7.
 
-Si tu travailles en gouvernance IA, tu connais le feeling. Tes abonnements YouTube débordent de contenu pertinent : des conférences, des entrevues d'experts, des discussions sur les politiques. Mais qui a le temps de regarder 47 minutes d'un panel pour extraire les trois points qui comptent vraiment?
+La plateforme s'appelle OpenClaw : un système multi-agents open source qui permet de bâtir des agents IA, de leur donner des personnalités et des instructions, de les brancher sur des apps de messagerie comme Telegram et WhatsApp, et de les laisser travailler de façon autonome. On leur parle comme on parlerait à un employé. Ils ont de la mémoire, des outils, et des mandats.
 
-J'ai bâti une solution avec OpenClaw, le système d'IA multi-agents que je roule localement. Le pipeline de transcription YouTube est maintenant une de ses compétences d'agent, et il roule chaque nuit pendant que je dors.
+Je suis un adjudant retraité des Forces armées canadiennes, avec 21 ans en aviation militaire comme technicien en avionique et auditeur en gestion de la qualité. J'ai passé ma carrière à m'assurer que des systèmes complexes fonctionnaient comme prévu, et à trouver pourquoi quand ils flanchaient. Aujourd'hui, j'applique exactement la même approche à l'IA.
 
-## C'est quoi OpenClaw
+## L'équipe
 
-OpenClaw est un écosystème de six agents IA que j'ai bâti sur infrastructure locale, où chaque agent a des compétences et des responsabilités spécifiques. Les agents communiquent à travers une file de tâches partagée et peuvent appeler les compétences des autres. Le pipeline YouTube est devenu un ajout naturel : une compétence que n'importe quel agent peut utiliser quand de l'intelligence vidéo est nécessaire.
+Tom est mon agent PDG. Il roule sur Telegram, et chaque matin à 7 h 30 il me livre un briefing : météo à Saguenay, nouvelles géopolitiques qui affectent les marchés, et une citation d'Alan Watts pour partir la journée. Quand j'ai besoin d'une recherche, je le dis à Tom et il délègue à l'agent le mieux placé pour le mandat.
 
-Le fait de rouler ça sur mon propre matériel compte pour la vie privée des données et le contrôle des coûts.
+James est mon chercheur en investissement. Il surveille les chaînes YouTube que je suis pour l'investissement (InvestAnswers, Jordi Visser, Peter Diamandis, Anthony Pompliano) à l'aide d'un script batch qui va chercher les transcriptions les plus récentes pendant la nuit. James les lit, en extrait les signaux d'investissement, et me livre un briefing structuré sur Telegram avant que je me réveille. Tout est archivé dans Notion pour référence future.
 
-## Comment le pipeline fonctionne
+Blue est l'assistante personnelle de ma femme, avec son propre bot Telegram, sa propre personnalité et sa propre voix. Quand ma femme a besoin de quelque chose, elle écrit directement à Blue. Jarv joue le même rôle pour toute la famille, mais sur WhatsApp.
 
-Le pipeline d'extraction de transcriptions a deux chemins.
+Scout est le dernier arrivé : un agent de développement des affaires qui scanne les opportunités locales dans ma région et livre un rapport deux fois par semaine. Des clients potentiels, des entreprises qui pourraient bénéficier de consultation en IA, des appels d'offres pertinents. C'est mon bras de développement commercial qui ne punch jamais out.
 
-**Chemin 1 : Extraction par sous-titres.** La plupart des vidéos YouTube ont des sous-titres auto-générés ou uploadés manuellement. Le pipeline utilise yt-dlp pour vérifier les sous-titres disponibles et les télécharge directement. C'est rapide, gratuit, et précis pour les vidéos qui ont de bons sous-titres.
+Les cinq agents roulent sur le même mini-PC, tous sur Qwen 3 235B via Venice.ai pour la confidentialité. Le coût total de l'opération : un abonnement Venice et de l'électricité.
 
-**Chemin 2 : Fallback Whisper.** Quand les sous-titres sont pas disponibles ou de mauvaise qualité, le pipeline télécharge l'audio et le passe dans le modèle Whisper d'OpenAI localement. C'est plus lent mais ça gère les podcasts, les entrevues, et les vidéos en plusieurs langues.
+## Comment ça marche concrètement
 
-Le pipeline détecte automatiquement quel chemin utiliser, traite le contenu, et sort du texte propre et formaté prêt pour l'analyse IA.
+Chaque agent possède un fichier SOUL.md qui sert à la fois de définition de personnalité et de manuel d'opération. Le fichier lui dit qui il est, comment il communique, quels outils il a à sa disposition, et quelles règles il suit. Le SOUL.md de Tom le définit comme un PDG qui délègue par des commandes spécifiques de sous-agents (pas en envoyant des messages Telegram aux autres agents). Celui de James en fait un instrument de recherche de précision qui livre ses résultats avec des sources et des niveaux de confiance. Celui de Blue façonne sa voix et son style d'interaction pour les conversations avec ma femme.
 
-## Le stack
+Au-delà des fichiers SOUL, chaque agent maintient des fichiers de mémoire, des configurations d'outils et des ordres permanents. Ce ne sont pas des suggestions; ce sont des règles strictes qui déterminent comment l'agent opère.
 
-Le setup technique est simple : yt-dlp télécharge les vidéos et extrait les sous-titres, Whisper roule localement sur mon matériel sans coûts d'API et sans données qui quittent mon réseau, des scripts Python gèrent la logique du pipeline qui vérifie les sous-titres et tombe sur Whisper en fallback, run_batch.sh traite des chaînes complètes ou des playlists sur un horaire, skill/youtube.py fournit l'interface de compétence OpenClaw que les agents utilisent pour demander et traiter des transcriptions, et skill/youtube.yaml configure quand et comment la compétence roule.
+La couche d'infrastructure, c'est là que la fiabilité se joue vraiment. Des cron jobs et des scripts shell gèrent l'horaire et la pré-extraction de données : un script va chercher tout ce dont Tom a besoin avant son briefing du matin pour qu'il ne perde pas de temps en appels API en pleine conversation. Un processus watchdog remet à zéro les fichiers de session aux 15 minutes pour empêcher les agents de se noyer dans leur propre historique de conversation. Un backup de nuit pousse le tout sur GitHub.
 
-## La couche d'automatisation
+Rien de ça n'est glamour. Ça marche parce que c'est plate.
 
-Le vrai pouvoir est pas dans l'extraction des transcriptions. C'est dans ce qui se passe après. Avec le système cron d'OpenClaw, des jobs de nuit tirent les nouvelles vidéos d'une liste curatée de chaînes focalisées sur les politiques IA, la gouvernance et le droit technologique, extraient les transcriptions via le pipeline hybride, les passent à un agent IA pour le résumé et l'extraction de points clés, et livrent des rapports formatés via Telegram.
+## Ce que j'ai appris
 
-Je me réveille chaque matin avec un digest du contenu IA le plus pertinent de la veille, déjà résumé et prêt à référencer. Pour quelqu'un qui construit une expertise en consultation en gouvernance IA, ça vaut chaque minute investie.
+Les agents IA ne sont pas de la magie. Ce sont des employés qui prennent tout au pied de la lettre et qui vont te confirmer avec assurance qu'une tâche est complétée alors qu'ils ne l'ont jamais commencée. La solution, c'est exactement ce que j'ai fait pendant 21 ans en aviation militaire : des procédures claires, des instructions explicites, et de la vérification à chaque étape.
 
-## Leçons apprises
+On ne dit pas à un agent « tu peux chercher sur le web. » On lui donne le nom exact de l'outil, la syntaxe exacte pour l'appeler, et ce qu'il doit faire quand l'appel échoue. On ne fait pas confiance à un agent pour orchestrer cinq appels API sous pression de temps. On bâtit un script shell qui fait l'extraction, et on remet à l'agent un paquet de données propre sur lequel raisonner.
 
-Commence par le shell et wrape après. J'ai bâti le pipeline de base en scripts bash et Python d'abord, puis je l'ai wrapé comme compétence OpenClaw. Ça a rendu le debugging beaucoup plus facile et m'a permis de tester chaque composante indépendamment.
+Le patron qui rend tout fiable est simple : construire de l'infrastructure solide autour de l'agent, laisser l'IA faire ce qu'elle fait bien (raisonner, rédiger, formater), et la tenir loin de ce qu'elle fait mal (orchestration multi-étapes avec des timeouts serrés). La fiabilité bat le génie, à tout coup. Je préfère un briefing B+ livré à 4 h 30 chaque matin sans exception qu'un briefing A+ qui plante 40 % du temps.
 
-Whisper est surprenamment bon localement. Le rouler sur un GPU décent donne des résultats comparables à l'API avec zéro coût par transcription, et pour le traitement en batch la vitesse est acceptable.
+## Pourquoi c'est important
 
-La curation compte plus que le volume. J'ai commencé par indexer chaque chaîne reliée à l'IA que je pouvais trouver, mais le ratio signal-bruit était terrible. Maintenant je maintiens une liste curatée d'environ 20 chaînes qui produisent du contenu qui vaut la peine d'être lu de façon constante. Moins d'input, meilleur output.
+J'ai bâti tout ça en environ deux semaines, seul, sans formation en programmation. Je ne suis pas développeur. Je suis un technicien militaire retraité qui sait comment faire fonctionner des systèmes, et qui utilise les outils d'IA pour combler les trous dans ses connaissances techniques.
 
-L'abstraction en compétence paie. En construisant ça comme une compétence OpenClaw plutôt qu'un script standalone, n'importe quel agent dans le système peut demander de l'intelligence YouTube. L'agent de recherche l'utilise pour préparer des briefings, l'agent de contenu l'utilise pour trouver du matériel de référence, et le même pipeline sert plusieurs objectifs.
+Chaque conversation que j'ai eue avec Claude sur l'architecture, le debugging ou la stratégie de déploiement, c'est une conversation pour laquelle je n'ai pas eu besoin de payer un consultant. Chaque agent que j'ai configuré est une tâche récurrente qui roule maintenant sans moi. Scout me trouve des opportunités d'affaires pendant que je m'entraîne en jiu-jitsu. James lit du contenu d'investissement pendant que je dors. Tom gère l'opération au complet et me revient quand quelque chose demande mon attention.
 
-## La suite
+C'est ça, l'adoption pratique de l'IA pour une opération d'une seule personne : pas remplacer des humains, mais multiplier ce qu'un individu peut accomplir dans une journée. Je bâtis une entreprise de consultation appelée Nord Paradigm AI autour de cette approche exacte, et l'infrastructure que je fais rouler pour moi-même sert aussi de démo produit. Quand un client potentiel me demande ce que je peux faire pour son entreprise, j'ouvre mon Telegram et je lui montre.
 
-Je travaille sur l'ajout de l'identification de locuteurs au pipeline pour pouvoir tracker quels experts disent quoi à travers différentes vidéos, et je construis une archive cherchable de transcriptions traitées. L'objectif : une base de connaissances personnelle en gouvernance IA qui grandit automatiquement.
+Cinq agents, un mini-PC, zéro employé.
