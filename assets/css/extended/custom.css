@@ -4024,3 +4024,36 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
 
 .post-content :not(pre) > code {
     background: rgba(14, 116, 144, 0.1);
+
+/* — Homepage Header Banner ————————————————————————— */
+.home-header-banner {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-bottom: 0;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.home-header-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 320px;
+}
+
+@media (max-width: 768px) {
+  .home-header-banner img {
+    max-height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-header-banner img {
+    max-height: 120px;
+  }
+}

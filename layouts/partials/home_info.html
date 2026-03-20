@@ -1,0 +1,18 @@
+{{- with site.Params.homeInfoParams }}
+<!-- Homepage Header Banner -->
+<div class="home-header-banner">
+    <img src="/images/header-banner.png" alt="AI Governance & Ethics — Global Connectivity, Innovation, Data Privacy, Strategy" loading="eager" />
+</div>
+
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content">
+        {{ .Content | markdownify }}
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    </footer>
+</article>
+{{- end -}}
