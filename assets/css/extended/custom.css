@@ -1,3 +1,8 @@
+/* — Hide heading anchor links — */
+.anchor {
+  display: none !important;
+}
+
 /* — Layout Width Override — widen content area ~30% from 720px default — */
 :root {
         --main-width: 940px;
