@@ -1024,23 +1024,27 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
   margin-bottom: 0;
 }
 
-/* Background image layer */
+/* Background image layer — use img tag instead of bg for full quality */
 .hero-header {
   width: 100%;
-  height: 280px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
+  line-height: 0;
 }
 
-/* Fade to page background at bottom */
+.hero-header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Subtle fade at bottom edge only */
 .hero-fade-bottom {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: 40px;
   background: linear-gradient(transparent, var(--theme));
 }
 
@@ -1093,18 +1097,9 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* Responsive hero height */
+/* Responsive hero adjustments */
 @media (max-width: 768px) {
-  .hero-header {
-    height: 200px;
-  }
   .hero-fade-bottom {
-    height: 60px;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero-header {
-    height: 150px;
+    height: 30px;
   }
 }
