@@ -1,5 +1,11 @@
-/* — Hide heading anchor links — */
-.anchor {
+/* — Hide heading anchor links (including hover state) — */
+.anchor,
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
   display: none !important;
 }
 
