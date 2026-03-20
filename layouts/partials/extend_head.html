@@ -105,6 +105,33 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+<!-- Sticky Nav on Scroll (homepage hero) -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var heroWrap = document.querySelector('.hero-header-wrap');
+  var heroNav = document.querySelector('.hero-nav');
+  if (!heroWrap || !heroNav) return;
+
+  var heroHeight = document.querySelector('.hero-header').offsetHeight;
+  var placeholder = document.createElement('div');
+  placeholder.style.display = 'none';
+  placeholder.style.height = heroNav.offsetHeight + 'px';
+  heroWrap.parentNode.insertBefore(placeholder, heroWrap.nextSibling);
+
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > heroHeight - heroNav.offsetHeight) {
+      if (!heroNav.classList.contains('is-sticky')) {
+        heroNav.classList.add('is-sticky');
+        placeholder.style.display = 'block';
+      }
+    } else {
+      heroNav.classList.remove('is-sticky');
+      placeholder.style.display = 'none';
+    }
+  });
+});
+</script>
+
 <!-- Lazy Loading for Images -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {

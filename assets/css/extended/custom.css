@@ -4024,36 +4024,100 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
 
 .post-content :not(pre) > code {
     background: rgba(14, 116, 144, 0.1);
+}
 
-/* — Homepage Header Banner ————————————————————————— */
-.home-header-banner {
-  width: 100vw;
+/* ═══════════════════════════════════════════════════════
+   HERO HEADER — Homepage background image + sticky nav
+   ═══════════════════════════════════════════════════════ */
+
+/* Hero wrapper — contains image + nav */
+.hero-header-wrap {
   position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  margin-bottom: 0;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.home-header-banner img {
   width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-  max-height: 320px;
+  margin-bottom: 0;
 }
 
+/* Background image layer */
+.hero-header {
+  width: 100%;
+  height: 280px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Fade to page background at bottom */
+.hero-fade-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(transparent, var(--theme));
+}
+
+/* Nav bar sitting over the hero image */
+.hero-nav.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(10, 15, 26, 0.4);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 100;
+}
+
+/* Sticky nav once scrolled past hero */
+.hero-nav.header.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(10, 15, 26, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
+
+/* Ensure nav text is white on hero */
+.hero-nav .logo a,
+.hero-nav #menu a {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.hero-nav #menu a:hover,
+.hero-nav .logo a:hover {
+  color: #22d3ee;
+}
+
+.hero-nav .logo-switches button {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-nav .lang-switch a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Responsive hero height */
 @media (max-width: 768px) {
-  .home-header-banner img {
-    max-height: 180px;
+  .hero-header {
+    height: 200px;
+  }
+  .hero-fade-bottom {
+    height: 60px;
   }
 }
 
 @media (max-width: 480px) {
-  .home-header-banner img {
-    max-height: 120px;
+  .hero-header {
+    height: 150px;
   }
 }
