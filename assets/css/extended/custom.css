@@ -1,3 +1,9 @@
+/* — Layout Width Override — widen content area ~30% from 720px default — */
+:root {
+        --main-width: 940px;
+        --nav-width: 1280px;
+}
+
 /* ================================================================
     Custom styles for Dominic-André Leclerc — AI Governance Advisor
     Navy + Teal + Gold theme — inspired by LinkedIn brand identity
