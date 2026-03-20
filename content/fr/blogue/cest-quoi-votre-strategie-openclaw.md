@@ -1,6 +1,6 @@
 ---
 title: "« C'est quoi votre stratégie OpenClaw? »"
-date: 2026-03-20T10:00:00-05:00
+date: 2026-03-20T06:00:00-05:00
 summary: "Jensen Huang vient de dire aux PDG qu'OpenClaw est le Linux de l'informatique agentée. La vraie question n'est pas la capacité. C'est la gouvernance."
 description: "À GTC 2026, Jensen Huang a demandé aux PDG quelle était leur stratégie OpenClaw. NemoClaw résout le problème de gouvernance qui bloque l'adoption de l'IA en entreprise depuis deux ans."
 tags: ["Gouvernance IA", "OpenClaw", "NemoClaw", "Nvidia", "IA en entreprise", "ISO 42001"]
