@@ -1038,14 +1038,18 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
   display: block;
 }
 
-/* Subtle fade at bottom edge only */
+/* Fade bottom edge into page background */
 .hero-fade-bottom {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 40px;
-  background: linear-gradient(transparent, var(--theme));
+  height: 60px;
+  background: linear-gradient(transparent, #0a0f1a);
+}
+
+[data-theme="light"] .hero-fade-bottom {
+  background: linear-gradient(transparent, #f8fafc);
 }
 
 /* Nav bar sitting over the hero image */
