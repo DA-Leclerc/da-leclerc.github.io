@@ -59,7 +59,7 @@ pygmentsUseClasses = true
     text = "Dominic-André Leclerc"
 
   [params.homeInfoParams]
-    Title = "Paradigm Shift: Practical AI for Real Organizations"
+    Title = "<span class='title-main'>A Paradigm Shift</span><br><span class='title-sub'>Where AI Governance Meets Implementation</span>"
     Content = "AI adoption is moving fast. Governance is not keeping up. This blog is about closing that gap: practical frameworks, real-world lessons, and honest takes on what it actually takes to adopt AI responsibly.<br><br>Based in Quebec, writing for anyone bringing AI into their organization, whether you're evaluating your first use case or scaling across the company.<br><br><a href='/about/' class='cta-button'>Learn More About Me</a>"
 
   [[params.socialIcons]]
@@ -104,7 +104,7 @@ pygmentsUseClasses = true
       description = "AI Governance & Adoption Advisor. Former CAF Warrant Officer, AF9000+ Lead Auditor. Helping Quebec and Canadian organizations adopt AI responsibly."
 
     [languages.en.params.homeInfoParams]
-      Title = "Paradigm Shift: Practical AI for Real Organizations"
+      Title = "<span class='title-main'>A Paradigm Shift</span><br><span class='title-sub'>Where AI Governance Meets Implementation</span>"
       Content = "AI adoption is moving fast. Governance is not keeping up. This blog is about closing that gap: practical frameworks, real-world lessons, and honest takes on what it actually takes to adopt AI responsibly.<br><br>Based in Quebec, writing for anyone bringing AI into their organization, whether you're evaluating your first use case or scaling across the company.<br><br><a href='/about/' class='cta-button'>Learn More About Me</a>"
 
   [languages.fr]
@@ -118,7 +118,7 @@ pygmentsUseClasses = true
       description = "Conseiller en gouvernance et adoption responsable de l'IA. Ancien adjudant des FAC, auditeur principal AF9000+. J'aide les organisations québécoises et canadiennes à adopter l'IA de façon responsable."
 
     [languages.fr.params.homeInfoParams]
-      Title = "Changement de paradigme : l'IA pratique pour les vraies organisations"
+      Title = "<span class='title-main'>Un Changement de Paradigme</span><br><span class='title-sub'>De la gouvernance IA à l'implantation</span>"
       Content = "L'adoption de l'IA va vite. La gouvernance ne suit pas. Ce blogue vise a combler cet écart : des cadres pratiques, des leçons terrain, et des prises de position honnêtes sur ce que ça prend vraiment pour adopter l'IA de façon responsable.<br><br>Basé au Québec, j'écris pour quiconque envisage d'intégrer l'IA dans son organisation, que vous en soyez à la réflexion ou déjà en pleine implantation.<br><br><a href='/fr/a-propos/' class='cta-button'>En savoir plus</a>"
 
 # ── Menus ──────────────────────────────────────────────────────────────────────
