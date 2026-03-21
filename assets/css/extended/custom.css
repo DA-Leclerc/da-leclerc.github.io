@@ -131,19 +131,17 @@ body {
   letter-spacing: -0.03em;
   font-size: 2.25rem !important;
   line-height: 1.2;
-  background: var(--gradient-hero);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background: none;
 }
 
 [data-theme="dark"] .profile_inner h1,
 [data-theme="dark"] .home-info .entry-header h1,
 [data-theme="dark"] .home-info .entry-hint-parent h1 {
-  background: var(--gradient-hero);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background: none;
 }
 
 /* Page titles (Blog, About, Services headers) */
