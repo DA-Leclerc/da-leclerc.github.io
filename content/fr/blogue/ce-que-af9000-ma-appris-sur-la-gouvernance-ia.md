@@ -1,8 +1,8 @@
 ---
 title: "Ce que l'AF9000+ m'a appris sur la gouvernance IA"
 date: 2026-03-11
-description: "L'audit qualité militaire et la gouvernance IA ont plus en commun qu'on pourrait penser."
-summary: "L'audit qualité militaire et la gouvernance IA ont plus en commun qu'on pourrait penser."
+description: "L'audit qualité militaire et la gouvernance IA semblent sans lien jusqu'à ce qu'on regarde la discipline qui les sous-tend. Là, le recoupement est presque total, et il révèle ce que la plupart des organisations comprennent mal des deux."
+summary: "L'audit qualité militaire et la gouvernance IA semblent sans lien jusqu'à ce qu'on regarde la discipline qui les sous-tend. Là, le recoupement est presque total, et il révèle ce que la plupart des organisations comprennent mal des deux."
 tags: ["gouvernance IA", "militaire", "AF9000+", "qualité"]
 categories: ["Gouvernance IA"]
 cover:
@@ -12,38 +12,22 @@ cover:
 showToc: false
 ---
 
-Quand les gens apprennent que j'ai passé 21 ans dans les Forces armées canadiennes à faire de la maintenance avionique et de l'audit qualité, et que je travaille maintenant en gouvernance IA, y'a habituellement un silence. Le lien est pas évident. Mais il est direct.
-
-Le système de gestion de la qualité AF9000+ qui encadrait mon travail dans le militaire est un des cadres opérationnels les plus rigoureux que tu vas trouver. Ce qu'il m'a appris sur la gouvernance s'applique à l'adoption de l'IA presque mot pour mot.
+Quand les gens apprennent que j'ai passé vingt et un ans dans les Forces armées canadiennes à faire de la maintenance avionique et de l'audit qualité, et que je travaille maintenant en gouvernance IA, y'a habituellement un petit silence pendant qu'ils cherchent le lien. Le lien est pas si caché une fois qu'on l'a vu, mais il faut savoir c'est quoi l'AF9000+ pour que ça clique, parce que le recoupement entre la gestion de qualité militaire et l'adoption responsable de l'IA est presque total au niveau de la discipline qui soutient les deux.
 
 ## C'est quoi l'AF9000+
 
-L'AF9000+, c'est le système de gestion de la qualité des Forces armées canadiennes, la version militaire de l'ISO 9001 adaptée aux opérations de défense. Ça couvre tout, de l'inspection des composantes aux normes de documentation en passant par les procédures d'audit.
-
-Chaque pièce d'équipement sur laquelle j'ai travaillé, des systèmes avioniques du CF-188 Hornet aux systèmes de guerre électronique, était maintenue sous les protocoles AF9000+. Rien se signait sans preuve. Aucun processus roulait sans documentation. Aucune déviation passait sans être enregistrée.
+L'AF9000+, c'est le système de gestion de la qualité des Forces armées canadiennes, une version de l'ISO 9001 adaptée aux opérations de défense qui encadre tout, de l'inspection des composantes aux normes de documentation en passant par les procédures d'audit à travers la flotte. Chaque pièce d'équipement sur laquelle j'ai travaillé, des systèmes avioniques du CF-188 Hornet jusqu'aux systèmes de guerre électronique, était maintenue sous les protocoles AF9000+, et rien se signait jamais sans preuve derrière la signature. Aucun processus roulait sans documentation. Aucune déviation passait sans être enregistrée. Cette combinaison-là (preuve traçable, processus documenté, déviation enregistrée) c'est la colonne vertébrale du système, et ça marche parce que tout le monde à l'intérieur comprend que cette colonne-là, elle est pas négociable.
 
 ## Où les parallèles commencent
 
-La gouvernance IA a besoin des mêmes choses que l'AF9000+ fournit aux opérations militaires.
+Le premier parallèle, c'est le processus documenté. Dans l'AF9000+, chaque tâche de maintenance a un ordre technique qui spécifie exactement ce qui se fait, par qui, dans quelle séquence, et contre quels critères d'acceptation. En gouvernance IA, chaque déploiement de modèle devrait avoir l'équivalent : un document qui précise quelles données le modèle utilise, ce qu'il en fait, qui a approuvé sa mise en production, et comment son comportement est surveillé. La plupart des organisations qui déploient de l'IA aujourd'hui n'ont rien de tout ça, et quand quelque chose vire mal, y'a aucun artéfact vers lequel quelqu'un peut pointer pour établir ce qui était supposé se passer.
 
-**Des processus documentés.** Dans l'AF9000+, chaque tâche de maintenance a un ordre technique. En gouvernance IA, chaque déploiement de modèle devrait avoir des procédures documentées : quelles données il utilise, ce qu'il fait, qui l'a approuvé, et comment il est surveillé.
+Le deuxième parallèle, c'est la piste d'audit. Les systèmes qualité militaires tracent tout parce que l'alternative (se fier à la mémoire et à la bonne volonté) plante la première fois que les conditions changent ou que le personnel roule. Les systèmes d'IA ont besoin de la même traçabilité au niveau de qui a modifié un modèle, quand, pourquoi, et avec quelle approbation, parce que la dérive du modèle et la dérive des données sont invisibles jusqu'au moment où elles ne le sont plus, et reconstruire ce qui s'est passé après coup est à peu près impossible sans le registre. La classification des risques, c'est le troisième parallèle, et c'est celui que les organisations comprennent le plus souvent de travers : chaque composante dans un avion reçoit pas le même niveau de scrutin, parce que les systèmes critiques ont plus de supervision et les pièces routinières en ont moins, et les applications d'IA devraient être classifiées exactement de la même façon. Un chatbot qui répond à des FAQ a pas besoin de la même enveloppe de gouvernance qu'un modèle qui trie des candidatures, et traiter les deux avec le même niveau de rigueur produit soit du théâtre de sécurité autour du chatbot, soit une sous-gouvernance dangereuse du modèle d'embauche.
 
-**Des pistes d'audit.** Les systèmes qualité militaires tracent tout. Les systèmes d'IA ont besoin de la même traçabilité : qui a fait des changements à un modèle, quand, et pourquoi.
-
-**La classification des risques.** Pas chaque composante dans un avion reçoit le même niveau de scrutin. Les systèmes critiques ont plus de supervision. Les applications d'IA devraient être classifiées de la même façon : un chatbot qui répond à des FAQ a pas besoin de la même gouvernance qu'une IA qui fait des recommandations d'embauche.
-
-**Des audits réguliers.** L'AF9000+ exige des audits planifiés, pas juste quand quelque chose va mal. La gouvernance IA devrait fonctionner pareil : des révisions régulières de la performance des modèles, de la qualité des données et du statut de conformité.
-
-**La formation et la compétence.** Tu peux pas toucher à un système d'avion sans formation documentée. Les organisations qui déploient de l'IA doivent s'assurer que les gens qui utilisent et supervisent ces outils sont correctement formés.
+Les audits réguliers, c'est le quatrième parallèle. L'AF9000+ exige des audits planifiés plutôt que réactifs, ce qui a l'air évident jusqu'à ce qu'on remarque que la plupart de la gouvernance IA qu'on voit dans le monde réel est déclenchée par des incidents et pas par un calendrier. Les systèmes sérieux sont audités selon une cadence, peu importe si quelque chose semble aller mal, parce qu'attraper une dérive tôt coûte beaucoup moins cher que de l'attraper après une plainte client. Et le cinquième parallèle, c'est la formation et la compétence : dans un environnement AF9000+, personne a le droit de toucher à un système d'avion sans formation documentée sur ce système précis, et la documentation existe parce que la mémoire institutionnelle est pas assez fiable pour lui confier du travail où la sécurité est critique. Les organisations qui déploient de l'IA ont besoin de la même discipline autour des humains qui opèrent et supervisent les systèmes, parce qu'un outil d'IA entre les mains d'un utilisateur pas formé, c'est la source de la plupart des échecs que je vois sur le terrain.
 
 ## Ce que la plupart des organisations font mal
 
-Elles traitent la gouvernance IA comme un projet ponctuel : écrire une politique, cocher la case, passer à autre chose. C'est pas comme ça que ça marche dans un système qualité sérieux, et c'est pas comme ça que ça marche avec l'IA.
+L'erreur classique, c'est de traiter la gouvernance IA comme un projet ponctuel : écrire une politique, la faire signer, classer le PDF, passer à la prochaine initiative. C'est pas comme ça que la gestion de qualité fonctionne dans une industrie sérieuse, et c'est pas comme ça que la gouvernance IA fonctionne non plus. L'AF9000+ m'a appris que la gouvernance, c'est un rythme opérationnel continu, intégré dans la texture quotidienne du travail, pas un artéfact de conformité ajouté par-dessus un processus existant à la fin d'un trimestre. Les organisations qui vont réussir leur gouvernance IA sont celles qui la bâtissent dans le flot de travail lui-même, et celles qui produisent un document et le classent sont celles qui vont tout reconstruire sous pression de temps après leur premier incident sérieux.
 
-L'AF9000+ m'a appris que la gouvernance, c'est continu. C'est intégré dans les opérations quotidiennes, pas ajouté par-dessus comme une pensée de dernière minute. Les organisations qui réussissent la gouvernance IA sont celles qui en font partie de comment elles travaillent, pas un document qu'elles ont produit une fois et classé.
-
-## L'essentiel
-
-Si tu peux gouverner une flotte de jets de chasse, tu peux gouverner un déploiement d'IA. Les principes sont les mêmes : documente tes processus, forme ton monde, classifie tes risques, audite régulièrement, et traite jamais la conformité comme une case à cocher une seule fois.
-
-Les outils sont différents. La discipline, non.
+La question intéressante, c'est pas de savoir si les principes de la gestion de qualité militaire se transfèrent à l'IA. Ils se transfèrent. La question, c'est combien de temps les organisations vont continuer à essayer de bâtir de la gouvernance IA sans la discipline opérationnelle qui fait fonctionner n'importe quel système de qualité, et à quoi va ressembler le coût de ce retard-là quand la première action d'application de grande envergure va tomber sur une entreprise canadienne incapable de produire une piste d'audit.

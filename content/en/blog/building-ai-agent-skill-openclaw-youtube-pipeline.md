@@ -59,6 +59,6 @@ I built all of this in about two weeks, working alone, with no formal coding bac
 
 Every conversation I had with Claude about architecture, debugging, or deployment strategy was a conversation I didn't need to pay a consultant for. Every agent I configured is a recurring task that now runs without me. Scout finds business opportunities while I train jiu-jitsu. James reads investment content while I sleep. Tom manages the whole operation and reports back when something needs my attention.
 
-This is what practical AI adoption actually looks like for a one-person operation: not replacing humans, but multiplying what a single person can accomplish in a day. I'm building a consulting business called Nord Paradigm AI around this exact approach, and the infrastructure I run for myself doubles as my product demo. When a potential client asks what I can do for their business, I open my Telegram and show them.
+This is what practical AI adoption actually looks like for a one-person operation: not replacing humans, but multiplying what a single person can accomplish in a day. I'm building a consulting business called Nord Paradigm around this exact approach, and the infrastructure I run for myself doubles as my product demo. When a potential client asks what I can do for their business, I open my Telegram and show them.
 
 Five agents, one mini-PC, zero employees.

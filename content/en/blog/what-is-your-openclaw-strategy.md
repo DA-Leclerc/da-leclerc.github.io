@@ -17,7 +17,7 @@ cover:
   hidden: false
 ---
 
-At Nvidia's GTC 2026 keynote, Jensen Huang asked enterprise CEOs a question that had nothing to do with AI budgets, model selection, or transformation roadmaps. He asked: what is your OpenClaw strategy? That framing — precise, infrastructural, deliberately analogical — signals something worth paying attention to.
+At Nvidia's GTC 2026 keynote, Jensen Huang asked enterprise CEOs a question that had nothing to do with AI budgets, model selection, or transformation roadmaps. He asked: what is your OpenClaw strategy? That framing (precise, infrastructural, deliberately analogical) signals something worth paying attention to.
 
 Huang compared OpenClaw to Linux, to Kubernetes, to HTML. These aren't flattering comparisons; they're architectural ones. Linux didn't win because it was the best operating system for every use case. It won because it became the substrate on which everything else ran, invisible and load-bearing. Huang is telling enterprise leaders that OpenClaw is being positioned the same way: as the foundational runtime for agent-based computing rather than a particular application of it.
 
@@ -29,4 +29,4 @@ What NemoClaw does architecturally is move the compliance conversation from the 
 
 Enterprise AI has spent two years proof-of-concept rich and production poor. The blockers were never capability. They were governance, compliance, and the kind of institutional trust that only comes when there's an auditable answer to "what did the agent actually do." Jensen's question at GTC wasn't rhetorical. The organizations that build this infrastructure competency now won't just be ahead on capability: they'll have the governance architecture that makes scaling responsibly possible. The ones that don't will spend the next cycle retrofitting.
 
-*Nord Paradigm AI helps organizations move from AI pilot to production, with the governance frameworks and technical architecture to do it responsibly. [nordparadigm.ai]*
+*Nord Paradigm helps organizations move from AI pilot to production, with the governance frameworks and technical architecture to do it responsibly. [nordparadigm.com]*

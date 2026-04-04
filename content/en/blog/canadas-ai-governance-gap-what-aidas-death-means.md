@@ -1,7 +1,7 @@
 ---
 title: "Canada's AI Governance Gap: What AIDA's Death Means for Your Organization"
 date: 2026-03-11T10:00:00-05:00
-summary: "With AIDA dead and no federal AI law in sight, Canadian organizations face a patchwork of provincial rules and global standards. Here's what you need to know (and do) right now."
+summary: "AIDA died on the order paper, and no federal replacement is on the horizon. Canadian organizations are now navigating a patchwork of provincial rules and extraterritorial European requirements without a national framework to anchor them."
 description: "An analysis of Canada's AI regulatory situation after AIDA's failure, covering Quebec's Law 25 enforcement, Ontario's new AI hiring rules, and what organizations should do to prepare."
 tags: ["AI Governance", "Canada", "AIDA", "Law 25", "Regulation", "Compliance"]
 categories: ["AI Governance"]
@@ -17,48 +17,24 @@ cover:
   hidden: false
 ---
 
-## The Federal Vacuum
-
-Canada's Artificial Intelligence and Data Act (AIDA) is dead. After years of parliamentary debate, the bill died when Parliament was prorogued. There's no replacement on the horizon, which matters for every Canadian organization using or planning to use AI.
-
-When AIDA was alive, at least there was a direction. Companies could plan around what the law would likely require. Now there's nothing at the federal level, and the gap is real.
+Canada's Artificial Intelligence and Data Act died on the order paper when Parliament was prorogued, and no replacement bill is on the horizon. That matters more than the political commentary suggested at the time, because while AIDA was alive, Canadian organizations at least had a direction they could plan against. They knew which risk tiers would exist, which documentation obligations were coming, and roughly when compliance budgets would need to land. The prorogation erased that planning horizon in a single procedural motion, and the organizations that had been waiting for federal clarity before building any governance at all are now discovering that the wait is indefinite.
 
 ## What's Actually In Force Right Now
 
-Despite the federal vacuum, Canadian organizations aren't operating in a regulation-free zone.
+The federal vacuum is real, but it isn't a regulation-free zone. Quebec's Loi 25 is the most aggressive privacy law in the country and has been fully in force since September 2024, and it applies to any organization handling the personal information of Quebec residents regardless of where that organization is headquartered. Loi 25 requires privacy impact assessments for any system processing personal data, explicit consent for automated decision-making, a designated privacy officer, and mandatory breach notification. If an AI system in your stack touches data belonging to a Quebec resident, Loi 25 already applies to you; the absence of a federal AI act changes nothing about that.
 
-**Quebec's Loi 25 (Law 25)** is the most aggressive privacy law in Canada and fully in force as of September 2024. It applies to any organization handling the personal information of Quebec residents and requires privacy impact assessments for any system handling personal data, explicit consent for automated decision-making, a designated privacy officer, and mandatory breach notification. If your AI system processes personal data from Quebec residents, Loi 25 already applies to you.
-
-**Ontario's Working for Workers Act (Bill 149)** introduced Canada's first AI-specific employment provision. Employers using AI in hiring must disclose it to candidates. It's a narrow rule, but it sets a precedent.
-
-**PIPEDA** still governs federal private sector privacy. It doesn't mention AI specifically, but the Privacy Commissioner has published guidance making it clear that AI systems processing personal data fall under existing PIPEDA requirements.
+Ontario has moved in parallel on a narrower front. The Working for Workers Act (Bill 149) introduced Canada's first AI-specific employment provision, requiring employers who use AI in hiring to disclose that use to candidates. The rule itself is modest, but the precedent is not: provinces are willing to regulate AI sectorally while Ottawa is paralyzed, which means the compliance surface for a company operating across provinces is getting more fragmented, not less. PIPEDA still governs federal private-sector privacy and doesn't mention AI at all, though the Privacy Commissioner has made clear through successive guidance documents that systems processing personal data fall squarely under existing PIPEDA requirements whether the statute names them or not.
 
 ## The International Pressure
 
-Even without a Canadian AI law, global regulations are shaping what Canadian organizations need to do.
+The gap left by AIDA is being filled, in practice, by foreign legislation with extraterritorial reach. The EU AI Act is the one that matters most for Canadian organizations with any European exposure, and Quebec's business community has deep European ties that make "any European exposure" a far larger category than most leadership teams realize. The Act classifies AI systems by risk level and imposes obligations that range from documentation and conformity assessment all the way up to outright prohibition for the highest-risk categories, and the scope includes any system whose outputs affect persons inside the EU. For Canadian companies with European partners, customers, or suppliers, this is no longer theoretical: European procurement teams are starting to ask about AI governance practices as part of due diligence, and organizations without coherent answers are losing partnerships they didn't know were contingent on the question.
 
-The **EU AI Act** is the big one. If your organization does any business with EU citizens, serves EU markets, or has EU-based partners in your supply chain, you're potentially in scope. The Act classifies AI systems by risk level and imposes requirements ranging from documentation to outright bans.
-
-For Canadian companies with European connections, and Quebec's business community has strong European ties, this isn't theoretical. European partners are increasingly asking about AI governance practices, and organizations without clear frameworks are starting to lose out on partnerships and contracts.
-
-**ISO/IEC 42001** is the new international standard for AI management systems. It's not legally required, but it's becoming the benchmark that serious organizations use to demonstrate responsible AI practices. I'm pursuing both the Lead Implementer and Lead Auditor certifications specifically because I see this standard becoming the baseline expectation.
+ISO/IEC 42001 is the other piece of the international pressure, and it's the one I'm betting on hardest. It isn't legally binding anywhere, but it's rapidly becoming the benchmark that serious organizations point to when they need to demonstrate responsible AI practices to customers, insurers, or regulators. I'm pursuing both the Lead Implementer and Lead Auditor certifications specifically because I think 42001 is going to become the baseline expectation the same way ISO 27001 did for information security over the past decade.
 
 ## What You Should Be Doing Now
 
-Regardless of what happens at the federal level, there are things Canadian organizations should be doing today.
+The practical advice here is boring, which is why most organizations skip it. Conduct a privacy impact assessment on any AI system that touches personal data, because Loi 25 already requires it in Quebec and PIPEDA expects it federally, and assessing the risks now is dramatically cheaper than reconstructing the assessment after a complaint has been filed. Build a real inventory of your AI systems that documents what each one does, what data it processes, what decisions it makes or influences, and who inside your organization owns its behaviour; this inventory is the foundation every emerging regulation assumes you already have.
 
-Conduct a privacy impact assessment if you're using AI that touches personal data. Assess the risks now, don't wait for a law to force it. Loi 25 already requires this in Quebec, and PIPEDA expects it federally.
+Classify those systems by risk, because a chatbot answering product questions and an AI scoring job applicants are not the same thing and should not be governed with the same controls. Watch the EU AI Act closely if you have any European connection at all, and start mapping your systems against its risk categories rather than waiting to see what your European partners demand. Above all, stop treating governance as something you build after the law arrives. The organizations that are building it proactively right now will be in a position to adjust when Canadian legislation finally returns, and the ones that are treating the federal vacuum as permission to wait will be scrambling through a compressed compliance window against deadlines they didn't set.
 
-Document your AI systems so you know what AI you're using, what data it processes, what decisions it makes or influences, and who oversees it. This is the foundation of any governance framework, and it's required under most emerging regulations globally.
-
-Classify your AI by risk. Not all AI needs the same oversight. A chatbot answering product questions and an AI scoring job applicants are fundamentally different risk profiles, so treat them differently.
-
-Watch the EU AI Act closely if you have any EU connection. Start mapping your AI systems against the Act's risk categories because the compliance deadlines are approaching and the fines are significant.
-
-Start building governance now. The organizations that build AI governance proactively will be ahead when regulations finally arrive. The ones that wait will be scrambling.
-
-## The Opportunity in the Gap
-
-Regulatory vacuums are temporary. Canada will eventually pass AI legislation, and organizations that have been building governance practices will be ready. The ones that treated the absence of law as permission to ignore governance will have expensive catching up to do.
-
-The smartest approach right now is to build governance frameworks that are practical, proportionate, and aligned with international standards. That way, when Canadian law finally arrives, compliance is an adjustment, not a crisis.
+Regulatory gaps close eventually. Canada will pass AI legislation at some point, and when it does, the organizations that used the vacuum to build practical, proportionate governance aligned with international standards will experience the transition as an adjustment rather than a crisis. The question worth sitting with is whether the eighteen months between now and whatever comes next is enough runway for your organization to be in the first category rather than the second.

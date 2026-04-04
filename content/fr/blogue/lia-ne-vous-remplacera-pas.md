@@ -1,8 +1,8 @@
 ---
 title: "L'IA ne vous remplacera pas. C'est plutôt celui qui s'en sert qui prendra votre place."
 date: 2026-03-16
-description: "La question c'est pas: est-ce que l'IA va changer les choses? Parce que c'est déjà fait."
-summary: "La question c'est pas: est-ce que l'IA va changer les choses? Parce que c'est déjà fait."
+description: "L'excavatrice n'a renvoyé personne la journée où elle est arrivée sur le chantier. Elle a rendu certaines façons de travailler non rentables, et les ouvriers qui ont appris à la manœuvrer ont ramassé les contrats. L'IA fait pareil en ce moment."
+summary: "L'excavatrice n'a renvoyé personne la journée où elle est arrivée sur le chantier. Elle a rendu certaines façons de travailler non rentables, et les ouvriers qui ont appris à la manœuvrer ont ramassé les contrats. L'IA fait pareil en ce moment."
 tags: ["IA", "productivité", "consultation"]
 categories: ["IA"]
 cover:
@@ -12,34 +12,14 @@ cover:
 showToc: false
 ---
 
-Regarde l'image : un gars dans une excavatrice, sourire en coin. Une douzaine de gars avec des pelles, en sueur. Même job, même terre, expérience complètement différente.
+Regarde n'importe quelle photo d'un chantier de construction dans les années 1920 et tu vas voir la même scène : un opérateur dans la cabine d'une excavatrice, une douzaine de gars avec des pelles qui travaillent autour, et un contremaître quelque part au milieu qui surveille le ratio entre les machines et la main-d'œuvre. Personne sur ce chantier-là s'est fait mettre dehors le jour où l'excavatrice est arrivée. L'équipe qui existait encore dix ans plus tard, c'était celle dont les membres avaient appris à manœuvrer la machine, et les autres avaient tranquillement glissé vers d'autres métiers pendant que l'économie du terrassement se réorganisait autour du nouvel outil.
 
-C'est ça la conversation sur l'IA en ce moment, et la plupart des gens sont encore en train d'utiliser des pelles.
+L'IA fait exactement la même compression sur le travail intellectuel en ce moment, et la plupart du monde est encore dans le trou avec une pelle dans les mains.
 
-## L'adoption de l'IA, c'est pas optionnel.
+La raison pour laquelle la comparaison tient, c'est qu'aucune des deux technologies n'élimine les emplois dans le patron de remplacement propre que les gens imaginent quand ils entendent le mot « automatisation ». L'excavatrice a pas mis douze gars à la porte le lundi matin; elle a rendu certaines façons de travailler non rentables, et les ouvriers qui comprenaient la machine ont ramassé les contrats pendant que les autres se faisaient sortir du marché un contrat à la fois. Ce qu'on appelle la disruption par l'IA ressemble à ça quand on regarde de proche. L'analyste qui passe deux jours à googler un compétiteur, à lire des rapports annuels et à assembler un portrait à moitié correct est encore en poste aujourd'hui. Sa collègue assise à côté d'elle, qui met le même prompt dans Claude et rentre au pitch quarante-cinq minutes plus tard avec un résultat comparable, c'est elle qui va ramasser le prochain mandat.
 
-Quand l'excavatrice est arrivée sur les chantiers, personne s'est fait mettre dehors sur le coup. Avec le temps, l'équipe qui a adopté la nouvelle technologie a eu les contrats. L'autre équipe a disparu.
+L'écart que ça crée est déjà mesurable. Les travailleurs du savoir qui utilisent des outils d'IA générative chaque semaine rapportent des gains de productivité significatifs sur des tâches d'écriture, de recherche et d'analyse, tandis que ceux qui en utilisent pas montrent aucun gain du genre. Un avantage de trente pour cent en vitesse sur du travail intellectuel routinier, étendu sur douze mois, c'est la différence entre prendre trois clients dans une année et en prendre quatre, ou entre facturer quarante heures sur un livrable et en facturer vingt-huit. C'est pas un écart spectaculaire dans une seule semaine. Ça compose en avantage décisif sur un an.
 
-L'IA fonctionne pareil, elle vient pas chercher ta job directement. Mais la personne qui apprend à l'utiliser, c'est plutôt elle que tu devrais surveiller.
+Je suis pas développeur. J'ai passé vingt et un ans comme technicien en avionique dans les Forces armées canadiennes, et j'ai bâti un système autonome à cinq agents dans mon salon parce que j'ai décidé d'apprendre les outils plutôt que d'attendre qu'un budget de formation soit approuvé pour moi. Les outils se fichaient de mes crédits; ils regardaient si je me pointais et si je m'en servais. C'est ça le bout que la plupart des professionnels sont en train de manquer. Ils traitent la maîtrise de l'IA comme quelque chose qui va leur être remise, comme les TI remettaient un nouveau portable. Ça marchera pas comme ça. Cette maîtrise-là, elle se prend en ce moment, tranquillement, par celui qui décide de la prendre.
 
-## Voici à quoi ça ressemble concrètement
-
-Disons que tu dois faire une recherche sur un compétiteur avant un pitch. L'ancienne façon (la pelle) : tu passes deux jours sur Google, tu lis des rapports annuels, tu scannes des profils LinkedIn, tu assembles un portrait à moitié correct.
-
-La nouvelle façon (l'excavatrice) : tu passes 45 minutes. Tu donnes à l'IA le nom de la compagnie, l'industrie, l'angle que tu travailles. Elle tire les données pertinentes, trouve les patterns, flag les risques. C'est encore toi qui réfléchis, c'est encore toi qui prends la décision. Mais tu es rentré dans ce pitch avec deux jours de recherche faits en moins d'une heure.
-
-C'est pas remplacer la personne. C'est la même personne, mais avec une excavatrice.
-
-## L'écart est déjà en train de se creuser
-
-Y'a deux types de monde en ce moment. Ceux qui expérimentent avec les outils d'IA chaque semaine, qui trouvent ce qui marche, ce qui marche pas. Et ceux qui attendent sur le sideline à attendre de se faire dire de s'en servir. 
-
-Le premier groupe est déjà en avance. Pas parce qu'ils sont plus intelligents, mais parce qu'ils se servent de l'outil.
-
-Je suis pas développeur, mais j'ai bâti un système d'IA multi-agents dans mon salon parce que j'ai décidé d'apprendre à me servir de l'IA. 
-
-## C'est pas à propos du futur et de qui s'en viens, c'est à propos de maintenant.
-
-La question c'est pas "est-ce que l'IA va changer les choses?" parce que c'est déjà fait. La vraie question, c'est qu'est-ce que tu va faire avec aujourd'hui.
-
-Est-ce que tu l'utilises pour chercher plus vite? mieux écrire? Bâtir des choses que tu pouvais pas bâtir tout seul? Ou est-ce que tu creuses encore avec une pelle en espérant que l'excavatrice va disparaître?
+La question c'est pas de savoir si l'IA va changer comment le travail intellectuel se fait, parce que cette question-là est déjà réglée. Celle qui vaut encore la peine d'être posée, c'est qu'est-ce que tu livres ce trimestre-ci que tu pouvais pas livrer l'année passée, et si la personne assise en face de toi au prochain pitch est en train de le livrer plus vite.

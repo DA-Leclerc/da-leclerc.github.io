@@ -54,6 +54,6 @@ J'ai bâti tout ça en environ deux semaines, seul, sans formation en programmat
 
 Chaque conversation que j'ai eue avec Claude sur l'architecture, le debugging ou la stratégie de déploiement, c'est une conversation pour laquelle je n'ai pas eu besoin de payer un consultant. Chaque agent que j'ai configuré est une tâche récurrente qui roule maintenant sans moi. Scout me trouve des opportunités d'affaires pendant que je m'entraîne en jiu-jitsu. James lit du contenu d'investissement pendant que je dors. Tom gère l'opération au complet et me revient quand quelque chose demande mon attention.
 
-C'est ça, l'adoption pratique de l'IA pour une opération d'une seule personne : pas remplacer des humains, mais multiplier ce qu'un individu peut accomplir dans une journée. Je bâtis une entreprise de consultation appelée Nord Paradigm AI autour de cette approche exacte, et l'infrastructure que je fais rouler pour moi-même sert aussi de démo produit. Quand un client potentiel me demande ce que je peux faire pour son entreprise, j'ouvre mon Telegram et je lui montre.
+C'est ça, l'adoption pratique de l'IA pour une opération d'une seule personne : pas remplacer des humains, mais multiplier ce qu'un individu peut accomplir dans une journée. Je bâtis une entreprise de consultation appelée Nord Paradigm autour de cette approche exacte, et l'infrastructure que je fais rouler pour moi-même sert aussi de démo produit. Quand un client potentiel me demande ce que je peux faire pour son entreprise, j'ouvre mon Telegram et je lui montre.
 
 Cinq agents, un mini-PC, zéro employé.
